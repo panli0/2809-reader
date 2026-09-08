@@ -1,0 +1,9 @@
+{
+  "name": "The River Year · Interactive Reader",
+  "short_name": "River Year",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f0e7",
+  "theme_color": "#f5f0e7",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
