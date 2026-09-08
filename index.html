@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#f5f0e7" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="River Year" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<title>The River Year · Interactive Reader</title>
+<style>
+:root{--bg:#f5f0e7;--paper:#fffdf8;--ink:#23211e;--muted:#7b746a;--line:#e3d9ca;--accent:#486b62;--accent2:#8e6f55;--shadow:0 14px 40px rgba(55,42,28,.12);--font:19px;--lh:1.88}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,'Times New Roman','Noto Serif SC',serif;-webkit-font-smoothing:antialiased}
+button,select,input{font:inherit} button{cursor:pointer}.app{min-height:100vh}.topbar{position:sticky;top:0;z-index:20;padding:max(10px,env(safe-area-inset-top)) 14px 10px;background:color-mix(in srgb,var(--bg) 91%,transparent);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.toprow{max-width:900px;margin:auto;display:flex;align-items:center;gap:9px}.brand{min-width:0;flex:1}.brand b{display:block;font-size:15px;letter-spacing:.03em}.brand span{display:block;font:12px/1.2 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}.iconbtn{border:1px solid var(--line);background:var(--paper);color:var(--ink);width:38px;height:38px;border-radius:12px;display:grid;place-items:center;box-shadow:0 2px 8px rgba(55,42,28,.05)}
+.progress-track{height:3px;background:transparent;margin-top:8px}.progress{height:100%;background:var(--accent);width:0;border-radius:99px;transition:width .15s}
+.reader{max-width:780px;margin:0 auto;padding:34px 25px 140px}.chapter-kicker{font:600 12px/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}.reader h1{font-size:clamp(30px,8vw,48px);line-height:1.08;margin:0 0 34px;font-weight:600;letter-spacing:-.025em}.para{font-size:var(--font);line-height:var(--lh);margin:0 0 1.42em;text-wrap:pretty}.sentence{border-radius:5px;transition:background .2s}.sentence.speaking{background:#e8ead7;box-shadow:0 0 0 3px #e8ead7}.word{border-radius:4px;transition:.12s}.word:active,.word.selected{background:#dce8e2;color:#173c32}.word.known{text-decoration:underline;text-decoration-color:#b6c7c0;text-decoration-thickness:1px;text-underline-offset:3px}.collocation-mark{text-decoration:underline dotted #aa8d73;text-underline-offset:3px}
+.bottom-audio{position:fixed;z-index:18;left:50%;bottom:max(12px,env(safe-area-inset-bottom));transform:translateX(-50%);width:min(680px,calc(100% - 24px));background:rgba(34,32,29,.92);color:#fff;border-radius:20px;padding:10px 12px;display:flex;align-items:center;gap:10px;box-shadow:0 16px 44px rgba(0,0,0,.24);backdrop-filter:blur(15px)}.bottom-audio.hidden{display:none}.audio-main{border:0;background:#fff;color:#222;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-size:18px}.audio-text{flex:1;min-width:0;font:13px/1.35 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.audio-text b,.audio-text span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.audio-text span{opacity:.65;font-size:11px;margin-top:2px}.mini{border:0;background:rgba(255,255,255,.13);color:white;border-radius:10px;padding:8px 9px;font:12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.overlay{position:fixed;inset:0;background:rgba(23,20,17,.28);z-index:40;opacity:0;pointer-events:none;transition:.2s}.overlay.show{opacity:1;pointer-events:auto}.sheet{position:fixed;z-index:41;left:50%;bottom:0;transform:translate(-50%,105%);width:min(720px,100%);max-height:min(78vh,760px);overflow:auto;background:var(--paper);border-radius:24px 24px 0 0;box-shadow:0 -16px 60px rgba(0,0,0,.22);padding:10px 20px max(26px,env(safe-area-inset-bottom));transition:transform .25s cubic-bezier(.2,.8,.2,1)}.sheet.show{transform:translate(-50%,0)}.grab{width:42px;height:4px;border-radius:99px;background:#d8d0c4;margin:0 auto 16px}.word-head{display:flex;align-items:flex-start;gap:12px}.word-title{flex:1}.word-title h2{font-size:31px;margin:0 0 2px}.ipa{font:16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--muted)}.speakbtn{border:0;background:#e5eee9;color:#31584d;width:44px;height:44px;border-radius:14px;font-size:20px}.sense{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;background:#f1eee8;border-radius:14px;padding:12px 13px;margin:16px 0}.sense strong{color:var(--accent);font-size:12px;letter-spacing:.08em}.sense .zh{font-size:18px;font-weight:650;margin-top:3px}.sense .def{font-size:13px;color:var(--muted);line-height:1.5;margin-top:4px}.section-title{font:650 12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--muted);letter-spacing:.08em;margin:18px 0 7px;text-transform:uppercase}.context{font-size:16px;line-height:1.65;padding-left:12px;border-left:3px solid var(--line)}.context mark{background:#dce8e2;color:inherit;border-radius:3px;padding:0 2px}.chips{display:flex;flex-wrap:wrap;gap:7px}.chip{font:13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#eee8de;border:0;border-radius:999px;padding:7px 10px;color:#554c42}.actions{display:flex;gap:8px;margin-top:18px}.action{flex:1;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:10px;font:13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.action.primary{background:var(--accent);border-color:var(--accent);color:white}.sentence-zh{font:15px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;color:#554c42;margin-top:9px}
+.drawer{position:fixed;z-index:41;top:0;bottom:0;left:0;width:min(350px,86vw);background:var(--paper);transform:translateX(-105%);transition:.25s;box-shadow:18px 0 55px rgba(0,0,0,.18);padding:max(24px,env(safe-area-inset-top)) 18px 30px;overflow:auto}.drawer.show{transform:none}.drawer h3{margin:4px 6px 18px;font-size:24px}.chapter-btn{width:100%;border:0;background:transparent;text-align:left;padding:12px;border-radius:12px;color:var(--ink);font:15px/1.35 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;margin-bottom:3px}.chapter-btn.active{background:#e8eee9;color:#264d42;font-weight:650}.drawer-foot{border-top:1px solid var(--line);margin-top:18px;padding:18px 8px;color:var(--muted);font:12px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.settings{position:fixed;z-index:41;right:12px;top:max(62px,calc(env(safe-area-inset-top) + 52px));width:min(330px,calc(100vw - 24px));background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:16px;display:none;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif}.settings.show{display:block}.row{display:flex;align-items:center;gap:10px;margin:12px 0}.row label{font-size:13px;color:var(--muted);min-width:70px}.row input[type=range]{flex:1}.row select{flex:1;min-width:0;border:1px solid var(--line);background:var(--paper);padding:8px;border-radius:9px;color:var(--ink)}.theme-row{display:flex;gap:6px}.theme-btn{border:1px solid var(--line);background:var(--paper);border-radius:9px;padding:7px 9px;font-size:12px}.stats{font-size:12px;color:var(--muted);padding-top:10px;border-top:1px solid var(--line)}
+.toast{position:fixed;z-index:70;left:50%;bottom:92px;transform:translate(-50%,10px);background:#24221f;color:white;padding:9px 13px;border-radius:12px;font:12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;opacity:0;pointer-events:none;transition:.2s}.toast.show{opacity:1;transform:translate(-50%,0)}
+body.dark{--bg:#181816;--paper:#23221f;--ink:#ece7dc;--muted:#aaa197;--line:#3b3833;--accent:#8eb9aa;--accent2:#c4a78c;--shadow:0 14px 40px rgba(0,0,0,.3)} body.dark .sentence.speaking{background:#35433c;box-shadow:0 0 0 3px #35433c} body.dark .word:active,body.dark .word.selected{background:#385149;color:#fff} body.dark .sense{background:#2d2b27} body.dark .chip{background:#36322c;color:#ded6ca} body.dark .bottom-audio{background:rgba(245,240,231,.93);color:#222} body.dark .mini{background:rgba(0,0,0,.10);color:#222}
+body.sepia{--bg:#efe4cc;--paper:#f9f0dc;--ink:#3d3023;--muted:#806e5c;--line:#dcccad;--accent:#687a5c}
+@media(max-width:520px){.reader{padding:26px 20px 135px}.reader h1{margin-bottom:28px}.sheet{padding-left:17px;padding-right:17px}.toprow{gap:7px}.iconbtn{width:36px;height:36px}.brand b{font-size:14px}.para{line-height:1.84}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+ <div class="toprow">
+  <button class="iconbtn" id="menuBtn" aria-label="章节">☰</button>
+  <div class="brand"><b>The River Year</b><span id="topChapter"></span></div>
+  <button class="iconbtn" id="chapterPlayBtn" aria-label="朗读本章">▶︎</button>
+  <button class="iconbtn" id="settingsBtn" aria-label="设置">Aa</button>
+ </div>
+ <div class="progress-track"><div id="progress" class="progress"></div></div>
+</header>
+<main id="reader" class="reader"></main>
+</div>
+<div class="overlay" id="overlay"></div>
+<nav id="drawer" class="drawer"><h3>章节</h3><div id="chapterList"></div><div class="drawer-foot">点正文里的任意英文单词，会弹出音标、中文词义和相关搭配。阅读位置、收藏词和已学词只保存在你的设备上。</div></nav>
+<div id="settings" class="settings">
+ <b>阅读设置</b>
+ <div class="row"><label>字号</label><input id="fontSize" type="range" min="16" max="25" value="19" /></div>
+ <div class="row"><label>行距</label><input id="lineHeight" type="range" min="160" max="220" value="188" /></div>
+ <div class="row"><label>朗读速度</label><input id="rate" type="range" min="55" max="140" value="88" /><span id="rateText">0.88×</span></div>
+ <div class="row"><label>英语声音</label><select id="voice"></select></div>
+ <div class="row"><label>主题</label><div class="theme-row"><button class="theme-btn" data-theme="light">纸白</button><button class="theme-btn" data-theme="sepia">米黄</button><button class="theme-btn" data-theme="dark">深色</button></div></div>
+ <div class="row"><button id="allPlayBtn" class="action primary">▶ 全文朗读</button><button id="stopBtn" class="action">■ 停止</button></div>
+ <div class="stats" id="stats"></div>
+</div>
+<div id="audioBar" class="bottom-audio hidden"><button id="audioToggle" class="audio-main">Ⅱ</button><div class="audio-text"><b id="audioTitle">正在朗读</b><span id="audioSentence"></span></div><button id="audioStop" class="mini">停止</button></div>
+<div class="sheet" id="wordSheet"><div class="grab"></div><div class="word-head"><div class="word-title"><h2 id="wordTitle">word</h2><div class="ipa" id="ipa"></div></div><button class="speakbtn" id="speakWord">🔊</button></div><div id="senseBox" class="sense"></div><div class="section-title">当前句</div><div id="wordContext" class="context"></div><div id="collocSection" style="display:none"><div class="section-title">这句里的高频搭配</div><div id="collocChips" class="chips"></div></div><div class="actions"><button class="action" id="knownBtn">✓ 标记已学</button><button class="action" id="favBtn">☆ 收藏</button><button class="action primary" id="translateSentence">翻译本句</button></div><div id="sentenceZh" class="sentence-zh"></div></div>
+<div id="toast" class="toast"></div>
+<script src="data-init.js"></script>
+<script src="chapters-1.js"></script>
+<script src="chapters-2.js"></script>
+<script src="chapters-3.js"></script>
+<script src="chapters-4.js"></script>
+<script src="poly-1.js"></script>
+<script src="poly-2.js"></script>
+<script src="collocations-1.js"></script>
+<script src="surface-1.js"></script>
+<script src="surface-2.js"></script>
+<script src="surface-3.js"></script>
+<script src="ipa-1.js"></script>
+<script src="ipa-2.js"></script>
+<script src="ipa-3.js"></script>
+<script src="ipa-4.js"></script>
+<script src="headwords.js"></script>
+<script src="app.js"></script>
+</body></html>
