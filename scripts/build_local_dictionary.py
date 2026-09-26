@@ -19,6 +19,7 @@ OUT = Path("dictionary-ngsl.js")
 REPORT = Path("DICTIONARY_COVERAGE.md")
 WORD_RE = re.compile(r"^[A-Za-z][A-Za-z'.-]*$")
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
+GRAMMAR_LABELS = {"transitive", "intransitive", "ambitransitive", "ditransitive"}
 
 
 def get(url: str) -> bytes:
@@ -74,16 +75,24 @@ def compact_entry(doc: dict) -> tuple[dict, list[str]]:
             priority = m.get("priority") or "rare"
             explanation = (m.get("learner_explanation") or "").strip()
             gloss = (m.get("short_gloss") or "").strip()
+            grammar = []
+            for label in m.get("labels") or []:
+                normalized = str(label).strip().lower()
+                if normalized in GRAMMAR_LABELS and normalized not in grammar:
+                    grammar.append(normalized)
             if not explanation and not gloss:
                 continue
-            raw.append((priority_rank.get(priority, 9), priority, pos, gloss, explanation))
+            raw.append((priority_rank.get(priority, 9), priority, pos, gloss, explanation, grammar))
     raw.sort(key=lambda x: x[0])
-    for _, priority, pos, gloss, explanation in raw:
-        key = (pos, gloss, explanation)
+    for _, priority, pos, gloss, explanation, grammar in raw:
+        key = (pos, gloss, explanation, tuple(grammar))
         if key in seen:
             continue
         seen.add(key)
-        senses.append({"p": priority, "pos": pos, "g": gloss, "z": explanation})
+        sense = {"p": priority, "pos": pos, "g": gloss, "z": explanation}
+        if grammar:
+            sense["l"] = grammar
+        senses.append(sense)
         if len(senses) >= 5:
             break
     return ({
