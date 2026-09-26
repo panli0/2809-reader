@@ -52,7 +52,8 @@ function renderLocalDictionary(entry){
   const html=[];
   if(entry.summary)html.push(`<div class="zh">${escapeHtml(entry.summary)}</div>`);
   for(const s of shown){
-    const label=[posLabel(s.pos),s.g].filter(Boolean).join(' · ');
+    const grammar=Array.isArray(s.l)?s.l.join(' · '):'';
+    const label=[posLabel(s.pos),grammar,s.g].filter(Boolean).join(' · ');
     html.push(`<div style="margin-top:9px"><b style="font-size:12px;color:var(--accent)">${escapeHtml(label||'常用义')}</b><div class="def" style="color:var(--ink);font-size:15px">${escapeHtml(s.z||s.g||'')}</div></div>`);
   }
   return html.join('');
