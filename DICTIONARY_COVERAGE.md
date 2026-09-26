@@ -1,21 +1,19 @@
 # Dictionary coverage
 
 - NGSL 1.2 headwords: **2809**
-- Local Chinese dictionary matches: **2800**
-- Missing: **9**
+- Open Dictionary v2.0 matches: **2800**
+- FreeDict eng-zho supplements: **3**
+- Total local Chinese dictionary matches: **2803**
+- Missing: **6**
 - Bundled inflected-form mappings: **7930**
-- Source dictionary: **ahpxex/open-dictionary v2.0**
-- Dictionary-data license: **CC BY-SA 4.0**
-- Upstream: English Wiktionary via Wiktextract
+- Open Dictionary data license: **CC BY-SA 4.0**
+- FreeDict eng-zho data license: **CC BY-SA 3.0**
 
 ## Missing headwords
 
-- `although`
 - `anymore`
 - `catalog`
-- `entitle`
 - `fascinate`
 - `okay`
 - `situate`
 - `underlie`
-- `unless`
