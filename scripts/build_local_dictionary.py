@@ -9,7 +9,6 @@ import urllib.request
 from pathlib import Path
 
 NGSL_MAIN = "https://static1.squarespace.com/static/64336926d7c6bb38965fdf3b/t/644e0be4ad7bae3d45b9e62a/1682836452194/NGSL_1.2_stats.csv"
-NGSL_SUP = "https://static1.squarespace.com/static/64336926d7c6bb38965fdf3b/t/645f54375ad0ae7a76ba160a/1683969079955/SUP_lemmatized.csv"
 DICT_URL = "https://github.com/ahpxex/open-dictionary/releases/download/v2.0/distribution.jsonl.gz"
 DICT_SHA256 = "69af69cdc685b5dce465613d1cc8fffb598eb46714f57cf73bd6606c2ceb7e43"
 OUT = Path("dictionary-ngsl.js")
@@ -81,7 +80,9 @@ def compact_entry(doc: dict) -> dict:
 
 
 def main():
-    words = set(words_from_csv(get(NGSL_MAIN))) | set(words_from_csv(get(NGSL_SUP)))
+    # NGSL_1.2_stats.csv is the complete current 2,809-headword NGSL 1.2 list.
+    # The separately published supplementary file must NOT be unioned with it.
+    words = set(words_from_csv(get(NGSL_MAIN)))
     if len(words) != 2809:
         raise SystemExit(f"Expected 2809 NGSL headwords, got {len(words)}")
 
