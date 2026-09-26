@@ -1,6 +1,6 @@
 // Local dictionary UI for the NGSL subset bundled with this site.
-// Dictionary data: Open Dictionary v2.0, CC BY-SA 4.0.
-// Upstream: English Wiktionary via Wiktextract.
+// Primary data: Open Dictionary v2.0, CC BY-SA 4.0.
+// Supplement: FreeDict eng-zho 2025.11.23, CC BY-SA 3.0.
 
 function resolveLocalHead(surface,proposed){
   const s=String(surface||'').toLowerCase().replace(/’/g,"'");
@@ -13,6 +13,11 @@ function resolveLocalHead(surface,proposed){
 }
 function localDictionaryEntry(head){
   try{return LOCAL_DICTIONARY?.[head]||null}catch(e){return null}
+}
+function dictionaryAttribution(entry){
+  return entry?.src==='freedict'
+    ? 'FreeDict eng-zho 2025.11.23 · CC BY-SA 3.0'
+    : 'Open Dictionary v2.0 · CC BY-SA 4.0 · 源自 English Wiktionary/Wiktextract';
 }
 function posLabel(pos){
   const labels={noun:'名词',verb:'动词',adj:'形容词',adjective:'形容词',adv:'副词',adverb:'副词',prep:'介词',preposition:'介词',conj:'连词',conjunction:'连词',pron:'代词',pronoun:'代词',det:'限定词',determiner:'限定词',interj:'感叹词',interjection:'感叹词',num:'数词',numeral:'数词',particle:'小品词',phrase:'短语'};
@@ -49,11 +54,11 @@ showWord=async function(el){
   const cs=contextualSense(head,sentence);
   if(cs){
     const extra=d?renderLocalDictionary(d):'';
-    $('senseBox').innerHTML=`<strong>本句义</strong><div class="zh">${escapeHtml(cs)}</div>${extra?`<div style="border-top:1px solid var(--line);margin-top:12px;padding-top:10px"><strong>词典常用义</strong>${extra}</div>`:''}<div class="def" style="margin-top:10px">词典数据：Open Dictionary v2.0 · CC BY-SA 4.0</div>`;
+    $('senseBox').innerHTML=`<strong>本句义</strong><div class="zh">${escapeHtml(cs)}</div>${extra?`<div style="border-top:1px solid var(--line);margin-top:12px;padding-top:10px"><strong>词典常用义</strong>${extra}</div>`:''}${d?`<div class="def" style="margin-top:10px">${escapeHtml(dictionaryAttribution(d))}</div>`:''}`;
   }else if(d){
-    $('senseBox').innerHTML=`<strong>词典义</strong>${renderLocalDictionary(d)}<div class="def" style="margin-top:10px">Open Dictionary v2.0 · CC BY-SA 4.0 · 源自 English Wiktionary/Wiktextract</div>`;
+    $('senseBox').innerHTML=`<strong>词典义</strong>${renderLocalDictionary(d)}<div class="def" style="margin-top:10px">${escapeHtml(dictionaryAttribution(d))}</div>`;
   }else{
-    $('senseBox').innerHTML='<strong>词义</strong><div class="zh">本地词典暂无这个词</div><div class="def">仍可使用当前句、搭配和发音。这个页面不会再访问境外中文词典。</div>';
+    $('senseBox').innerHTML='<strong>词义</strong><div class="zh">本地词典暂无这个词</div><div class="def">这个页面不会再访问境外中文词典；当前本地开放词典对 NGSL 1.2 覆盖 2803/2809。</div>';
   }
 
   const csList=collocationsForSentence(sentence);
@@ -63,7 +68,7 @@ showWord=async function(el){
   $('favBtn').textContent=favs.has(head)?'★ 已收藏':'☆ 收藏';
   openSheet();
 
-  // Only fall back to the online phonetic API when the bundled dictionary has no IPA.
+  // Most NGSL words now use bundled IPA. Online lookup is only a fallback.
   if(!localIpa){
     const online=await getOnlinePhonetic(head);
     if(selected?.head===head&&online)$('ipa').textContent=online;
@@ -73,5 +78,5 @@ showWord=async function(el){
 const foot=document.querySelector('.drawer-foot');
 if(foot&&!foot.dataset.dictionaryNotice){
   foot.dataset.dictionaryNotice='1';
-  foot.insertAdjacentHTML('beforeend','<br><br>普通词典释义和 NGSL 音标已随网页本地打包：Open Dictionary v2.0（CC BY-SA 4.0，源自 English Wiktionary/Wiktextract）。重点多义词优先显示本项目校过的语境义。');
+  foot.insertAdjacentHTML('beforeend','<br><br>普通词典释义随网页本地打包：Open Dictionary v2.0（CC BY-SA 4.0）为主，少量缺词由 FreeDict eng-zho（CC BY-SA 3.0）补充。重点多义词优先显示本项目校过的语境义。');
 }
