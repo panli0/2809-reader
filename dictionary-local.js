@@ -20,8 +20,30 @@ function dictionaryAttribution(entry){
     : 'Open Dictionary v2.0 · CC BY-SA 4.0 · 源自 English Wiktionary/Wiktextract';
 }
 function posLabel(pos){
-  const labels={noun:'名词',verb:'动词',adj:'形容词',adjective:'形容词',adv:'副词',adverb:'副词',prep:'介词',preposition:'介词',conj:'连词',conjunction:'连词',pron:'代词',pronoun:'代词',det:'限定词',determiner:'限定词',interj:'感叹词',interjection:'感叹词',num:'数词',numeral:'数词',particle:'小品词',phrase:'短语'};
-  return labels[String(pos||'').toLowerCase()]||pos||'';
+  const labels={
+    noun:'noun',
+    verb:'verb',
+    adj:'adjective',
+    adjective:'adjective',
+    adv:'adverb',
+    adverb:'adverb',
+    prep:'preposition',
+    preposition:'preposition',
+    conj:'conjunction',
+    conjunction:'conjunction',
+    pron:'pronoun',
+    pronoun:'pronoun',
+    det:'determiner',
+    determiner:'determiner',
+    interj:'interjection',
+    interjection:'interjection',
+    num:'numeral',
+    numeral:'numeral',
+    particle:'particle',
+    phrase:'phrase'
+  };
+  const key=String(pos||'').toLowerCase();
+  return labels[key]||pos||'';
 }
 function renderLocalDictionary(entry){
   if(!entry)return '';
@@ -74,6 +96,28 @@ showWord=async function(el){
     if(selected?.head===head&&online)$('ipa').textContent=online;
   }
 };
+
+function installAudioClose(){
+  const stop=document.getElementById('audioStop');
+  if(!stop)return;
+  const close=stop.cloneNode(false);
+  close.id='audioClose';
+  close.className=stop.className;
+  close.textContent='×';
+  close.setAttribute('aria-label','关闭朗读');
+  close.setAttribute('title','关闭朗读');
+  close.style.fontSize='20px';
+  close.style.lineHeight='1';
+  close.style.minWidth='36px';
+  close.onclick=()=>{
+    try{stopSpeech(false)}catch(e){
+      if('speechSynthesis' in window)speechSynthesis.cancel();
+      document.getElementById('audioBar')?.classList.add('hidden');
+    }
+  };
+  stop.replaceWith(close);
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',installAudioClose);else installAudioClose();
 
 const foot=document.querySelector('.drawer-foot');
 if(foot&&!foot.dataset.dictionaryNotice){
