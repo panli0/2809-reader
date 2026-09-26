@@ -49,13 +49,23 @@ def words_from_csv(data: bytes) -> list[str]:
     return out
 
 
-def compact_entry(doc: dict) -> dict:
+def compact_entry(doc: dict) -> tuple[dict, list[str]]:
     senses = []
     seen = set()
     priority_rank = {"core": 0, "common": 1, "rare": 2}
     raw = []
+    ipas = []
+    forms = []
     for group in doc.get("pos_groups") or []:
         pos = group.get("pos") or ""
+        for p in group.get("pronunciations") or []:
+            ipa = (p.get("ipa") or "").strip()
+            if ipa and ipa not in ipas:
+                ipas.append(ipa)
+        for f in group.get("forms") or []:
+            form = (f.get("form") or "").strip().lower()
+            if form and WORD_RE.match(form) and form not in forms:
+                forms.append(form)
         for m in group.get("meanings") or []:
             priority = m.get("priority") or "rare"
             explanation = (m.get("learner_explanation") or "").strip()
@@ -72,16 +82,15 @@ def compact_entry(doc: dict) -> dict:
         senses.append({"p": priority, "pos": pos, "g": gloss, "z": explanation})
         if len(senses) >= 5:
             break
-    return {
+    return ({
         "summary": (doc.get("headword_summary") or "").strip(),
         "hook": (doc.get("memory_hook") or "").strip(),
+        "ipa": ipas[:2],
         "senses": senses,
-    }
+    }, forms)
 
 
 def main():
-    # NGSL_1.2_stats.csv is the complete current 2,809-headword NGSL 1.2 list.
-    # The separately published supplementary file must NOT be unioned with it.
     words = set(words_from_csv(get(NGSL_MAIN)))
     if len(words) != 2809:
         raise SystemExit(f"Expected 2809 NGSL headwords, got {len(words)}")
@@ -92,6 +101,7 @@ def main():
         raise SystemExit(f"Dictionary checksum mismatch: {digest}")
 
     found = {}
+    forms_by_head = {}
     with gzip.GzipFile(fileobj=io.BytesIO(blob)) as gz:
         for raw_line in gz:
             try:
@@ -100,18 +110,33 @@ def main():
                 continue
             head = (doc.get("normalized_headword") or doc.get("headword") or "").strip().lower()
             if head in words and head not in found:
-                entry = compact_entry(doc)
+                entry, forms = compact_entry(doc)
                 if entry["senses"] or entry["summary"]:
                     found[head] = entry
+                    forms_by_head[head] = forms
             if len(found) == len(words):
                 break
 
+    form_candidates = {}
+    ambiguous = set()
+    for head, forms in forms_by_head.items():
+        for form in forms:
+            if form == head or form in words:
+                continue
+            old = form_candidates.get(form)
+            if old and old != head:
+                ambiguous.add(form)
+            else:
+                form_candidates[form] = head
+    form_map = {f: h for f, h in form_candidates.items() if f not in ambiguous}
+
     missing = sorted(words - found.keys())
     payload = json.dumps(found, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    fmap = json.dumps(form_map, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
     OUT.write_text(
         "// NGSL 1.2 subset of Open Dictionary v2.0. Data: CC BY-SA 4.0.\n"
         "// Source: https://github.com/ahpxex/open-dictionary ; upstream: English Wiktionary/Wiktextract.\n"
-        f"const LOCAL_DICTIONARY={payload};\n",
+        f"const LOCAL_DICTIONARY={payload};\nconst LOCAL_FORM_MAP={fmap};\n",
         encoding="utf-8",
     )
 
@@ -120,13 +145,14 @@ def main():
         f"- NGSL 1.2 headwords: **{len(words)}**\n"
         f"- Local Chinese dictionary matches: **{len(found)}**\n"
         f"- Missing: **{len(missing)}**\n"
+        f"- Bundled inflected-form mappings: **{len(form_map)}**\n"
         "- Source dictionary: **ahpxex/open-dictionary v2.0**\n"
         "- Dictionary-data license: **CC BY-SA 4.0**\n"
         "- Upstream: English Wiktionary via Wiktextract\n\n"
         + ("## Missing headwords\n\n" + "\n".join(f"- `{w}`" for w in missing) + "\n" if missing else ""),
         encoding="utf-8",
     )
-    print(f"Built {len(found)}/{len(words)} entries; missing {len(missing)}")
+    print(f"Built {len(found)}/{len(words)} entries; {len(form_map)} form mappings; missing {len(missing)}")
 
 
 if __name__ == "__main__":
