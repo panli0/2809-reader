@@ -13,24 +13,22 @@ function pickChineseDefinitions(html){
     const doc=new DOMParser().parseFromString(html,'text/html');
     const headings=[...doc.querySelectorAll('h2,h3,h4,h5')];
     const english=headings.find(h=>/^(英语|英語|英文|English)$/i.test((h.textContent||'').replace(/\[.*?\]/g,'').trim()) || /(英语|英語|English)/i.test(h.textContent||''));
+    if(!english)return [];
+    const level=Number(english.tagName.slice(1));
     const candidates=[];
-    if(english){
-      const level=Number(english.tagName.slice(1));
-      let node=english.nextElementSibling;
-      while(node){
-        if(/^H[1-6]$/.test(node.tagName) && Number(node.tagName.slice(1))<=level)break;
-        if(node.matches?.('ol,ul')) candidates.push(...node.querySelectorAll(':scope > li'));
-        candidates.push(...(node.querySelectorAll?.('ol > li, ul > li')||[]));
-        node=node.nextElementSibling;
-      }
+    let node=english.nextElementSibling;
+    while(node){
+      if(/^H[1-6]$/.test(node.tagName) && Number(node.tagName.slice(1))<=level)break;
+      if(node.matches?.('ol')) candidates.push(...node.querySelectorAll(':scope > li'));
+      else candidates.push(...(node.querySelectorAll?.('ol > li')||[]));
+      node=node.nextElementSibling;
     }
-    if(!candidates.length)candidates.push(...doc.querySelectorAll('ol > li'));
     const defs=[];
     for(const el of candidates){
       const t=cleanWikiDefinition(el.textContent||'');
       if(!/[\u3400-\u9fff]/.test(t))continue;
       if(t.length<1||t.length>180)continue;
-      if(/^(参见|參見|另见|另見|维基|維基|发音|發音|词源|詞源)/.test(t))continue;
+      if(/^(参见|參見|另见|另見|维基|維基|发音|發音|词源|詞源|音频|音頻|国际音标|國際音標)/.test(t))continue;
       if(!defs.includes(t))defs.push(t);
       if(defs.length>=3)break;
     }
@@ -39,7 +37,7 @@ function pickChineseDefinitions(html){
 }
 
 async function lookupChineseWiktionary(head){
-  const key='river.zhwikt.'+head;
+  const key='river.zhwikt.v2.'+head;
   try{
     const cached=localStorage.getItem(key);
     if(cached)return JSON.parse(cached);
@@ -51,7 +49,7 @@ async function lookupChineseWiktionary(head){
     u.searchParams.set('prop','text');
     u.searchParams.set('format','json');
     u.searchParams.set('origin','*');
-    const r=await fetch(u.toString(),{cache:'force-cache'});
+    const r=await fetch(u.toString(),{cache:'no-store'});
     if(!r.ok)throw new Error('wiktionary '+r.status);
     const j=await r.json();
     const defs=pickChineseDefinitions(j?.parse?.text?.['*']||'');
