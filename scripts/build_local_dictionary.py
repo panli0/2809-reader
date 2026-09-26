@@ -63,7 +63,7 @@ def compact_entry(doc: dict) -> tuple[dict, list[str]]:
             if ipa and ipa not in ipas:
                 ipas.append(ipa)
         for f in group.get("forms") or []:
-            form = (f.get("form") or "").strip().lower()
+            form = (f.get("text") or "").strip().lower()
             if form and WORD_RE.match(form) and form not in forms:
                 forms.append(form)
         for m in group.get("meanings") or []:
