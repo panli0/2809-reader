@@ -1,6 +1,6 @@
 # PHaVE 150 coverage audit
 
-Source list: [PHaVE List — Phrasal Verbs](https://www.norbertschmitt.co.uk/), based on Garnier and Schmitt's PHaVE research materials. This audit checks the 150 target items against the nine chapter texts.
+Source list: [PHaVE List — Phrasal Verbs](https://www.norbertschmitt.co.uk/_files/ugd/5f2482_fb2f15be0d104d08802d9ffd722e5782.pdf), based on Garnier and Schmitt's PHaVE research materials. This audit checks the 150 target items against the nine chapter texts.
 
 ## Result
 
