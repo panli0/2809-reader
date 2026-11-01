@@ -6,6 +6,7 @@ Source list: [PHaVE List — Phrasal Verbs](https://www.norbertschmitt.co.uk/_fi
 
 - PHaVE target items: **150**
 - Items found in story text: **150 / 150 (100%)**
+- Unique collocation phrase patterns: **276 / 276 represented** after the compression audit
 - Collocation/context records across `collocations-1.js` through `collocations-10.js`: **284**
 - Unique phrase patterns in the context bank: **276**
 - Context records currently matched to story sentences: **152 / 284**; **132** need context re-alignment after earlier wording changes
