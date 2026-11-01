@@ -1,16 +1,12 @@
 {
   "generated_for": "repair/reader-quality-2026-11-01",
-  "sentence_count": 1250,
+  "sentence_count": 1018,
+  "word_count": 12782,
   "sentences": [
     {
       "chapter": 1,
       "paragraph": 0,
       "sentence": "Lin Yao was making breakfast in the kitchen of her apartment when the mail came."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 0,
-      "sentence": "She had one hand on a pot of tea and the other on a slice of bread when the bell rang."
     },
     {
       "chapter": 1,
@@ -26,16 +22,6 @@
       "chapter": 1,
       "paragraph": 1,
       "sentence": "For a moment Yao simply stood there."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 1,
-      "sentence": "The gas under the pot continued to burn."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 1,
-      "sentence": "Steam gathered on the window."
     },
     {
       "chapter": 1,
@@ -85,17 +71,7 @@
     {
       "chapter": 1,
       "paragraph": 3,
-      "sentence": "A number without a definition annoyed her."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 3,
       "sentence": "A claim without evidence made her nervous."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 3,
-      "sentence": "She was also aware of how easily a neat explanation could become more attractive than the facts."
     },
     {
       "chapter": 1,
@@ -115,22 +91,12 @@
     {
       "chapter": 1,
       "paragraph": 4,
-      "sentence": "For generations the port, shipyards, steel works, and freight companies had kept the city busy; then the economy changed."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 4,
       "sentence": "New technology and cleaner industries brought investment, but the transition also left some families with unemployment, debt, or a pension too small to match rising prices."
     },
     {
       "chapter": 1,
       "paragraph": 5,
       "sentence": "Fifteen years earlier, in late summer, the worst flood in Riverport’s recorded history had taken place."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 5,
-      "sentence": "Nine days of severe rain raised the river far above the normal level."
     },
     {
       "chapter": 1,
@@ -145,22 +111,12 @@
     {
       "chapter": 1,
       "paragraph": 5,
-      "sentence": "The official commission described the event as a natural disaster caused by extraordinary weather and structural failure under extreme pressure."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 5,
       "sentence": "A tourism website now advertised Riverport as “a safe, green, global city where history meets the future.”"
     },
     {
       "chapter": 1,
       "paragraph": 6,
       "sentence": "Yao looked up her father’s name."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 6,
-      "sentence": "Most results were irrelevant."
     },
     {
       "chapter": 1,
@@ -210,11 +166,6 @@
     {
       "chapter": 1,
       "paragraph": 7,
-      "sentence": "he asked."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 7,
       "sentence": "Yao clicked the window shut."
     },
     {
@@ -230,11 +181,6 @@
     {
       "chapter": 1,
       "paragraph": 8,
-      "sentence": "The institute was full of people who believed privacy should be respected until curiosity became stronger than discipline."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 8,
       "sentence": "Before lunch, Kai came over with coffee and said, “If you need advice, I can give bad advice for free.”"
     },
     {
@@ -246,11 +192,6 @@
       "chapter": 1,
       "paragraph": 9,
       "sentence": "The station was busy with passengers, children, athletes, and a young mother feeding a baby."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 9,
-      "sentence": "Yao found her seat beside the window."
     },
     {
       "chapter": 1,
@@ -300,37 +241,12 @@
     {
       "chapter": 1,
       "paragraph": 11,
-      "sentence": "In terms of health?"
-    },
-    {
-      "chapter": 1,
-      "paragraph": 11,
-      "sentence": "Certainly."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 11,
-      "sentence": "For a worker who lost a job at fifty?"
-    },
-    {
-      "chapter": 1,
-      "paragraph": 11,
       "sentence": "Ask him.”"
     },
     {
       "chapter": 1,
       "paragraph": 12,
       "sentence": "Gu had spent most of his career in Riverport."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 12,
-      "sentence": "In the old era, a young man without a degree could join a factory, learn a skill, earn a decent wage, buy a flat, marry, and raise children."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 12,
-      "sentence": "That social contract had weakened."
     },
     {
       "chapter": 1,
@@ -365,22 +281,12 @@
     {
       "chapter": 1,
       "paragraph": 13,
-      "sentence": "One district gets investment; another loses population."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 13,
       "sentence": "Average income can rise while a particular family still gets poorer.”"
     },
     {
       "chapter": 1,
       "paragraph": 14,
       "sentence": "At noon the train crossed a wide channel."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 14,
-      "sentence": "Cargo ships lay near the harbor; cranes lifted containers from vessels onto trucks and rail cars."
     },
     {
       "chapter": 1,
@@ -445,11 +351,6 @@
     {
       "chapter": 1,
       "paragraph": 17,
-      "sentence": "The room was clean but small, with a narrow bed, a desk, a mirror, a television, and a bathroom whose shower took a full minute to become warm."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 17,
       "sentence": "She had her mother’s mouth and, people always said, her father’s eyes."
     },
     {
@@ -465,17 +366,7 @@
     {
       "chapter": 1,
       "paragraph": 18,
-      "sentence": "Volunteers sold coffee, tea, chocolate, flowers, and handmade craft items; a local singer performed a popular song while a camera crew prepared a television broadcast."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 18,
       "sentence": "Across the square, an art gallery advertised an exhibition on “Riverport: Industry, Migration, Memory.”"
-    },
-    {
-      "chapter": 1,
-      "paragraph": 18,
-      "sentence": "A poster showed a shipyard worker beside an immigrant family, a refugee child, a female doctor, a gay athlete, and an elderly farmer."
     },
     {
       "chapter": 1,
@@ -491,11 +382,6 @@
       "chapter": 1,
       "paragraph": 20,
       "sentence": "At 4:05 a woman in a gray coat approached."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 20,
-      "sentence": "She was perhaps fifty, with short hair and an expression that seemed calm until one looked closely."
     },
     {
       "chapter": 1,
@@ -625,16 +511,6 @@
     {
       "chapter": 2,
       "paragraph": 1,
-      "sentence": "People ran, rode bikes, walked dogs, played tennis and football, or sat on benches in the sun."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 1,
-      "sentence": "Near a school, pupils in uniform were gathering for a weekend science event; a banner announced a student competition in mathematics, biology, environmental science, and creative design."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 1,
       "sentence": "The whole area looked healthy, active, pleasant, and expensive."
     },
     {
@@ -695,11 +571,6 @@
     {
       "chapter": 2,
       "paragraph": 4,
-      "sentence": "Only one narrow street remained from the original community."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 4,
       "sentence": "At the far end stood a bakery with a faded red sign."
     },
     {
@@ -735,11 +606,6 @@
     {
       "chapter": 2,
       "paragraph": 6,
-      "sentence": "Whenever heavy rain hit the roof, she woke in panic."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 6,
       "sentence": "She developed depression, needed medicine, and sometimes could not breathe without feeling the old water around her."
     },
     {
@@ -771,11 +637,6 @@
       "chapter": 2,
       "paragraph": 8,
       "sentence": "Families already carrying a mortgage or other debt struggled to recover from the shock and were increasingly aware of how little protection they had."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 8,
-      "sentence": "A few received charity assistance."
     },
     {
       "chapter": 2,
@@ -820,11 +681,6 @@
     {
       "chapter": 2,
       "paragraph": 11,
-      "sentence": "The collection was enormous: contracts, budgets, maps, inspection reports, payment schedules, correspondence, minutes, and legal notices."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 11,
       "sentence": "Yao threw out her first theory when the papers contradicted it; truth was spread across many ordinary files."
     },
     {
@@ -836,11 +692,6 @@
       "chapter": 2,
       "paragraph": 12,
       "sentence": "The original design required imported alloy connectors."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 12,
-      "sentence": "Haiyue proposed a local product, and normal tests showed adequate strength."
     },
     {
       "chapter": 2,
@@ -861,11 +712,6 @@
       "chapter": 2,
       "paragraph": 12,
       "sentence": "She photographed the page, called her mother, and asked what Lin had believed at the time."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 12,
-      "sentence": "Silence."
     },
     {
       "chapter": 2,
@@ -955,31 +801,6 @@
     {
       "chapter": 2,
       "paragraph": 19,
-      "sentence": "The river moved quietly under the new lights."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 19,
-      "sentence": "On the opposite shore, a cultural festival had begun."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 19,
-      "sentence": "Music drifted across the water; children carried paper lanterns; food stalls sold fish, meat, vegetables, rice, soup, beer, and wine."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 19,
-      "sentence": "A classical musician played piano in one tent while a folk group tuned a guitar nearby."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 19,
-      "sentence": "A local theater advertised a comedy, a drama, an opera, and a musical."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 19,
       "sentence": "The city was alive in thousands of small ways that had nothing to do with her father."
     },
     {
@@ -1000,11 +821,6 @@
     {
       "chapter": 2,
       "paragraph": 20,
-      "sentence": "A pot of soup simmered in the kitchen, beside a pan of chicken and potato."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 20,
       "sentence": "Zhao had also prepared rice, vegetables, fruit, meat, fish, cream, salt, and a ridiculous chocolate cake because the neighborhood committee expected too many guests."
     },
     {
@@ -1020,17 +836,7 @@
     {
       "chapter": 2,
       "paragraph": 21,
-      "sentence": "On another table were samples of raw wool, leather, wood, coal, iron, steel, plastic, glass, silver, a small piece of gold, and concrete."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 21,
       "sentence": "A manufacturer had turned the display into a lesson about material choice: hard versus soft, thick versus thin, solid versus liquid, natural versus synthetic, cheap versus expensive, light versus heavy."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 21,
-      "sentence": "The guide lifted a foam panel and explained that its structure kept it light without making it weak."
     },
     {
       "chapter": 2,
@@ -1049,16 +855,6 @@
     },
     {
       "chapter": 2,
-      "paragraph": 22,
-      "sentence": "At another, a local craft association demonstrated how to cut cloth, fold paper, bind a book, paint a wooden box, wrap a gift, and repair old furniture."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 23,
-      "sentence": "At the next display, a public-health researcher asked visitors to complete a voluntary survey about sleep, alcohol, cigarette smoking, exercise, and everyday stress."
-    },
-    {
-      "chapter": 2,
       "paragraph": 23,
       "sentence": "The form did not request a name or identity."
     },
@@ -1071,11 +867,6 @@
       "chapter": 2,
       "paragraph": 23,
       "sentence": "The boy considered this, then filled it out because the reward was a free orange."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 23,
-      "sentence": "Beside the survey, a historian had organized a local-history display as a sequence rather than a collection of heroic dates."
     },
     {
       "chapter": 2,
@@ -1100,11 +891,6 @@
     {
       "chapter": 2,
       "paragraph": 25,
-      "sentence": "A display on international conflict explained sanctions, allies, enemies, weapons, bombs, terrorism, and the difference between a terrorist attack and ordinary crime."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 25,
       "sentence": "Another showed how an image could be edited, how a headline could imply more than an article proved, and how online traffic could reward anger."
     },
     {
@@ -1120,27 +906,12 @@
     {
       "chapter": 2,
       "paragraph": 26,
-      "sentence": "A counselor’s advice was practical: notice a change, ask for help, and do not wait until a problem becomes severe simply because you cannot explain it perfectly."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 26,
-      "sentence": "Teenagers could study, practice music, or use sports equipment there; a coach ran a football league because routine and a team gave each kid somewhere to belong."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 26,
       "sentence": "In the art room, a volunteer showed them how to hang a picture straight without damaging the wall."
     },
     {
       "chapter": 2,
       "paragraph": 27,
       "sentence": "A visiting researcher with an international grant was recruiting students to study how cities make decisions under uncertainty, and the school principal invited Xu and Yao to accompany a class visit."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 27,
-      "sentence": "The projects were impressive without being fancy: cheap material, functional design, and a clear strategy."
     },
     {
       "chapter": 2,
@@ -1175,22 +946,12 @@
     {
       "chapter": 3,
       "paragraph": 0,
-      "sentence": "His assistant spoke first, formal and efficient, and offered several appointment times."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 0,
       "sentence": "Yao chose the earliest."
     },
     {
       "chapter": 3,
       "paragraph": 0,
       "sentence": "Han was the founder and chairman of Haiyue Construction, a corporation that now operated across the country."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 0,
-      "sentence": "He had become the kind of wealthy executive whose personal history was treated as part biography, part brand."
     },
     {
       "chapter": 3,
@@ -1210,22 +971,12 @@
     {
       "chapter": 3,
       "paragraph": 1,
-      "sentence": "He was tall, thin, and more tired-looking than his photographs."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 1,
       "sentence": "He did not begin with a denial."
     },
     {
       "chapter": 3,
       "paragraph": 2,
       "sentence": "Han laid out the original situation."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 2,
-      "sentence": "The project schedule was already tight."
     },
     {
       "chapter": 3,
@@ -1280,16 +1031,6 @@
     {
       "chapter": 3,
       "paragraph": 6,
-      "sentence": "He was more academic."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 6,
-      "sentence": "I wanted to build things."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 6,
       "sentence": "When I founded Haiyue, he thought I was crazy."
     },
     {
@@ -1310,32 +1051,7 @@
     {
       "chapter": 3,
       "paragraph": 7,
-      "sentence": "A journalist may want publication."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 7,
-      "sentence": "A politician may want an opponent damaged."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 7,
-      "sentence": "A victim may want compensation."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 7,
-      "sentence": "A company wants to protect its reputation and assets."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 7,
       "sentence": "You want your father to make sense."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 7,
-      "sentence": "I want to live with myself."
     },
     {
       "chapter": 3,
@@ -1445,11 +1161,6 @@
     {
       "chapter": 3,
       "paragraph": 15,
-      "sentence": "The city continued to buy, sell, borrow, lend, insure, invest, employ, charge, pay, and calculate as if moral decisions belonged to another economy."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 15,
       "sentence": "An insurance agent could explain a policy, she thought, but no agent could remove the moral weight of accepting help from a contractor."
     },
     {
@@ -1506,11 +1217,6 @@
       "chapter": 3,
       "paragraph": 18,
       "sentence": "The old testing company occupied an abandoned building in the south industrial zone."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 18,
-      "sentence": "Grass had grown through cracks in the concrete yard."
     },
     {
       "chapter": 3,
@@ -1600,32 +1306,12 @@
     {
       "chapter": 3,
       "paragraph": 22,
-      "sentence": "My supervisor said technical experts always wrote too strongly and told me to make the wording appropriate for administration."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 22,
       "sentence": "Tell me what your twenty-four-year-old self would have done.”"
     },
     {
       "chapter": 3,
       "paragraph": 23,
       "sentence": "Luo said, “That is how institutions work when nobody feels like a criminal."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 23,
-      "sentence": "One person writes a cautious sentence."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 23,
-      "sentence": "Another shortens it."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 23,
-      "sentence": "A manager changes the emphasis."
     },
     {
       "chapter": 3,
@@ -1649,11 +1335,6 @@
     },
     {
       "chapter": 3,
-      "paragraph": 24,
-      "sentence": "He arranged the documents across a table and assigned tasks like a teacher preparing a difficult class."
-    },
-    {
-      "chapter": 3,
       "paragraph": 25,
       "sentence": "The university was hosting an international academic conference that week, so the building remained open late."
     },
@@ -1661,11 +1342,6 @@
       "chapter": 3,
       "paragraph": 25,
       "sentence": "Tang gave Yao a brief introduction to two researchers before they entered the lab."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 25,
-      "sentence": "A notice board advertised lectures on genetic medicine, artificial intelligence, climate change, nuclear energy, literature, philosophy, economics, immigration, and the history of empire."
     },
     {
       "chapter": 3,
@@ -1735,16 +1411,6 @@
     {
       "chapter": 3,
       "paragraph": 31,
-      "sentence": "The city planned to adopt a rule giving tenants more advance notice before relocation and to aim for approximately the same amount of affordable housing after redevelopment as before it."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 31,
-      "sentence": "Although no policy could satisfy everyone altogether, the officials hoped an alternative would arise whenever demolition placed an anxious family at risk."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 31,
       "sentence": "The atmosphere in the room changed when residents began to speak."
     },
     {
@@ -1775,17 +1441,7 @@
     {
       "chapter": 3,
       "paragraph": 32,
-      "sentence": "The point was not to beat an opponent in a verbal battle, make a dramatic bid, or bet that one faction would disappear."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 32,
       "sentence": "The task was to find the bottom line each side could accept."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 32,
-      "sentence": "A compromise might bother everyone a little, she said, but that was sometimes a characteristic of a workable agreement."
     },
     {
       "chapter": 3,
@@ -1799,23 +1455,8 @@
     },
     {
       "chapter": 3,
-      "paragraph": 33,
-      "sentence": "If the product failed, the customer could file a complaint rather than simply argue at the counter."
-    },
-    {
-      "chapter": 3,
       "paragraph": 34,
       "sentence": "A small civic-services fair was running in the hall outside the meeting."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 34,
-      "sentence": "A dealer explained how a bid worked at auction."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 34,
-      "sentence": "A human-resources manager explained how a company might advertise a job, hire an employee, promote someone, or dismiss a worker."
     },
     {
       "chapter": 3,
@@ -1855,11 +1496,6 @@
     {
       "chapter": 3,
       "paragraph": 35,
-      "sentence": "Its purpose was not to create a giant new establishment but to connect existing resources."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 35,
       "sentence": "The hospital would keep a constant reserve of essential drugs; the university would maintain a communication network; the charity would assist vulnerable households; businesses would supply vehicles and food."
     },
     {
@@ -1871,11 +1507,6 @@
       "chapter": 3,
       "paragraph": 36,
       "sentence": "The chief’s manner was calm, but his examples were blunt."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 36,
-      "sentence": "A storm could cut a cable, flood a basement, block a road, damage a bridge, or isolate an apartment tower."
     },
     {
       "chapter": 3,
@@ -1904,33 +1535,13 @@
     },
     {
       "chapter": 4,
-      "paragraph": 3,
-      "sentence": "Its permanent exhibition moved from natural history to human settlement, agriculture, trade, industry, war, migration, culture, and modern technology."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 3,
-      "sentence": "It was crowded with school groups, tourists, retired workers, foreign visitors, and families sheltering from cold rain."
-    },
-    {
-      "chapter": 4,
       "paragraph": 4,
       "sentence": "A small media gallery stood beside the theater collection."
     },
     {
       "chapter": 4,
       "paragraph": 4,
-      "sentence": "Old newspapers represented the press; radio had once been the main broadcast medium; television later added pictures; online networks created new channels that moved information almost instantly."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 4,
       "sentence": "An old receiver could still pick up a weak radio signal from across the harbor."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 4,
-      "sentence": "Visitors could raise or lower the volume of an old receiver and compare a live actor with the recorded cast of a famous play."
     },
     {
       "chapter": 4,
@@ -1970,22 +1581,7 @@
     {
       "chapter": 4,
       "paragraph": 6,
-      "sentence": "An old wooden house had been rebuilt inside the gallery with a roof, door, window, kitchen, bedroom, table, chairs, bed, shelf, curtain, carpet, bowl, plate, cup, bottle, pot, knife, spoon, brush, basket, and farming tools."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 6,
       "sentence": "An audio guide explained seasonal work through spring, summer, autumn, and winter: prepare soil, plant seed, protect the crop, harvest food, store grain, breed animals, repair fences, and survive bad weather."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 7,
-      "sentence": "Another gallery displayed military uniforms, flags, a bomb casing, a soldier’s boot, a field telephone, and wartime letters."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 7,
-      "sentence": "Maps traced changing borders, empire, occupation, revolution, and civil conflict."
     },
     {
       "chapter": 4,
@@ -2001,16 +1597,6 @@
       "chapter": 4,
       "paragraph": 7,
       "sentence": "A pupil whispered, “This is depressing.”"
-    },
-    {
-      "chapter": 4,
-      "paragraph": 8,
-      "sentence": "The social-history gallery covered religion, marriage, divorce, birth, childhood, education, work, class, race, gender, sexuality, illness, disability, poverty, wealth, crime, and punishment."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 8,
-      "sentence": "Photographs showed a gay couple at a legal wedding, a pregnant factory worker, and women entering universities and professions."
     },
     {
       "chapter": 4,
@@ -2035,11 +1621,6 @@
     {
       "chapter": 4,
       "paragraph": 9,
-      "sentence": "The industrial gallery began with coal, iron, steel, oil, gas, engines, motors, machines, electrical equipment, and shipbuilding."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 9,
       "sentence": "Visitors could turn a wheel to see gears move, pull a lever to operate a model pump, press a button to generate electricity, and watch a video of workers launching a vessel into the harbor."
     },
     {
@@ -2051,11 +1632,6 @@
       "chapter": 4,
       "paragraph": 9,
       "sentence": "In a nearby demonstration, a hammer struck a steel plate to show how repeated impact could damage metal."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 10,
-      "sentence": "Another section traced the modern economy: mass production, corporate growth, advertising, retail, consumer credit, finance, currency, inflation, tax, property, investment, stock ownership, and global trade."
     },
     {
       "chapter": 4,
@@ -2110,22 +1686,12 @@
     {
       "chapter": 4,
       "paragraph": 14,
-      "sentence": "The box contained ordinary things: a broken child’s toy, a silver ring, a wet photograph album, a cracked plate, a school notebook, a leather belt, a rusted key, a wooden picture frame, a stained dress, a man’s hat, a woman’s shoe, a sealed medicine bottle, a bank card, a cheap watch, and a small yellow plastic boat."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 14,
       "sentence": "Mei picked up the medicine bottle and picked out a small yellow boat from the box."
     },
     {
       "chapter": 4,
       "paragraph": 15,
       "sentence": "While Mei’s supervisor checked whether the uncatalogued material could be photographed, Tang and Yao had an hour to wait."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 15,
-      "sentence": "The museum happened to be hosting its annual City Learning Day in the large hall next door."
     },
     {
       "chapter": 4,
@@ -2230,11 +1796,6 @@
     {
       "chapter": 4,
       "paragraph": 21,
-      "sentence": "At the language table, pupils identified nouns and verbs, spelled words, divided paragraphs, summarized themes, and translated messages."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 21,
       "sentence": "One student mistranslated “public safety” as “public happiness”; even the critic laughed."
     },
     {
@@ -2250,22 +1811,12 @@
     {
       "chapter": 4,
       "paragraph": 22,
-      "sentence": "A student could pour water into a model channel, change its slope, and watch a small disturbance become a larger phenomenon downstream."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 22,
       "sentence": "A theory offered an explanation; a specific hypothesis made a prediction; evidence could support or defeat it."
     },
     {
       "chapter": 4,
       "paragraph": 22,
       "sentence": "Beside that model, a clinical specialist used a plastic body to point out the brain, muscle, nerve, skin, finger, shoulder, neck, throat, tongue, tooth, stomach, and foot."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 22,
-      "sentence": "She discussed cancer, infection, pregnancy, care for an infant, and sexual health, then explained why sex and gender were related but distinct concepts."
     },
     {
       "chapter": 4,
@@ -2311,11 +1862,6 @@
       "chapter": 4,
       "paragraph": 24,
       "sentence": "A retired champion demonstrated golf, and a ski club displayed skis and snow photographs."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 24,
-      "sentence": "Nearby, a travel booth offered trips to a beach, island, forest, and hill trail."
     },
     {
       "chapter": 4,
@@ -2381,16 +1927,6 @@
       "chapter": 4,
       "paragraph": 28,
       "sentence": "Outside, an airline displayed a small aircraft while children questioned the pilot."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 28,
-      "sentence": "An accessibility group invited visitors to tap a rhythm into a blind man’s hand as his granddaughter described the music."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 28,
-      "sentence": "The exercise showed how public entertainment could exclude people unless design considered disabled visitors as well as the average user."
     },
     {
       "chapter": 4,
@@ -2585,11 +2121,6 @@
     {
       "chapter": 5,
       "paragraph": 0,
-      "sentence": "Nobody ordered the project abandoned."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 0,
       "sentence": "Nobody announced that the wall was safe either."
     },
     {
@@ -2610,17 +2141,7 @@
     {
       "chapter": 5,
       "paragraph": 1,
-      "sentence": "Water burst through with enough force to drag cars, bins, bikes, broken furniture, tree branches, and pieces of wall down the street."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 1,
       "sentence": "The flood advanced block by block before dawn."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 1,
-      "sentence": "Electricity failed."
     },
     {
       "chapter": 5,
@@ -2630,32 +2151,7 @@
     {
       "chapter": 5,
       "paragraph": 1,
-      "sentence": "People shouted from windows."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 1,
       "sentence": "Rescue crews arrived by truck and boat."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 1,
-      "sentence": "A driver lost control and crashed into a barrier."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 1,
-      "sentence": "A boy broke an arm."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 1,
-      "sentence": "One man suffered a severe head wound."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 1,
-      "sentence": "Another had a heart attack."
     },
     {
       "chapter": 5,
@@ -2706,16 +2202,6 @@
       "chapter": 5,
       "paragraph": 4,
       "sentence": "Someone offered money for an exclusive interview."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 4,
-      "sentence": "An aggressive reporter waited outside the hotel."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 4,
-      "sentence": "A television producer wanted a documentary."
     },
     {
       "chapter": 5,
@@ -2780,11 +2266,6 @@
     {
       "chapter": 5,
       "paragraph": 9,
-      "sentence": "Those are interests."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 9,
       "sentence": "They do not automatically make me a liar.”"
     },
     {
@@ -2825,22 +2306,12 @@
     {
       "chapter": 5,
       "paragraph": 11,
-      "sentence": "Schools canceled classes."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 11,
       "sentence": "The university closed its library and laboratory."
     },
     {
       "chapter": 5,
       "paragraph": 11,
       "sentence": "The storm was expected to set a new rainfall record, and emergency staff were told to be patient with frightened callers."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 12,
-      "sentence": "The city government made an emergency announcement on radio, television, social media, and its official website."
     },
     {
       "chapter": 5,
@@ -2870,11 +2341,6 @@
     {
       "chapter": 5,
       "paragraph": 13,
-      "sentence": "The objective was to protect the hospital, railway station, city center, and main power facilities."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 13,
       "sentence": "Even if one pump failed, the others had to remain in operation."
     },
     {
@@ -2896,11 +2362,6 @@
       "chapter": 5,
       "paragraph": 14,
       "sentence": "Half the old warehouses are apartments now.”"
-    },
-    {
-      "chapter": 5,
-      "paragraph": 15,
-      "sentence": "They compared the model with school registration, mobile-phone density, electricity use, local health records, rental advertisements, and recent census estimates."
     },
     {
       "chapter": 5,
@@ -2985,11 +2446,6 @@
     {
       "chapter": 5,
       "paragraph": 25,
-      "sentence": "If they announced that thousands of people were in danger and were wrong, traffic could block roads, hospitals could receive unnecessary patients, businesses could lose goods, and frightened residents might hurt themselves in a rush."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 25,
       "sentence": "Yet if they stayed silent and the model was wrong, the diversion gates could send floodwater toward a population the system had failed to count."
     },
     {
@@ -3014,11 +2470,6 @@
     },
     {
       "chapter": 5,
-      "paragraph": 26,
-      "sentence": "The second found an additional clue: a database update had been scheduled the previous month but its implementation log showed an error."
-    },
-    {
-      "chapter": 5,
       "paragraph": 27,
       "sentence": "Once the city expanded the evacuation zone, Yao went west with Xu and a volunteer team."
     },
@@ -3035,27 +2486,7 @@
     {
       "chapter": 5,
       "paragraph": 27,
-      "sentence": "Wind bent young trees."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 27,
       "sentence": "A mother held a baby beneath a plastic cover."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 27,
-      "sentence": "A man pushed a bicycle carrying a heavy load: two bags of clothing tied to the rear rack."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 27,
-      "sentence": "Shop owners argued about whether to shut, move stock upstairs, or stay and guard their property."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 28,
-      "sentence": "The district contained almost every kind of small urban life: a restaurant, pub, pharmacy, repair shop, cheap hotel, church, community center, grocery store, barber, clothing outlet, warehouse, gym, music studio, nursery, and internet café."
     },
     {
       "chapter": 5,
@@ -3090,11 +2521,6 @@
     {
       "chapter": 5,
       "paragraph": 30,
-      "sentence": "Volunteers registered arrivals, distributed blankets, hot food, water, clothes, and hygiene supplies."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 30,
       "sentence": "Families who had been standing for hours could finally sit down and rest; volunteers spent time looking after children while parents registered, and the rest of the supplies were carried into storage before dawn."
     },
     {
@@ -3110,22 +2536,12 @@
     {
       "chapter": 5,
       "paragraph": 30,
-      "sentence": "Translators assisted foreign residents."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 30,
       "sentence": "A local restaurant supplied soup."
     },
     {
       "chapter": 5,
       "paragraph": 31,
       "sentence": "At 1:03 in the morning, the diversion gates opened."
-    },
-    {
-      "chapter": 5,
-      "paragraph": 31,
-      "sentence": "The current struck the western bank harder than forecast."
     },
     {
       "chapter": 5,
@@ -3210,11 +2626,6 @@
     {
       "chapter": 6,
       "paragraph": 1,
-      "sentence": "A repair-shop owner stood beside a pile of ruined boxes and listened to the announcement on his phone."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 1,
       "sentence": "“Fifteen years ago they could not protect us,” he said."
     },
     {
@@ -3226,11 +2637,6 @@
       "chapter": 6,
       "paragraph": 1,
       "sentence": "We are still the part that can be sacrificed.”"
-    },
-    {
-      "chapter": 6,
-      "paragraph": 1,
-      "sentence": "Nearby, a landlord argued that the tenant, not the owner, should pay for interior repair, while an elderly resident searched for a dog she could not locate."
     },
     {
       "chapter": 6,
@@ -3256,16 +2662,6 @@
       "chapter": 6,
       "paragraph": 3,
       "sentence": "Television channels sent crews."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 3,
-      "sentence": "Newspapers published maps, interviews, photographs, opinion columns, and editorials."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 3,
-      "sentence": "A civil-rights advocate raised the racial and ethnic composition of the western district."
     },
     {
       "chapter": 6,
@@ -3301,11 +2697,6 @@
       "chapter": 6,
       "paragraph": 5,
       "sentence": "The city council held the hearing in the largest chamber of city hall."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 5,
-      "sentence": "Reporters filled one section, residents another."
     },
     {
       "chapter": 6,
@@ -3385,11 +2776,6 @@
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "He explained the laboratory method, equipment, samples, and limits of the experiment."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 8,
       "sentence": "A lawyer for Haiyue asked whether the test proved that the connector would fail in actual use."
     },
     {
@@ -3450,11 +2836,6 @@
     {
       "chapter": 6,
       "paragraph": 14,
-      "sentence": "She did not excuse herself or ask the panel to treat obedience as innocence."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 14,
       "sentence": "She said she had to take responsibility for the words she had changed."
     },
     {
@@ -3500,11 +2881,6 @@
     {
       "chapter": 6,
       "paragraph": 17,
-      "sentence": "The change looked small."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 17,
       "sentence": "Those reasons explain my behavior; they do not remove my responsibility.”"
     },
     {
@@ -3535,11 +2911,6 @@
     {
       "chapter": 6,
       "paragraph": 19,
-      "sentence": "Profit, revenue, cash flow, loans, salary, tax, supplier payment, shareholder value, and employment were part of my duty."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 19,
       "sentence": "If I claim they had no influence, I lie.”"
     },
     {
@@ -3556,11 +2927,6 @@
       "chapter": 6,
       "paragraph": 21,
       "sentence": "“If Haiyue had collapsed, thousands of employees and dependent businesses might have suffered."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 21,
-      "sentence": "That matters."
     },
     {
       "chapter": 6,
@@ -3589,23 +2955,8 @@
     },
     {
       "chapter": 6,
-      "paragraph": 22,
-      "sentence": "A philosopher questioned whether an equal number of lives should always be treated as an equivalent value when consent, rights, and privilege differ."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 22,
-      "sentence": "A climate scientist warned that historical frequency was no longer a reliable guide to future extreme weather."
-    },
-    {
-      "chapter": 6,
       "paragraph": 23,
       "sentence": "The discussion became complex, but Yao noticed how complexity could become a hiding place."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 23,
-      "sentence": "People could use ten true facts to avoid one unpleasant fact."
     },
     {
       "chapter": 6,
@@ -3641,16 +2992,6 @@
       "chapter": 6,
       "paragraph": 25,
       "sentence": "“No one planned for the wall to fail."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 25,
-      "sentence": "No one had to commit a dramatic crime."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 25,
-      "sentence": "People changed two words, delayed one report, waited for one more test, and moved one cost into the next budget."
     },
     {
       "chapter": 6,
@@ -3695,22 +3036,7 @@
     {
       "chapter": 6,
       "paragraph": 27,
-      "sentence": "After negotiation, the parties reached a compromise: new review safeguards would begin immediately, while capital spending would be divided into phases."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 27,
-      "sentence": "The city could not replace every pipe, bridge, road, cable, pump, and wall at once; its budget already carried debt, pensions, welfare, hospital costs, transport, and school maintenance."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 27,
       "sentence": "Projects would be ranked by risk, not political popularity."
-    },
-    {
-      "chapter": 6,
-      "paragraph": 27,
-      "sentence": "Each agency would publish its criteria, expected benefit, potential loss, and uncertainty."
     },
     {
       "chapter": 6,
@@ -3770,17 +3096,7 @@
     {
       "chapter": 7,
       "paragraph": 1,
-      "sentence": "Teams set priorities and tried to keep citizens safe without going bankrupt."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 1,
       "sentence": "Their first cards were almost friendly: a concert promoter wanted a stadium, while a hospital requested an extension to its emergency wing."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 1,
-      "sentence": "One teammate cared about climate, another about poverty, and a third about culture."
     },
     {
       "chapter": 7,
@@ -3850,11 +3166,6 @@
     {
       "chapter": 7,
       "paragraph": 3,
-      "sentence": "A disputed boundary triggered sanctions, and the president warned that fuel prices might rise, firms might lose customers, and refugees might arrive."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 3,
       "sentence": "Red string and yellow chips covered the table."
     },
     {
@@ -3880,17 +3191,7 @@
     {
       "chapter": 7,
       "paragraph": 5,
-      "sentence": "They chose safety first and finished with moderate debt, low unemployment, decent health, and citizen satisfaction just above the minimum."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 5,
       "sentence": "Sports fans were disappointed because the city never built their stadium."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 5,
-      "sentence": "The winning team had taken greater risks and drawn fortunate cards."
     },
     {
       "chapter": 7,
@@ -3911,11 +3212,6 @@
       "chapter": 7,
       "paragraph": 6,
       "sentence": "Ultimately, the judges said that choice was unusual but defensible."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 6,
-      "sentence": "It would have been unlikely to win the original game, yet it might have produced a more stable city."
     },
     {
       "chapter": 7,
@@ -3955,11 +3251,6 @@
     {
       "chapter": 7,
       "paragraph": 7,
-      "sentence": "At the sports area, a retired tennis pro coached a male and a female teenager through footwork drills."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 7,
       "sentence": "“Do not leap for every ball,” he said."
     },
     {
@@ -3985,22 +3276,12 @@
     {
       "chapter": 7,
       "paragraph": 8,
-      "sentence": "Nearby, two boys made a paper wheel spin, then tried to twist the axle until it broke."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 8,
       "sentence": "“You will split it,” their teacher warned."
     },
     {
       "chapter": 7,
       "paragraph": 8,
       "sentence": "They did."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 8,
-      "sentence": "The celebration had grown out of a school history project and become a traveling display about civic life across the nation."
     },
     {
       "chapter": 7,
@@ -4050,21 +3331,6 @@
     {
       "chapter": 7,
       "paragraph": 10,
-      "sentence": "Besides reviewing their own choices, they contrasted them with another team’s decisions."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 10,
-      "sentence": "They had not come to achieve a high score but to explain one assumption they should have questioned."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 10,
-      "sentence": "Former opponents sat apart, appointed a representative, and watched a lawyer with her junior associate demonstrate negotiation."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 10,
       "sentence": "Two sides could disagree, put forward proposals, consult their records, and still reach agreement."
     },
     {
@@ -4076,11 +3342,6 @@
       "chapter": 7,
       "paragraph": 11,
       "sentence": "Every group had made a commitment to admit one mistake; even the most confident participants confessed to confusion."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 11,
-      "sentence": "One team had spent too much early and consequently lost later options."
     },
     {
       "chapter": 7,
@@ -4106,21 +3367,6 @@
       "chapter": 7,
       "paragraph": 12,
       "sentence": "In the debate exercise next door, students had to counter an argument with evidence rather than with volume."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 12,
-      "sentence": "The moderator emphasized that a law should not exist merely to satisfy moral anger; a restriction needed a practical reason."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 12,
-      "sentence": "Visitors were invited to remark on each case, and some comments were surprisingly remarkable."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 12,
-      "sentence": "One elderly man in retirement wrote that he used to resist every change in his neighborhood but had recently changed his mind about bicycle lanes."
     },
     {
       "chapter": 7,
@@ -4151,11 +3397,6 @@
       "chapter": 7,
       "paragraph": 13,
       "sentence": "Yao felt unexpectedly sad."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 13,
-      "sentence": "The item reminded her that a city’s soul, if such a thing existed, might live in ordinary objects rather than monuments."
     },
     {
       "chapter": 7,
@@ -4200,32 +3441,12 @@
     {
       "chapter": 7,
       "paragraph": 16,
-      "sentence": "An employer could reasonably reject one application without rejecting the person."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 16,
       "sentence": "“Learn, revise, and pursue the next opportunity.”"
     },
     {
       "chapter": 7,
       "paragraph": 16,
-      "sentence": "She could recall people with little experience who had failed, changed course, and recently succeeded."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 16,
       "sentence": "“I reckon persistence is useful only when it includes revision,” she said."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 16,
-      "sentence": "She would refer clients to another specialist when necessary, even if that reduced her own business."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 16,
-      "sentence": "Her office held a regular review, met regularly, and tried to resolve problems early."
     },
     {
       "chapter": 7,
@@ -4241,11 +3462,6 @@
       "chapter": 7,
       "paragraph": 17,
       "sentence": "She asked the group to unite around evidence even when they preferred different explanations."
-    },
-    {
-      "chapter": 7,
-      "paragraph": 17,
-      "sentence": "The room felt somewhat earnest, possibly manipulative, and potentially useful—all at once."
     },
     {
       "chapter": 7,
@@ -4340,16 +3556,6 @@
     {
       "chapter": 8,
       "paragraph": 1,
-      "sentence": "In winter we would freeze water outside just to watch the ice form."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 1,
-      "sentence": "In spring I would dig in the soil, plant seed, and then forget to water it."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 1,
       "sentence": "A trip to the county town felt like an adventure."
     },
     {
@@ -4370,11 +3576,6 @@
     {
       "chapter": 8,
       "paragraph": 2,
-      "sentence": "We joined a football club, attended lectures, argued about philosophy and politics, and once entered a student contest to design a cheap water pump."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 2,
       "sentence": "We did not win."
     },
     {
@@ -4385,27 +3586,12 @@
     {
       "chapter": 8,
       "paragraph": 2,
-      "sentence": "A professor told us that cooperation did not mean the absence of conflict."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 2,
       "sentence": "I did not appreciate the lesson then."
     },
     {
       "chapter": 8,
       "paragraph": 3,
       "sentence": "“After graduation I moved out of the village to study public research; Han chose enterprise."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 3,
-      "sentence": "He wanted to found a company; I wanted to study how structures fail."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 3,
-      "sentence": "We used to joke that he would create problems and I would analyze them."
     },
     {
       "chapter": 8,
@@ -4426,11 +3612,6 @@
       "chapter": 8,
       "paragraph": 3,
       "sentence": "I thought he was reckless."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 3,
-      "sentence": "Friendship can survive disagreement if neither side begins to treat the other as an enemy."
     },
     {
       "chapter": 8,
@@ -4476,11 +3657,6 @@
       "chapter": 8,
       "paragraph": 5,
       "sentence": "You were tiny, red, angry, and perfect."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 5,
-      "sentence": "I did not know how to feed a baby, change clothing, give a bath, or make you sleep."
     },
     {
       "chapter": 8,
@@ -4594,16 +3770,6 @@
     },
     {
       "chapter": 8,
-      "paragraph": 8,
-      "sentence": "But once I accepted the money, I acquired an obligation in my own mind even if no legal clause created it."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 8,
-      "sentence": "That is the problem with a bond between friends: it can influence you without a command."
-    },
-    {
-      "chapter": 8,
       "paragraph": 9,
       "sentence": "“Looking back, the port delay was real and the forecast uncertain."
     },
@@ -4641,11 +3807,6 @@
       "chapter": 8,
       "paragraph": 12,
       "sentence": "I did not invent data."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 12,
-      "sentence": "I did not accept money to approve unsafe material."
     },
     {
       "chapter": 8,
@@ -4700,16 +3861,6 @@
     {
       "chapter": 8,
       "paragraph": 13,
-      "sentence": "We can value what is visible and discount what is remote."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 13,
-      "sentence": "We can confuse a low probability with no possibility."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 13,
       "sentence": "Then we watch the consequences play out.”"
     },
     {
@@ -4734,18 +3885,8 @@
     },
     {
       "chapter": 8,
-      "paragraph": 14,
-      "sentence": "I imagined I would teach, perhaps become a consultant, perhaps write a book that nobody would read."
-    },
-    {
-      "chapter": 8,
       "paragraph": 15,
       "sentence": "“You may become a researcher."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 15,
-      "sentence": "If you do, please be careful with intelligence."
     },
     {
       "chapter": 8,
@@ -4925,397 +4066,262 @@
     {
       "chapter": 8,
       "paragraph": 23,
-      "sentence": "“Ask me in another decade,” Yao said."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 23,
-      "sentence": "She sent her mother a picture."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 23,
-      "sentence": "“Pretty,” came the reply."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 23,
-      "sentence": "Yao smiled; one muddy river could still feel more like home than another."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 24,
       "sentence": "A professor of learning design said a simulation could educate only if it stayed genuinely educational."
     },
     {
       "chapter": 8,
-      "paragraph": 24,
-      "sentence": "A simulation worked effectively only when learning included honest evaluation; otherwise the game became theater."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 24,
+      "paragraph": 23,
       "sentence": "From an extensive review of the logs she could extract each major choice, because the notes had been kept faithfully enough to reconstruct the formation of a decision."
     },
     {
       "chapter": 8,
-      "paragraph": 24,
+      "paragraph": 23,
       "sentence": "Patterns began to emerge gradually: some teams had fully explained their conclusion, while others trusted everything except a clear record—memory, instinct, or fortune."
     },
     {
       "chapter": 8,
-      "paragraph": 24,
-      "sentence": "Her expectation was simple—participants should express uncertainty, not hide it."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 24,
+      "paragraph": 23,
       "sentence": "Tang, excited by the existence of bad academic humor, told Yao to “step forth and defend your city.”"
     },
     {
       "chapter": 8,
-      "paragraph": 25,
+      "paragraph": 24,
       "sentence": "A small illustration of the loop—observe, decide, implement, review—left the strongest impression: the importance of review was general, even when everything else differed."
     },
     {
       "chapter": 8,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "The debrief then moved inward."
     },
     {
       "chapter": 8,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "Systems were increasingly complex, but complexity did not erase independence or responsibility."
     },
     {
       "chapter": 8,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "Initially Yao had thought leadership meant choosing correctly first; now she saw initiative in reopening a weak decision."
     },
     {
       "chapter": 8,
-      "paragraph": 26,
-      "sentence": "She called this the inner stage: doubt, fear, pride, and private calculation becoming visible through interaction."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 26,
-      "sentence": "Involvement varied, and success was largely better when a quiet listener or skeptical peer had status enough to be heard."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "“I mean that literally,” she said."
     },
     {
       "chapter": 8,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "Different modes—command, consultation, delegation—could motivate people in different contexts, but lasting motivation often depended on some control."
     },
     {
       "chapter": 8,
-      "paragraph": 27,
+      "paragraph": 26,
       "sentence": "Nowadays she distrusted the notion that leadership was simply personality; obviously, the same person could lead well in one setting and badly in another."
     },
     {
       "chapter": 8,
       "paragraph": 27,
-      "sentence": "Teams occasionally ignored warnings for social reasons; strong participation, particularly from a peer, improved judgment."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 27,
-      "sentence": "Personally, she now counted skill, luck, timing, trust, and the ability to admit error together."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 28,
       "sentence": "Students made a selection of variables, recorded each observation seriously, and used the same method so groups could compare results similarly."
     },
     {
       "chapter": 8,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "A map helped situate every sample."
     },
     {
       "chapter": 8,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "The teacher asked them to sort evidence, assumption, and opinion, explaining that researchers specialize because nobody can master everything."
     },
     {
       "chapter": 8,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "She told them specifically to seek disconfirming evidence."
     },
     {
       "chapter": 8,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "A bright light might stimulate plant growth; a missing control could ruin the test."
     },
     {
       "chapter": 8,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "Subsequently each group had to report whether it had successfully tested its idea."
     },
     {
       "chapter": 8,
-      "paragraph": 28,
-      "sentence": "One student’s suggestion was to repeat the experiment with a supplement of new data."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "“Surely more is better?”"
     },
     {
       "chapter": 8,
-      "paragraph": 28,
-      "sentence": "he asked."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "“Not if it is bad.”"
     },
     {
       "chapter": 8,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "The goal was to sustain quality, not merely quantity."
     },
     {
       "chapter": 8,
-      "paragraph": 29,
+      "paragraph": 28,
       "sentence": "The final exercise was strict and practical: tackle a tough fictional emergency, reveal uncertainty, and name who might be harmed."
     },
     {
       "chapter": 8,
-      "paragraph": 29,
+      "paragraph": 28,
       "sentence": "Thus teams were judged fairly; nobody solved it totally, but the best answers described uncertainty truly."
     },
     {
       "chapter": 8,
-      "paragraph": 30,
+      "paragraph": 29,
       "sentence": "Soon Yao received an email inviting her to a final graduate interview."
     },
     {
       "chapter": 8,
-      "paragraph": 30,
-      "sentence": "Her hotel room overlooked a web of streets; rain made the road surface shine."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 30,
+      "paragraph": 29,
       "sentence": "In the lobby, a father tried to be helpful while his son wrote an essay about a personal discovery."
     },
     {
       "chapter": 8,
-      "paragraph": 30,
+      "paragraph": 29,
       "sentence": "Their exchange gave Yao a little ease, and she made an outline."
     },
     {
       "chapter": 8,
-      "paragraph": 30,
+      "paragraph": 29,
       "sentence": "The common thread was context: a number was an attribute of a model, not a command from nature; policy could enable action without ensuring a good result; law could entitle a citizen to information without convincing an official to care."
     },
     {
       "chapter": 8,
-      "paragraph": 31,
+      "paragraph": 30,
       "sentence": "A program might reduce harm and still create a burden; as a result, a policy could look successful in one measure and harmful in another."
     },
     {
       "chapter": 8,
-      "paragraph": 31,
+      "paragraph": 30,
       "sentence": "She did not amaze herself with a new idea; she finally saw what her father’s determination, fear, and intelligence had always derived from."
     },
     {
       "chapter": 8,
       "paragraph": 31,
-      "sentence": "The distinction was sharp without being simple; she felt it deeply enough to breathe more easily anywhere."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 32,
       "sentence": "He had tried to dedicate himself to public safety while being a husband and father; those roles did not comprise separate lives but constantly overlapped."
     },
     {
       "chapter": 8,
-      "paragraph": 32,
-      "sentence": "At a finance seminar, students discussed ownership and the maximum price a buyer ought to pay."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "“You can’t possess the future,” the lecturer said."
     },
     {
       "chapter": 8,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "Yao wrote a compact format for herself: firstly, specify what is known; secondly, specify uncertainty."
     },
     {
       "chapter": 8,
-      "paragraph": 32,
-      "sentence": "It was hardly a grand formula and could not determine a choice, but it helped."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "Furthermore, confidence was not certainty."
     },
     {
       "chapter": 8,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "She paused at *faith*."
     },
     {
       "chapter": 8,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "Her grandmother had been religious, prayed before journeys, and would bless each child before an exam; Yao did not think faith was proof, but neither was it meaningless."
     },
     {
       "chapter": 8,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "That evening Zhou phoned to ask whether she could relax."
     },
     {
       "chapter": 8,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "“Go to hell,” she said, laughing."
     },
     {
       "chapter": 8,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "She ignored the hotel movie, pool, and bar and took a slow walk instead."
     },
     {
       "chapter": 8,
-      "paragraph": 33,
-      "sentence": "A young guy ran past closed shops; the view was not fantastic, exactly, but nice."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "Near the water, a creature moved in the reeds."
     },
     {
       "chapter": 8,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "On her return she passed notices for a weekly market, a monthly club, and a charity run—mostly ordinary life, continuing."
     },
     {
       "chapter": 8,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "The interview next morning began with a technical question about model dimension and ended with one about character."
     },
     {
       "chapter": 8,
-      "paragraph": 34,
-      "sentence": "The panel asked about measurement error, sample size, representation, and external validity."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "One professor asked whether Riverport was unique; another asked what practical result her research could produce."
     },
     {
       "chapter": 8,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "“Guidelines for when an institution must reopen a decision after evidence changes,” she said."
     },
     {
       "chapter": 8,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "“The inputs vary, but the principle should be stable and useful in more than one city.”"
     },
     {
       "chapter": 8,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "She avoided pretending that one case could answer every question, and explained that other cities might benefit from the same framework."
     },
     {
       "chapter": 8,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "After the panel left, Yao sat back and took a slow breath."
     },
     {
       "chapter": 8,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "She distinguished what her proposal could accomplish from what it could not."
     },
     {
       "chapter": 8,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "When a professor asked her to repeat the latter part, she did."
     },
     {
       "chapter": 8,
-      "paragraph": 35,
-      "sentence": "Years earlier she would have been embarrassed; now she simply asked for clarification."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 35,
-      "sentence": "Afterward she refused to search for a hint in every expression."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "She bought breakfast and took a walk."
     },
     {
       "chapter": 8,
-      "paragraph": 35,
-      "sentence": "Whatever happened, she had done the work herself."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "When Zhou called, he said, “You are going to bite a hole in your phone.”"
     },
     {
       "chapter": 8,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "“I don’t bite phones,” she replied."
     },
     {
       "chapter": 8,
-      "paragraph": 36,
+      "paragraph": 35,
       "sentence": "Years earlier she would have been embarrassed; now she simply asked for clarification."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 36,
-      "sentence": "Afterward she refused to search for a hint in every expression."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 36,
-      "sentence": "She bought breakfast and took a walk."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 36,
-      "sentence": "Whatever happened, she had done the work herself."
-    },
-    {
-      "chapter": 8,
-      "paragraph": 36,
-      "sentence": "When Zhou called, he said, “You are going to bite a hole in your phone.”"
-    },
-    {
-      "chapter": 8,
-      "paragraph": 36,
-      "sentence": "“I don’t bite phones,” she replied."
     },
     {
       "chapter": 9,
       "paragraph": 0,
       "sentence": "The train arrived early enough for Yao to watch the city wake: a bus driver helped an elderly passenger, a courier waited at a red light, a cleaner swept festival paper, a shop owner lifted a metal bar, and a child dragged a school bag almost as large as he was."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 0,
-      "sentence": "None of it looked historic."
     },
     {
       "chapter": 9,
@@ -5360,27 +4366,12 @@
     {
       "chapter": 9,
       "paragraph": 2,
-      "sentence": "Their laughter attracted a curious look from the next table."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 2,
-      "sentence": "On the walk home, they passed a cinema showing a popular film, a poster for a romantic comedy, and a theater advertising a drama about a family secret."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 2,
       "sentence": "A magazine stand displayed fashion, sport, science, travel, and politics, while a small crowd watched a street performer balance on a board as his partner played music."
     },
     {
       "chapter": 9,
       "paragraph": 3,
       "sentence": "Riverport was becoming a place in which tragedy, commerce, art, memory, and ordinary fun occupied the same space."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 4,
-      "sentence": "During a school visit the next week, a student in the rear raised his hand."
     },
     {
       "chapter": 9,
@@ -5401,11 +4392,6 @@
       "chapter": 9,
       "paragraph": 4,
       "sentence": "“Unfortunately, yes.”"
-    },
-    {
-      "chapter": 9,
-      "paragraph": 4,
-      "sentence": "Another student said he hoped to become a poet, though his father preferred a career in finance."
     },
     {
       "chapter": 9,
@@ -5445,11 +4431,6 @@
     {
       "chapter": 9,
       "paragraph": 6,
-      "sentence": "he repeated."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 6,
       "sentence": "“No."
     },
     {
@@ -5461,11 +4442,6 @@
       "chapter": 9,
       "paragraph": 6,
       "sentence": "He wanted to give back to the clinic that had treated his wife."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 6,
-      "sentence": "His certainty was ridiculous and, in its way, wonderful."
     },
     {
       "chapter": 9,
@@ -5555,17 +4531,7 @@
     {
       "chapter": 9,
       "paragraph": 10,
-      "sentence": "The first draft was full of jargon, so she stripped it down without losing essential detail."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 10,
       "sentence": "A dramatic photograph supplied shock; she replaced it with a clear image and an index of actions."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 10,
-      "sentence": "Wind could blow objects from a roof, floodwater could destroy a road, and hunger or thirst could damage judgment."
     },
     {
       "chapter": 9,
@@ -5581,11 +4547,6 @@
       "chapter": 9,
       "paragraph": 11,
       "sentence": "“Quite generous,” Yao said."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 12,
-      "sentence": "The work gave her insight into how science, law, design, and behavior had to fit together."
     },
     {
       "chapter": 9,
@@ -5659,11 +4620,6 @@
     },
     {
       "chapter": 9,
-      "paragraph": 14,
-      "sentence": "The noise of the city no longer scared her, and for once she did not hurry away."
-    },
-    {
-      "chapter": 9,
       "paragraph": 15,
       "sentence": "While clearing a kitchen drawer, her mother found one of Lin’s old letters."
     },
@@ -5690,17 +4646,7 @@
     {
       "chapter": 9,
       "paragraph": 15,
-      "sentence": "Joy and sadness could exist together."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 15,
       "sentence": "The city report mattered too."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 15,
-      "sentence": "Complaints now received case numbers and fixed response times, and divisions for industry, housing, and transport shared information."
     },
     {
       "chapter": 9,
@@ -5770,16 +4716,6 @@
     {
       "chapter": 9,
       "paragraph": 19,
-      "sentence": "Moreover, residents did not all perceive the reforms in the same way: a survey found that older people felt safer, whereas young adults were more worried about housing and employment, and business owners regarded regulation more negatively than employees."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 19,
-      "sentence": "The city therefore planned to retain several templates and select the most suitable one for each occasion."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 19,
       "sentence": "Zhou Kai read the summary and said, “You have matured.”"
     },
     {
@@ -5810,16 +4746,6 @@
     {
       "chapter": 9,
       "paragraph": 21,
-      "sentence": "They walked past a sports field just as a competitor scored in the final minute and the crowd gave a huge shout."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 21,
-      "sentence": "At a crossing, a man slipped on wet pavement but caught himself; nearby, a street musician played for tips while a couple stopped to pose for a photograph."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 21,
       "sentence": "When Yao and Zhou finally separated, he said, “Take care of yourself.”"
     },
     {
@@ -5841,11 +4767,6 @@
       "chapter": 9,
       "paragraph": 22,
       "sentence": "Young people, in particular, were keen to take part."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 22,
-      "sentence": "A youth project invited teenagers to explore their own streets."
     },
     {
       "chapter": 9,
@@ -5874,33 +4795,8 @@
     },
     {
       "chapter": 9,
-      "paragraph": 24,
-      "sentence": "The business section described a venture fund for small firms, a market selling local produce, and hotels reserving rooms for displaced families."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 24,
-      "sentence": "Another article discussed nutrition and the need to provide enough protein, vegetables, and energy during emergencies."
-    },
-    {
-      "chapter": 9,
       "paragraph": 25,
       "sentence": "Across town, an old manufacturing plant was becoming offices."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 25,
-      "sentence": "A technology company planned to issue stock while a family firm still ran a repair shop below."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 25,
-      "sentence": "A local venture fund offered money to businesses with a credible prospect of useful jobs; founders had to explain what a share was worth and how the firm could survive beyond a polished pitch."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 25,
-      "sentence": "The newsletter also described faster access to aid for people in jail, recognition of professional qualifications between provinces, and public-health warnings about residents sensitive to pollution."
     },
     {
       "chapter": 9,
@@ -6025,11 +4921,6 @@
     {
       "chapter": 9,
       "paragraph": 29,
-      "sentence": "Someone had left a red rose."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 29,
       "sentence": "Someone else had left a paper boat."
     },
     {
@@ -6070,22 +4961,12 @@
     {
       "chapter": 9,
       "paragraph": 30,
-      "sentence": "“No."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 30,
       "sentence": "Everything else he ignored.”"
     },
     {
       "chapter": 9,
       "paragraph": 30,
       "sentence": "Yao smiled."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 30,
-      "sentence": "For a moment she did not look."
     },
     {
       "chapter": 9,
@@ -6101,11 +4982,6 @@
       "chapter": 9,
       "paragraph": 30,
       "sentence": "“Well?”"
-    },
-    {
-      "chapter": 9,
-      "paragraph": 30,
-      "sentence": "her mother asked."
     },
     {
       "chapter": 9,
@@ -6170,32 +5046,7 @@
     {
       "chapter": 9,
       "paragraph": 32,
-      "sentence": "They stood beside the river."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 32,
-      "sentence": "A boat moved slowly toward the harbor."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 32,
-      "sentence": "Far above it, a plane crossed the sky and disappeared into cloud."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 32,
       "sentence": "At 4:17, the Clock Tower rang."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 32,
-      "sentence": "For a bit, the city looked beautiful."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 32,
-      "sentence": "Rivers did not become safe by refusing to rise."
     },
     {
       "chapter": 9,
@@ -6206,11 +5057,6 @@
       "chapter": 9,
       "paragraph": 33,
       "sentence": "Walking home, Yao called Tang and promised to stay in touch while he checked the final laboratory dates."
-    },
-    {
-      "chapter": 9,
-      "paragraph": 33,
-      "sentence": "People did not honor the past by living inside it forever."
     },
     {
       "chapter": 9,
@@ -6231,11 +5077,6 @@
       "chapter": 9,
       "paragraph": 33,
       "sentence": "“Ready?”"
-    },
-    {
-      "chapter": 9,
-      "paragraph": 33,
-      "sentence": "her mother asked."
     },
     {
       "chapter": 9,
