@@ -12,7 +12,7 @@ Word counts use alphabetic word tokens from the nine chapter paragraph arrays.
 | 4 | 2098 | 40 | 115 |
 | 5 | 1960 | 42 | 115 |
 | 6 | 1994 | 40 | 114 |
-| 7 | 2103 | 26 | 115 |
+| 7 | 2102 | 26 | 115 |
 | 8 | 2245 | 37 | 115 |
 | 9 | 2287 | 34 | 115 |
 
