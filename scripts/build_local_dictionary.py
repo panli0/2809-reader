@@ -16,6 +16,7 @@ DICT_SHA256 = "69af69cdc685b5dce465613d1cc8fffb598eb46714f57cf73bd6606c2ceb7e43"
 FREEDICT_URL = "https://download.freedict.org/dictionaries/eng-zho/2025.11.23/freedict-eng-zho-2025.11.23.src.tar.xz"
 FREEDICT_SHA512 = "25aed0f1d7de68919aa9da1ba92d67f566ae4ea81660f42071c81fc21e56d4b210d61df379315678648c45ca7e52c4a0ba2eec009fbaab7c72e7472489e1fc4c"
 OUT = Path("dictionary-ngsl.js")
+SUPPLEMENT = Path("dictionary-supplement.js")
 REPORT = Path("DICTIONARY_COVERAGE.md")
 WORD_RE = re.compile(r"^[A-Za-z][A-Za-z'.-]*$")
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
@@ -177,6 +178,14 @@ def main():
     supplemental = freedict_subset(get(FREEDICT_URL), set(primary_missing)) if primary_missing else {}
     found.update(supplemental)
 
+    curated = {}
+    if SUPPLEMENT.exists():
+        supplement_text = SUPPLEMENT.read_text(encoding="utf-8")
+        match = re.search(r"const LOCAL_DICTIONARY_SUPPLEMENT=(\{.*\});", supplement_text, re.S)
+        if match:
+            curated = json.loads(match.group(1))
+    curated = {head: entry for head, entry in curated.items() if head in words and head not in found}
+
     form_candidates = {}
     ambiguous = set()
     for head, forms in forms_by_head.items():
@@ -190,7 +199,8 @@ def main():
                 form_candidates[form] = head
     form_map = {f: h for f, h in form_candidates.items() if f not in ambiguous}
 
-    missing = sorted(words - found.keys())
+    missing = sorted(words - found.keys() - curated.keys())
+    total_matches = len(found.keys() | curated.keys())
     payload = json.dumps(found, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
     fmap = json.dumps(form_map, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
     OUT.write_text(
@@ -213,7 +223,7 @@ def main():
         + ("## Missing headwords\n\n" + "\n".join(f"- `{w}`" for w in missing) + "\n" if missing else ""),
         encoding="utf-8",
     )
-    print(f"Built {len(found)}/{len(words)} entries ({primary_count} Open Dictionary + {len(supplemental)} FreeDict); {len(form_map)} form mappings; missing {len(missing)}")
+    print(f"Built {total_matches}/{len(words)} entries ({primary_count} Open Dictionary + {len(supplemental)} FreeDict + {len(curated)} curated); {len(form_map)} form mappings; missing {len(missing)}")
 
 
 if __name__ == "__main__":
