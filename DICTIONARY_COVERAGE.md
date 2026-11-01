@@ -10,4 +10,15 @@
 - Bundled inflected-form mappings: **7930**
 - Open Dictionary data license: **CC BY-SA 4.0**
 - FreeDict eng-zho data license: **CC BY-SA 3.0**
+- Project-curated glosses: **maintained separately in this repository**
 
+## Curated headwords
+
+- `anymore`
+- `catalog`
+- `fascinate`
+- `okay`
+- `situate`
+- `underlie`
+
+The dictionary build script reads these six maintained entries from `dictionary-supplement.js` when regenerating this report, so they are not incorrectly counted as missing.
