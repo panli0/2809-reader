@@ -6,11 +6,17 @@ const CHAPTERS=[];const POLY={};const COLLOCATIONS=[];const SURFACE_HEAD={};cons
 try{localStorage.setItem('river.ngsl.dict','{}')}catch(e){}
 function loadBundledDictionary(){
   const data=document.createElement('script');
-  data.src='dictionary-ngsl.js?v=12';
+  data.src='dictionary-ngsl.js?v=13';
   data.onload=()=>{
-    const ui=document.createElement('script');
-    ui.src='dictionary-local.js?v=12';
-    document.body.appendChild(ui);
+    const supplement=document.createElement('script');
+    supplement.src='dictionary-supplement.js?v=13';
+    supplement.onload=()=>{
+      const ui=document.createElement('script');
+      ui.src='dictionary-local.js?v=13';
+      document.body.appendChild(ui);
+    };
+    supplement.onerror=()=>console.error('Failed to load NGSL dictionary supplements');
+    document.body.appendChild(supplement);
   };
   data.onerror=()=>console.error('Failed to load bundled NGSL dictionary');
   document.body.appendChild(data);
