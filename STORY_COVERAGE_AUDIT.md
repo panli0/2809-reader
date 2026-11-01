@@ -6,125 +6,68 @@ dictionary-supplement.js; inflected forms use the bundled LOCAL_FORM_MAP.
 Dictionary availability alone is not counted as story coverage.
 
 - Target headwords: **2809**
-- Found in story body: **2679**
-- Missing from story body: **130**
-- Coverage: **95.37%**
-- Story word tokens: **13,114**
-- Chapter word counts: Ch. 1: 1,489; Ch. 2: 1,609; Ch. 3: 1,645; Ch. 4: 1,877; Ch. 5: 1,139; Ch. 6: 1,032; Ch. 7: 1,102; Ch. 8: 1,885; Ch. 9: 1,336
+- Found in story body: **2738**
+- Missing from story body: **71**
+- Coverage: **97.47%**
+- Story word tokens: **13,332**
+- Chapter word counts: Ch. 1: 1,489; Ch. 2: 1,665; Ch. 3: 1,677; Ch. 4: 1,966; Ch. 5: 1,180; Ch. 6: 1,032; Ch. 7: 1,102; Ch. 8: 1,885; Ch. 9: 1,336
 
 ## Missing headwords
 
-- accord
 - actually
 - adopt
 - aircraft
-- amount
-- athlete
 - autumn
-- barrier
 - basically
-- cheese
-- combine
-- compete
-- completely
 - correspond
-- definition
-- demonstrate
-- demonstration
-- detect
 - differently
-- difficulty
-- disk
 - drag
-- drink
-- drop
 - easily
 - emotional
-- employ
 - encounter
 - encourage
-- entertainment
 - equally
 - excite
 - exclude
 - faith
 - fascinate
-- fault
-- fence
-- finish
-- focus
-- fool
-- fresh
-- friendly
-- gear
-- gene
 - goal
 - grin
-- heat
 - hello
-- hero
-- hopefully
 - impressive
-- lift
 - mad
 - march
 - maximum
-- meal
 - meanwhile
-- milk
 - minimum
 - nation
-- negotiation
 - nervous
-- objective
-- otherwise
 - overcome
 - ownership
 - participant
 - participation
-- perceive
-- percentage
-- performance
 - perhaps
-- physical
 - plenty
 - plus
 - poem
 - politics
-- potato
-- pour
 - pray
 - previously
-- prize
-- pro
-- producer
 - prospect
-- protein
 - provision
-- push
 - qualify
 - rank
-- ratio
 - recruit
 - regional
-- rely
-- remind
 - rid
 - routine
 - ruin
-- rush
-- satisfy
-- seal
 - sentence
 - similar
 - situate
 - slope
 - spot
-- statistic
-- stick
 - strike
-- sudden
-- summarize
 - suppose
 - sustain
 - title
@@ -133,7 +76,6 @@ Dictionary availability alone is not counted as story coverage.
 - twin
 - unclear
 - union
-- unit
 - vital
 - wander
 - warm
@@ -142,7 +84,6 @@ Dictionary availability alone is not counted as story coverage.
 - whatever
 - wheel
 - whenever
-- wise
 - world
 
 ## Reproducibility details
