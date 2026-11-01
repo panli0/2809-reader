@@ -45,7 +45,7 @@ Word counts use alphabetic word tokens from the nine chapter paragraph arrays.
 - All chapter and collocation JavaScript files passed syntax compilation.
 - Application, data loader, local dictionary UI, supplement, polysemy files, and service worker passed syntax compilation.
 - Every script referenced by `index.html` is present in the branch.
-- Every story/collocation asset is included in the service-worker cache; cache version is `river-year-v21`.
+- Every story/collocation asset is included in the service-worker cache; dictionary scripts are cached with their exact `?v=13` URLs for offline lookup; cache version is `river-year-v21`.
 
 ## Safety and release
 
