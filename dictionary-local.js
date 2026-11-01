@@ -15,9 +15,9 @@ function localDictionaryEntry(head){
   try{return LOCAL_DICTIONARY?.[head]||LOCAL_DICTIONARY_SUPPLEMENT?.[head]||null}catch(e){return null}
 }
 function dictionaryAttribution(entry){
-  return entry?.src==='freedict'
-    ? 'FreeDict eng-zho 2025.11.23 · CC BY-SA 3.0'
-    : 'Open Dictionary v2.0 · CC BY-SA 4.0 · 源自 English Wiktionary/Wiktextract';
+  if(entry?.src==='project-supplement')return '项目补充释义 · 由本项目维护';
+  if(entry?.src==='freedict')return 'FreeDict eng-zho 2025.11.23 · CC BY-SA 3.0';
+  return 'Open Dictionary v2.0 · CC BY-SA 4.0 · 源自 English Wiktionary/Wiktextract';
 }
 function posLabel(pos){
   const labels={
