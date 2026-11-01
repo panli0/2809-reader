@@ -6,36 +6,15 @@ dictionary-supplement.js; inflected forms use the bundled LOCAL_FORM_MAP.
 Dictionary availability alone is not counted as story coverage.
 
 - Target headwords: **2809**
-- Found in story body: **2787**
-- Missing from story body: **22**
-- Coverage: **99.22%**
-- Story word tokens: **16,494**
-- Chapter word counts: Ch. 1: 1,640; Ch. 2: 2,015; Ch. 3: 1,712; Ch. 4: 2,361; Ch. 5: 1,356; Ch. 6: 1,275; Ch. 7: 1,826; Ch. 8: 2,128; Ch. 9: 2,181
+- Found in story body: **2808**
+- Missing from story body: **1**
+- Coverage: **99.96%**
+- Story word tokens: **16,620**
+- Chapter word counts: Ch. 1: 1,640; Ch. 2: 2,041; Ch. 3: 1,732; Ch. 4: 2,404; Ch. 5: 1,383; Ch. 6: 1,275; Ch. 7: 1,826; Ch. 8: 2,138; Ch. 9: 2,181
 
 ## Missing headwords
 
-- alter
-- behave
-- cancel
-- connection
-- delight
-- drug
-- firmly
 - govern
-- guest
-- highlight
-- instruction
-- intervention
-- knock
-- loud
-- predict
-- rapid
-- reader
-- reserve
-- scan
-- slice
-- stake
-- vehicle
 
 ## Reproducibility details
 
