@@ -12,7 +12,7 @@ function resolveLocalHead(surface,proposed){
   return proposed||s;
 }
 function localDictionaryEntry(head){
-  try{return LOCAL_DICTIONARY?.[head]||null}catch(e){return null}
+  try{return LOCAL_DICTIONARY?.[head]||LOCAL_DICTIONARY_SUPPLEMENT?.[head]||null}catch(e){return null}
 }
 function dictionaryAttribution(entry){
   return entry?.src==='freedict'
