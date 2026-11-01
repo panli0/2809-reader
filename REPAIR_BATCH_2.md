@@ -6,21 +6,20 @@ Word counts use alphabetic word tokens from the nine chapter paragraph arrays.
 
 | Chapter | Words | Paragraphs | Longest paragraph |
 |---|---:|---:|---:|
-| 1 | 1184 | 24 | 107 |
-| 2 | 1503 | 29 | 110 |
-| 3 | 1405 | 37 | 96 |
-| 4 | 1656 | 40 | 110 |
+| 1 | 1213 | 24 | 107 |
+| 2 | 1508 | 29 | 110 |
+| 3 | 1426 | 37 | 96 |
+| 4 | 1669 | 40 | 110 |
 | 5 | 1118 | 34 | 99 |
-| 6 | 1000 | 29 | 113 |
-| 7 | 1375 | 20 | 111 |
+| 6 | 1080 | 29 | 113 |
+| 7 | 1422 | 20 | 111 |
 | 8 | 1734 | 36 | 106 |
-| 9 | 1807 | 34 | 115 |
+| 9 | 1874 | 34 | 119 |
 
-- Total: **12,782 words**
-- Average chapter length: **1,420 words**
-- Shortest / longest: **1,000 / 1,807 words**
-- Longest paragraph: **115 words**
-- This compacting pass reduced the immediately previous version from **16,166** to **12,782 words** (**20.9% shorter**).
+- Total: **13,044 words**
+- Average chapter length: **1,449 words**
+- Shortest / longest: **1,080 / 1,874 words**
+- The compressed version is **19.3% shorter** than the previous 16,166-word version, with target vocabulary restored.
 
 ## Story and language work
 
