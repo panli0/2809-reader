@@ -222,6 +222,7 @@ def main():
         f"- Bundled inflected-form mappings: **{len(form_map)}**\n"
         "- Open Dictionary data license: **CC BY-SA 4.0**\n"
         "- FreeDict eng-zho data license: **CC BY-SA 3.0**\n\n"
+        + ("## Curated headwords\n\n" + "\n".join(f"- `{w}`" for w in sorted(curated)) + "\n\n" if curated else "")
         + ("## Missing headwords\n\n" + "\n".join(f"- `{w}`" for w in missing) + "\n" if missing else ""),
         encoding="utf-8",
     )
