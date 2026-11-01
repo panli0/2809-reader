@@ -6,19 +6,21 @@ Word counts use alphabetic word tokens from the nine chapter paragraph arrays.
 
 | Chapter | Words | Paragraphs | Longest paragraph |
 |---|---:|---:|---:|
-| 1 | 1835 | 29 | 112 |
-| 2 | 1955 | 29 | 115 |
-| 3 | 1818 | 37 | 111 |
-| 4 | 2098 | 40 | 115 |
-| 5 | 1960 | 42 | 115 |
-| 6 | 1994 | 40 | 114 |
-| 7 | 2102 | 26 | 115 |
-| 8 | 2245 | 37 | 115 |
-| 9 | 2287 | 34 | 115 |
+| 1 | 1184 | 24 | 107 |
+| 2 | 1503 | 29 | 110 |
+| 3 | 1405 | 37 | 96 |
+| 4 | 1656 | 40 | 110 |
+| 5 | 1118 | 34 | 99 |
+| 6 | 1000 | 29 | 113 |
+| 7 | 1375 | 20 | 111 |
+| 8 | 1734 | 36 | 106 |
+| 9 | 1807 | 34 | 115 |
 
-- Average chapter length: **2033 words**
-- Shortest / longest: **1818 / 2287 words**
-- Every paragraph is **115 words or fewer** after sentence-aware splitting.
+- Total: **12,782 words**
+- Average chapter length: **1,420 words**
+- Shortest / longest: **1,000 / 1,807 words**
+- Longest paragraph: **115 words**
+- This compacting pass reduced the immediately previous version from **16,166** to **12,782 words** (**20.9% shorter**).
 
 ## Story and language work
 
@@ -33,7 +35,7 @@ Word counts use alphabetic word tokens from the nine chapter paragraph arrays.
 
 - PHaVE list: **150 / 150** items found in the nine chapters.
 - Context bank: **284** records, **276** unique patterns.
-- Unmatched context records: **0**.
+- Context records currently matched to story sentences: **152 / 284**; **132** need context re-alignment after earlier wording changes.
 - PHRASE 505: separate audit still pending.
 
 ## Dictionary and application checks
