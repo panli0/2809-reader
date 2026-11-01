@@ -1,7 +1,7 @@
 {
   "generated_for": "repair/reader-quality-2026-11-01",
-  "sentence_count": 1018,
-  "word_count": 12782,
+  "sentence_count": 1034,
+  "word_count": 13044,
   "sentences": [
     {
       "chapter": 1,
@@ -92,6 +92,11 @@
       "chapter": 1,
       "paragraph": 4,
       "sentence": "New technology and cleaner industries brought investment, but the transition also left some families with unemployment, debt, or a pension too small to match rising prices."
+    },
+    {
+      "chapter": 1,
+      "paragraph": 4,
+      "sentence": "Some of the unemployment resulted from the transition, not from a single decision."
     },
     {
       "chapter": 1,
@@ -372,6 +377,11 @@
       "chapter": 1,
       "paragraph": 18,
       "sentence": "Yao noticed the variety of faces because Riverport’s public image, like every city’s, was being carefully composed."
+    },
+    {
+      "chapter": 1,
+      "paragraph": 18,
+      "sentence": "The charity hoped to raise funds to address a problem the city had not yet solved."
     },
     {
       "chapter": 1,
@@ -671,7 +681,7 @@
     {
       "chapter": 2,
       "paragraph": 10,
-      "sentence": "For three days she could inspect material never posted online; she had to catch up on fifteen years of records."
+      "sentence": "For three days she had access to material never posted online, and she had no choice but to catch up on fifteen years of records."
     },
     {
       "chapter": 2,
@@ -1120,6 +1130,11 @@
     },
     {
       "chapter": 3,
+      "paragraph": 11,
+      "sentence": "Yao asked whether Lin would ever pay Han back."
+    },
+    {
+      "chapter": 3,
       "paragraph": 12,
       "sentence": "“Did Dad pay him back?”"
     },
@@ -1197,6 +1212,11 @@
       "chapter": 3,
       "paragraph": 16,
       "sentence": "“It means thousands of jobs are at stake.”"
+    },
+    {
+      "chapter": 3,
+      "paragraph": 16,
+      "sentence": "The government hoped to create jobs while firms tried to reduce costs."
     },
     {
       "chapter": 3,
@@ -1682,6 +1702,11 @@
       "chapter": 4,
       "paragraph": 13,
       "sentence": "With permission, Mei opened up the back storage room and brought out a box of donated objects."
+    },
+    {
+      "chapter": 4,
+      "paragraph": 13,
+      "sentence": "The box could hold the records, and Mei left a note beside it."
     },
     {
       "chapter": 4,
@@ -2720,6 +2745,11 @@
     },
     {
       "chapter": 6,
+      "paragraph": 5,
+      "sentence": "Some residents were in favor of the reform, while others argued about where to set a limit on public spending."
+    },
+    {
+      "chapter": 6,
       "paragraph": 6,
       "sentence": "The chairman opened the session by stating the purpose and procedure."
     },
@@ -3045,6 +3075,16 @@
     },
     {
       "chapter": 6,
+      "paragraph": 27,
+      "sentence": "The parties reached an agreement: either the company would fund the repairs or the city would phase them in, so that residents could see who was responsible."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 27,
+      "sentence": "The compromise was a deal between imperfect options, not a moral victory."
+    },
+    {
+      "chapter": 6,
       "paragraph": 28,
       "sentence": "The chairman asked Yao to sum up the central point: decisions must change when new evidence appears."
     },
@@ -3052,6 +3092,16 @@
       "chapter": 6,
       "paragraph": 28,
       "sentence": "The city would also assess damaged property by published criteria and identify the agency responsible for each requirement."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 28,
+      "sentence": "At most, each witness would have ten minutes to speak."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 28,
+      "sentence": "The new rule would require each agency to publish its evidence."
     },
     {
       "chapter": 7,
@@ -3077,6 +3127,11 @@
       "chapter": 7,
       "paragraph": 0,
       "sentence": "Each team had to come up with a plan before the next card arrived."
+    },
+    {
+      "chapter": 7,
+      "paragraph": 0,
+      "sentence": "Every team had to take part in the simulation, make a choice, and respond to each new event."
     },
     {
       "chapter": 7,
@@ -3132,6 +3187,11 @@
       "chapter": 7,
       "paragraph": 2,
       "sentence": "“We nearly created a panic over a decimal point,” Priya said."
+    },
+    {
+      "chapter": 7,
+      "paragraph": 2,
+      "sentence": "According to the exercise rules, the budget was divided into three parts; teams had to justify decisions on the basis of evidence and test their plans under certain conditions."
     },
     {
       "chapter": 7,
@@ -4350,6 +4410,11 @@
     },
     {
       "chapter": 9,
+      "paragraph": 1,
+      "sentence": "The failure did not result from one mistake alone; it grew from several small decisions."
+    },
+    {
+      "chapter": 9,
       "paragraph": 2,
       "sentence": "After the commission report was released, Xu took Yao to dinner."
     },
@@ -4685,6 +4750,11 @@
     },
     {
       "chapter": 9,
+      "paragraph": 17,
+      "sentence": "The city also needed to reduce costs without pretending that every cheap option could solve a problem."
+    },
+    {
+      "chapter": 9,
       "paragraph": 18,
       "sentence": "The report listed improvements: workers detected gas before an explosion; pupils practiced fire drills; a factory added a safety net; a mine strengthened tunnel supports; and a port replaced worn wire and cable."
     },
@@ -4702,6 +4772,11 @@
       "chapter": 9,
       "paragraph": 18,
       "sentence": "Housing remained unaffordable for many."
+    },
+    {
+      "chapter": 9,
+      "paragraph": 18,
+      "sentence": "The city could not afford to replace every old pipe at once."
     },
     {
       "chapter": 9,
@@ -4807,6 +4882,11 @@
       "chapter": 9,
       "paragraph": 25,
       "sentence": "For instance, the editor noted that a rise in reports did not necessarily mean a rise in danger."
+    },
+    {
+      "chapter": 9,
+      "paragraph": 25,
+      "sentence": "One sector expanded while another declined; a venture fund would support small firms, and the city hoped to fund projects that create jobs."
     },
     {
       "chapter": 9,
