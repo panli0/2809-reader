@@ -1,6 +1,7 @@
 # Complete story coverage audit
 
-This report checks the actual text in all nine chapter files. Dictionary entries, vocabulary notes, and audit files do not count as story-body coverage.
+This report checks the actual text in all nine chapter files.
+Dictionary entries, vocabulary notes, and audit files do not count as story-body coverage.
 
 ## 1. Base vocabulary
 
@@ -38,7 +39,7 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 ## Matching rules
 
 - Base words: actual chapter-body tokens, including bundled inflected forms.
-- Polysemy: each curated context appears in the chapter body after quote and whitespace normalization.
+- Polysemy: each curated context must appear in the chapter body after quote and whitespace normalization.
 - PHaVE: common verb inflections and separable-object constructions are accepted only within the same sentence; up to eight intervening tokens are allowed.
 - The irregular form laid is normalized to lay for the PHaVE targets lay out and lay down.
 
