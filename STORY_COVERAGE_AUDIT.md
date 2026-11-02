@@ -9,8 +9,8 @@ Dictionary availability alone is not counted as story coverage.
 - Found in story body: **2809**
 - Missing from story body: **0**
 - Coverage: **100.00%**
-- Story word tokens: **13,234**
-- Chapter word counts: Ch. 1: 1,529; Ch. 2: 1,623; Ch. 3: 1,658; Ch. 4: 1,915; Ch. 5: 1,193; Ch. 6: 1,116; Ch. 7: 1,068; Ch. 8: 1,717; Ch. 9: 1,415
+- Story word tokens: **16,021**
+- Chapter word counts: Ch. 1: 1,771; Ch. 2: 2,015; Ch. 3: 1,903; Ch. 4: 2,590; Ch. 5: 1,297; Ch. 6: 1,337; Ch. 7: 1,409; Ch. 8: 1,987; Ch. 9: 1,712
 
 ## Missing headwords
 
