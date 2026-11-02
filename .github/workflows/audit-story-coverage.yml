@@ -1,12 +1,14 @@
-name: Audit NGSL story-body coverage
+name: Audit complete story coverage
 
 on:
   push:
     paths:
       - 'scripts/audit_story_coverage.py'
       - 'chapter-*.js'
+      - 'poly-*.js'
       - 'dictionary-ngsl.js'
       - 'dictionary-supplement.js'
+      - 'PHAVE_COVERAGE.md'
       - '.github/workflows/audit-story-coverage.yml'
   workflow_dispatch:
 
@@ -21,9 +23,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Audit actual story text
+      - name: Audit all required story coverage
+        id: audit
+        continue-on-error: true
         run: python scripts/audit_story_coverage.py
       - name: Commit audit report
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -31,6 +36,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "No audit report changes"
           else
-            git commit -m "Report actual NGSL story-body coverage"
+            git commit -m "Audit all required story coverage"
             git push
           fi
+      - name: Fail if any required coverage is missing
+        if: steps.audit.outcome == 'failure'
+        run: exit 1
