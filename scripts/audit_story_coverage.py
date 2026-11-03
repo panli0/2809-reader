@@ -66,6 +66,137 @@ def phrase_token(token: str, forms: dict[str, str]) -> str:
     return forms.get(token, token)
 
 
+
+def collocation_pattern_present(pattern: str, context: str, forms: dict[str, str]) -> bool:
+    """Check that a context demonstrates its own labelled collocation."""
+    raw = [token.replace("’", "'").lower() for token in TOKEN_RE.findall(context)]
+    tokens = [phrase_token(token, forms) for token in raw]
+    label = pattern.lower().strip()
+
+    # This is a fixed past-habit construction, not the lexical verb "use".
+    if label == "used to do":
+        return any(
+            raw[i] == "used" and raw[i + 1] == "to"
+            and raw[i + 2] not in {
+                "a", "an", "the", "of", "in", "on", "at", "by", "with",
+                "for", "from", "and", "or", "but", "so", "if", "when",
+                "while", "than", "as", "that", "this", "it",
+            }
+            for i in range(max(0, len(raw) - 2))
+        )
+
+    if label in {"either ... or", "neither ... nor"}:
+        first, last = label.split()[0], label.split()[-1]
+        return any(
+            token == first and last in tokens[index + 1:]
+            for index, token in enumerate(tokens)
+        )
+
+    # These labels abbreviate a construction whose object is expressed in context.
+    rewrites = {
+        "keep + object + adjective": ["keep", "object", "adjective"],
+        "provide A with B": ["provide", "__a__", "with", "__b__"],
+        "prevent from doing": ["prevent", "__a__", "from", "doing"],
+        "distinguish from": ["distinguish", "__a__", "from"],
+        "prefer A to B": ["prefer", "__a__", "to", "__b__"],
+        "allow someone to": ["allow", "someone", "to"],
+        "enable someone to": ["enable", "someone", "to"],
+        "encourage someone to": ["encourage", "someone", "to"],
+        "persuade someone to": ["persuade", "someone", "to"],
+        "require someone to": ["require", "someone", "to"],
+        "force someone to": ["force", "someone", "to"],
+        "help someone do": ["help", "someone", "do"],
+        "let someone do": ["let", "someone", "do"],
+        "make someone do": ["make", "someone", "do"],
+    }
+    if label in rewrites:
+        parts = rewrites[label]
+    else:
+        # Preserve capital A/B placeholders before lowercasing the label.
+        prepared = pattern.replace("A", "__A__").replace("B", "__B__")
+        parts = prepared.lower().replace("+", " ").split()
+
+    particles = {
+        "up", "out", "in", "on", "off", "back", "down", "over", "away",
+        "around", "through", "about", "along", "apart", "across", "by",
+        "forward",
+    }
+    max_gap = 8 if (
+        (len(parts) == 2 and parts[1] in particles)
+        or parts[0] in {"distinguish", "prefer", "prevent"}
+    ) else 2
+    wildcards = {"__a__", "__b__", "someone", "somebody", "something",
+                 "object", "adjective", "doing", "do"}
+    function_words = {
+        "a", "an", "the", "to", "of", "in", "on", "at", "by", "with",
+        "for", "from", "and", "or", "but", "so", "if", "when", "while",
+        "than", "as", "that", "this", "it", "is", "are", "was", "were",
+        "be", "been", "being",
+    }
+    pluralizable = {"problem", "issue", "cost", "need", "agreement", "fund",
+                    "job", "life", "proposal", "record", "family"}
+
+    def alternatives(part: str) -> set[str]:
+        result = set()
+        for item in part.split("/"):
+            item = phrase_token(item, forms)
+            result.add(item)
+            if item in pluralizable:
+                result.add(item + "s")
+            if item.endswith("y"):
+                result.add(item[:-1] + "ies")
+        return result
+
+    def match_from(pattern_index: int, text_index: int) -> bool:
+        if pattern_index >= len(parts):
+            return True
+        part = parts[pattern_index]
+
+        if part == "...":
+            return any(
+                match_from(pattern_index + 1, next_index)
+                for next_index in range(text_index, len(tokens) + 1)
+            )
+
+        if part in wildcards:
+            for width in range(1, 7):
+                index = text_index + width - 1
+                if index >= len(tokens):
+                    break
+                surface = raw[index]
+                if part == "doing" and not surface.endswith("ing"):
+                    continue
+                if part == "do" and (
+                    surface.endswith(("ing", "ed", "s"))
+                    or surface in function_words
+                ):
+                    continue
+                if match_from(pattern_index + 1, text_index + width):
+                    return True
+            return False
+
+        if part in {"a", "an", "the"}:
+            if (
+                text_index < len(tokens)
+                and tokens[text_index] in {"a", "an", "the"}
+                and match_from(pattern_index + 1, text_index + 1)
+            ):
+                return True
+            # Articles are optional in generic labels such as "reach an agreement".
+            return match_from(pattern_index + 1, text_index)
+
+        options = alternatives(part)
+        for gap in range(max_gap + 1):
+            index = text_index + gap
+            if index >= len(tokens):
+                break
+            if tokens[index] in options and match_from(pattern_index + 1, index + 1):
+                return True
+        return False
+
+    return any(match_from(0, index) for index in range(len(tokens)))
+
+
 def main() -> int:
     dict_source = (ROOT / "dictionary-ngsl.js").read_text(encoding="utf-8")
     local_dict, _ = extract_js_json(dict_source, "const LOCAL_DICTIONARY=")
@@ -178,6 +309,7 @@ def main() -> int:
     collocation_records = []
     collocation_patterns = set()
     missing_collocations = []
+    missing_collocation_patterns = []
     for path in collocation_files:
         source = path.read_text(encoding="utf-8")
         entries, _ = extract_js_json(source, "COLLOCATIONS.push(...")
@@ -189,6 +321,8 @@ def main() -> int:
             collocation_records.append(record)
             if not context or normalize_text(context) not in normalized_body:
                 missing_collocations.append(record)
+            if not context or not collocation_pattern_present(pattern, context, forms):
+                missing_collocation_patterns.append(record)
 
     lines = [
         "# Complete story coverage audit",
@@ -259,6 +393,16 @@ def main() -> int:
     lines.extend(f"- {item}" for item in missing_collocations)
     if not missing_collocations:
         lines.append("- None")
+    lines.extend([
+        f"- Listed phrase demonstrated in its own context: **{len(collocation_records) - len(missing_collocation_patterns)} / {len(collocation_records)}**",
+        f"- Context/pattern mismatches: **{len(missing_collocation_patterns)}**",
+        "",
+        "### Contexts that do not demonstrate their listed phrase",
+        "",
+    ])
+    lines.extend(f"- {item}" for item in missing_collocation_patterns)
+    if not missing_collocation_patterns:
+        lines.append("- None")
 
     lines.extend([
         "",
@@ -267,7 +411,7 @@ def main() -> int:
         "- Base words: actual chapter-body tokens, including bundled inflected forms.",
         "- Polysemy: each curated common-meaning context must appear in the chapter body after quote and whitespace normalization.",
         "- PHaVE: common verb inflections and separable-object constructions are checked within the same sentence; hyphenated compounds do not count as phrasal verbs.",
-        "- Collocations: every context record must appear in the chapter body after quote and whitespace normalization.",
+        "- Collocations: every context record must appear in the chapter body after quote and whitespace normalization, and its own text must demonstrate the listed phrase (including common inflections, separable particles, and the documented A/B or gerund templates).",
         "",
         "## Reproducibility details",
         "",
