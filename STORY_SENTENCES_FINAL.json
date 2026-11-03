@@ -1,9 +1,9 @@
 {
   "generated_for": "repair/coverage-and-readability-2026-11-02",
-  "source_commit": "6b2fca41f399b3df54880cd301c71069af849543",
+  "source_commit": "9e94ee5d80de9563790a02e52e6ecb2b37a59f13",
   "chapter_count": 9,
-  "sentence_count": 1268,
-  "word_count": 16279,
+  "sentence_count": 1247,
+  "word_count": 15980,
   "chapter_word_counts": [
     {
       "chapter": 1,
@@ -19,7 +19,7 @@
     },
     {
       "chapter": 4,
-      "word_count": 2590
+      "word_count": 2291
     },
     {
       "chapter": 5,
@@ -2121,7 +2121,7 @@
     {
       "chapter": 4,
       "paragraph": 4,
-      "sentence": "The theater gallery held an old receiver that could pick up radio signals."
+      "sentence": "The theater gallery showed how comedy could shape a story."
     },
     {
       "chapter": 4,
@@ -2136,42 +2136,22 @@
     {
       "chapter": 4,
       "paragraph": 5,
-      "sentence": "The gallery traced the region’s origin before the city existed: mountain rock, animal bone, shells, fish, wild plants, seeds, roots, stems, leaves, and flowers."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 5,
       "sentence": "Water flowed from a high valley through streams and lakes to the ocean."
     },
     {
       "chapter": 4,
-      "paragraph": 5,
-      "sentence": "Children studied models of a horse, cow, pig, sheep, chicken, mouse, rat, and local species."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 5,
-      "sentence": "One boy pressed his nose to a case; his teacher pulled him back."
+      "paragraph": 6,
+      "sentence": "A map of earth showed northern islands, a desert, a forest, and a beach where river met sea."
     },
     {
       "chapter": 4,
       "paragraph": 6,
-      "sentence": "A map of the earth showed the northern islands, a desert, a forest, and a long beach where the river met the sea."
+      "sentence": "A guide explained how wind carried sand inland and the sun changed the shore each season."
     },
     {
       "chapter": 4,
       "paragraph": 6,
-      "sentence": "A guide explained how wind carried sand inland and how the sun changed the shore each season."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 6,
-      "sentence": "Beyond the glass, a tall wooden model of a boat stood beside a small garden."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 6,
-      "sentence": "Children could touch the soil, inspect a leaf, and see how one environment connected to another."
+      "sentence": "Beyond the glass, a tall wooden model of a boat stood beside a garden; children touched soil, inspected a leaf, and saw how one environment connected to another."
     },
     {
       "chapter": 4,
@@ -2206,7 +2186,7 @@
     {
       "chapter": 4,
       "paragraph": 10,
-      "sentence": "North of the city, numerous families occasionally hunted when crops failed."
+      "sentence": "Numerous families north of the city occasionally hunted when crops failed."
     },
     {
       "chapter": 4,
@@ -2236,22 +2216,12 @@
     {
       "chapter": 4,
       "paragraph": 14,
-      "sentence": "A final panel explained slavery, reform, sanctions, and the effort of international law to protect civilians."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 14,
       "sentence": "A pupil whispered, “This is depressing.”"
     },
     {
       "chapter": 4,
       "paragraph": 15,
       "sentence": "An audio guide explained seasonal work through spring, summer, autumn, and winter: prepare soil, plant seed, protect the crop, harvest food, store grain, breed animals, repair fences, and survive bad weather."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 16,
-      "sentence": "The history room included a camp used by soldiers before a battle."
     },
     {
       "chapter": 4,
@@ -2267,16 +2237,6 @@
       "chapter": 4,
       "paragraph": 16,
       "sentence": "She showed how fear could turn ordinary people against one another and how peace required more than the end of violence."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 17,
-      "sentence": "A medical display discussed pregnancy, abortion, cancer, infection, surgery, mental health, therapy, diet, and public health."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 17,
-      "sentence": "It raised awareness without pretending controversy had ended."
     },
     {
       "chapter": 4,
@@ -2321,671 +2281,606 @@
     {
       "chapter": 4,
       "paragraph": 22,
-      "sentence": "Visitors pulled a lever, operated a pump, and pressed a button to generate power."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 22,
-      "sentence": "A video showed a vessel launch."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 22,
-      "sentence": "The labor display covered discipline, management, wages, membership, and the struggle to reduce injuries."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 22,
-      "sentence": "A frequent complaint was that safety rules were not implemented effectively."
+      "sentence": "The labor display covered unions, wages, strikes, factory discipline, management, membership, productivity, and safety rules; a frequent complaint was that the rules were not implemented effectively."
     },
     {
       "chapter": 4,
       "paragraph": 23,
-      "sentence": "A section on labor showed unions, wages, strikes, safety rules, factory discipline, management, productivity, and the long struggle to reduce workplace injury."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 24,
       "sentence": "In a nearby demonstration, a hammer struck a steel plate to show how repeated impact could damage metal."
     },
     {
       "chapter": 4,
-      "paragraph": 25,
+      "paragraph": 24,
       "sentence": "Visitors could turn a wheel to see gears move, pull a lever to operate a model pump, press a button to generate electricity, and watch a video of workers launching a vessel into the harbor."
     },
     {
       "chapter": 4,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "A small screen showed how travelers exchange one currency for another and how an exchange rate changes what imported goods cost."
     },
     {
       "chapter": 4,
-      "paragraph": 27,
+      "paragraph": 26,
       "sentence": "The museum’s language was smooth, balanced, almost too balanced."
     },
     {
       "chapter": 4,
-      "paragraph": 27,
+      "paragraph": 26,
       "sentence": "Every conflict became “transition,” every loss became “change,” every dispute became “debate.”"
     },
     {
       "chapter": 4,
-      "paragraph": 27,
+      "paragraph": 26,
       "sentence": "Yao understood why Tang had brought her."
     },
     {
       "chapter": 4,
-      "paragraph": 27,
+      "paragraph": 26,
       "sentence": "The museum had a tendency to avoid difficult subjects."
     },
     {
       "chapter": 4,
-      "paragraph": 27,
+      "paragraph": 26,
       "sentence": "Moreover, it sometimes treated a cultural mystery as if it had a pure and simple answer."
     },
     {
       "chapter": 4,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "Near the final gallery, a temporary exhibition was devoted to the White Bridge flood."
     },
     {
       "chapter": 4,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "The museum had once framed White Bridge mainly as a story of natural disaster; the new display asked whether that frame hid human choices."
     },
     {
       "chapter": 4,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "The narrative still emphasized survival, recovery, government investment, scientific improvement, and community spirit."
     },
     {
       "chapter": 4,
-      "paragraph": 29,
+      "paragraph": 28,
       "sentence": "The guide introduced herself as Mei, a graduate student in history."
     },
     {
       "chapter": 4,
-      "paragraph": 29,
+      "paragraph": 28,
       "sentence": "She had helped catalog flood material and remembered a box of objects donated by White Bridge residents that had never been included in the main display."
     },
     {
       "chapter": 4,
-      "paragraph": 29,
+      "paragraph": 28,
       "sentence": "With permission, Mei opened up the back storage room and brought out a box of donated objects."
     },
     {
       "chapter": 4,
-      "paragraph": 29,
+      "paragraph": 28,
       "sentence": "The box could hold the records, and Mei left a note beside it."
     },
     {
       "chapter": 4,
-      "paragraph": 30,
+      "paragraph": 29,
       "sentence": "Mei picked up the medicine bottle and picked out a small yellow boat from the box."
     },
     {
       "chapter": 4,
-      "paragraph": 31,
-      "sentence": "While Mei’s supervisor checked whether the uncatalogued material could be photographed, Tang and Yao had an hour to wait."
+      "paragraph": 30,
+      "sentence": "While Mei’s supervisor checked whether the material could be photographed, Tang and Yao waited."
     },
     {
       "chapter": 4,
-      "paragraph": 31,
-      "sentence": "More families turned up after lunch, and a guide came along to lead a school group."
+      "paragraph": 30,
+      "sentence": "More families turned up after lunch, and a guide came along with a school group."
     },
     {
       "chapter": 4,
-      "paragraph": 31,
-      "sentence": "School teams, university clubs, charities, and local businesses had turned the space into a noisy map of almost everything Riverport taught, made, argued about, or sold."
+      "paragraph": 30,
+      "sentence": "School teams, university clubs, charities, and businesses filled the space with exhibits."
     },
     {
       "chapter": 4,
-      "paragraph": 31,
+      "paragraph": 30,
       "sentence": "Tang glanced inside."
     },
     {
       "chapter": 4,
-      "paragraph": 31,
+      "paragraph": 30,
       "sentence": "“This may be the least efficient way to spend an hour.”"
     },
     {
       "chapter": 4,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "The box contained ordinary things: a broken child’s toy, a silver ring, a wet photograph album, a cracked plate, a school notebook, a leather belt, a rusted key, a wooden picture frame, a stained dress, a man’s hat, a woman’s shoe, a sealed medicine bottle, a bank card, a cheap watch, and a small yellow plastic boat."
     },
     {
       "chapter": 4,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "“Which means you want to go in.”"
     },
     {
       "chapter": 4,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "“Very much.”"
     },
     {
       "chapter": 4,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "Students used a filter to study disease and viruses."
     },
     {
       "chapter": 4,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "Another team measured carbon output from coal and oil; a mathematics club used dice to illustrate random events, probability, and variation."
     },
     {
       "chapter": 4,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "A teacher compared frequency and explained the fundamental genetic difference between traits and environment."
     },
     {
       "chapter": 4,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "At the exhibition, a producer used a disk to demonstrate how a gene was copied."
     },
     {
       "chapter": 4,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "The demonstration showed how heat changed a gear; sensors could detect a fault before it caused difficulty."
     },
     {
       "chapter": 4,
-      "paragraph": 36,
-      "sentence": "Another team listed emergency measures the city could take before a storm, and across the room students compared a range of policy options rather than pretending there was only one possible response."
+      "paragraph": 35,
+      "sentence": "Another team listed emergency measures the city could take before a storm, and students compared a range of policy options rather than pretending there was only one possible response."
     },
     {
       "chapter": 4,
-      "paragraph": 36,
+      "paragraph": 35,
       "sentence": "A girl called out, “What is the chance of picking the black one?”"
     },
     {
       "chapter": 4,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "At the literature booth, visitors read poetry and novels."
     },
     {
       "chapter": 4,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "A poet cast a line into a toy pool, then asked pupils to identify a noun and verb in a paragraph."
     },
     {
       "chapter": 4,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "The text’s theme and plot were clear; students translated a line."
     },
     {
       "chapter": 4,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "A poem with the title *The River* drew a small crowd."
     },
     {
       "chapter": 4,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "One visitor could spot a mistake in the translation; the toy pool sat on a slope."
     },
     {
       "chapter": 4,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "A labor strike was described in the next display."
     },
     {
       "chapter": 4,
-      "paragraph": 38,
+      "paragraph": 37,
       "sentence": "A mathematics club used dice to illustrate random events, ratios, percentages, probability, average values, range, and variation."
     },
     {
       "chapter": 4,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "The music booth had a piano, a guitar, and a small album collection."
     },
     {
       "chapter": 4,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "One musician played an opera melody; another sang a folk song while a child tried to keep the beat."
     },
     {
       "chapter": 4,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "A visitor asked whether classical music was better than pop."
     },
     {
       "chapter": 4,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "The teacher said that taste was personal: a tune could be beautiful without being everyone’s favorite."
     },
     {
       "chapter": 4,
-      "paragraph": 40,
-      "sentence": "An arts designer let a child bend a flexible chair."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 40,
-      "sentence": "A band played while a literary magazine invited fiction votes."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "A writer read a tale about a giant; an actor performed a classic play."
     },
     {
       "chapter": 4,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "A creative craft showed one creation becoming a studio work."
     },
     {
       "chapter": 4,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "A musician played a silver flute; the listener heard a musical melody evolve."
     },
     {
       "chapter": 4,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "A sign promised happiness, and the camera took a final shot."
     },
     {
       "chapter": 4,
-      "paragraph": 41,
+      "paragraph": 40,
       "sentence": "At a nearby game table, a volunteer dealt cards while a boy cast a fishing line into a toy pool; a small wooden wheel rolled down a sloped board."
     },
     {
       "chapter": 4,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "In addition, the science tables moved quickly from water to the body; another booth dealt with health."
     },
     {
       "chapter": 4,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "A theory offered an explanation; a specific hypothesis made a prediction; evidence could support or defeat it."
     },
     {
       "chapter": 4,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "Beside that model, a clinical specialist used a plastic body to point out the brain, muscle, nerve, skin, finger, shoulder, neck, throat, tongue, tooth, stomach, and foot."
     },
     {
       "chapter": 4,
-      "paragraph": 43,
+      "paragraph": 42,
       "sentence": "At the arts corner, a furniture designer and a local artist let a child bend the flexible back of a chair without breaking it; the classic design could stretch a little and return to shape."
     },
     {
       "chapter": 4,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "Ten minutes later the guide announced a short break."
     },
     {
       "chapter": 4,
-      "paragraph": 45,
+      "paragraph": 44,
       "sentence": "A band was playing nearby, and a lady from a literary magazine complained that the volume was too loud while asking every reader to vote for a favorite piece of fiction."
     },
     {
       "chapter": 4,
-      "paragraph": 46,
+      "paragraph": 45,
       "sentence": "Her model included an eye and an ear as well as the other organs."
     },
     {
       "chapter": 4,
-      "paragraph": 46,
-      "sentence": "Yao liked the way the two displays made the same point without saying so: a system could look simple until you tried to relate one part to another."
+      "paragraph": 45,
+      "sentence": "The two displays showed how a system’s parts related."
     },
     {
       "chapter": 4,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "At the edge of the grounds, Chen pitched a contemporary documentary."
     },
     {
       "chapter": 4,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "“Sorry, the archive is a mess,” she said."
     },
     {
       "chapter": 4,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "A charity tournament had taken over the field."
     },
     {
       "chapter": 4,
-      "paragraph": 47,
-      "sentence": "Tennis players competed; children tried to catch, throw, and shoot."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 47,
-      "sentence": "A football player took a shot on the temporary pitch."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "A champion’s golf and ski photos showed wet snow; hikers could slip on the trail."
     },
     {
       "chapter": 4,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "A football coach ran a league contest."
     },
     {
       "chapter": 4,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "A rival team reached the championship."
     },
     {
       "chapter": 4,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "Athletes competed for a prize, but a pro’s performance was not always entertainment; hopefully, no fan would fool himself."
     },
     {
       "chapter": 4,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "The hero’s finish was not the whole story."
     },
     {
       "chapter": 4,
-      "paragraph": 48,
+      "paragraph": 47,
       "sentence": "Watching people return to ordinary life made Yao unexpectedly proud."
     },
     {
       "chapter": 4,
-      "paragraph": 49,
+      "paragraph": 48,
       "sentence": "Two football teams competed in a match, tennis players used a court, and an airline sponsored a prize draw."
     },
     {
       "chapter": 4,
-      "paragraph": 50,
+      "paragraph": 49,
       "sentence": "A football player took a shot on a temporary pitch; children tried to catch a ball, shoot at a target, and throw beanbags; one game ended in a tie."
     },
     {
       "chapter": 4,
-      "paragraph": 51,
+      "paragraph": 50,
       "sentence": "Sorry, that sounded like a sales pitch.”"
     },
     {
       "chapter": 4,
       "paragraph": 51,
-      "sentence": "Behind her, a charity tournament had taken over the field."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 52,
       "sentence": "Older residents walked laps to stay fit."
     },
     {
       "chapter": 4,
-      "paragraph": 53,
+      "paragraph": 52,
       "sentence": "The museum’s history rooms were stranger."
     },
     {
       "chapter": 4,
-      "paragraph": 53,
+      "paragraph": 52,
       "sentence": "One exhibit showed a planet in the vast universe."
     },
     {
       "chapter": 4,
-      "paragraph": 53,
+      "paragraph": 52,
       "sentence": "Portraits of a king, governor, and federal official traced a radical movement that tried to transform the state through violent conflict."
     },
     {
       "chapter": 4,
-      "paragraph": 53,
+      "paragraph": 52,
       "sentence": "A prison journal, jury record, and offense report made the case real."
     },
     {
       "chapter": 4,
-      "paragraph": 53,
+      "paragraph": 52,
       "sentence": "A dark gentleman used his charm to call it intellectual; his companion said it was horrible."
     },
     {
       "chapter": 4,
-      "paragraph": 53,
+      "paragraph": 52,
       "sentence": "A historic map marked modern territory."
     },
     {
       "chapter": 4,
-      "paragraph": 53,
+      "paragraph": 52,
       "sentence": "Other panels showed crime, a nuclear threat to its target, destruction, iron tools, a jail, and historical representations of justice."
     },
     {
       "chapter": 4,
-      "paragraph": 53,
+      "paragraph": 52,
       "sentence": "Yao could enjoy the exhibit."
     },
     {
       "chapter": 4,
-      "paragraph": 54,
+      "paragraph": 53,
       "sentence": "A placard explained that new evidence could provide grounds for an appeal."
     },
     {
       "chapter": 4,
-      "paragraph": 55,
-      "sentence": "Another room reconstructed a prison cell, displayed a prisoner’s journal, and followed a fictional case from arrest to trial, where a jury considered the offense."
+      "paragraph": 54,
+      "sentence": "Another room rebuilt a prison cell, displayed a prisoner’s journal, and followed a fictional case from arrest to trial, where a jury considered the offense."
     },
     {
       "chapter": 4,
-      "paragraph": 56,
+      "paragraph": 55,
       "sentence": "A later display examined a revolution, a political murder, and the violence that followed."
     },
     {
       "chapter": 4,
-      "paragraph": 56,
+      "paragraph": 55,
       "sentence": "It showed a bomb-damaged street, a weapon recovered by police, and a court record from the trial."
     },
     {
       "chapter": 4,
-      "paragraph": 56,
+      "paragraph": 55,
       "sentence": "The guide stressed that one dramatic event could not explain an entire period; visitors had to consider the circumstances, the people involved, and the evidence before drawing a conclusion."
     },
     {
       "chapter": 4,
-      "paragraph": 57,
-      "sentence": "Family records included letters between lovers, while oral histories preserved the voices of a veteran, a wealthy household’s servant, and others who did not fit one narrative of progress."
+      "paragraph": 56,
+      "sentence": "Family records held letters between lovers, while oral histories preserved the voices of a veteran, a wealthy household’s servant, and others who did not fit one narrative of progress."
     },
     {
       "chapter": 4,
-      "paragraph": 57,
+      "paragraph": 56,
       "sentence": "History, Yao thought, neither moved in a straight line nor wore one suit."
     },
     {
       "chapter": 4,
-      "paragraph": 58,
+      "paragraph": 57,
       "sentence": "She worried that the museum had turned tragedy into entertainment, which was itself a difficult issue."
     },
     {
       "chapter": 4,
-      "paragraph": 59,
+      "paragraph": 58,
       "sentence": "Outside, an airline displayed a small aircraft and let children question a pilot as a plane landed beyond the harbor."
     },
     {
       "chapter": 4,
-      "paragraph": 60,
+      "paragraph": 59,
       "sentence": "The exercise made one difficulty obvious: public entertainment could exclude people unless design continued to extend beyond the average user; some disabled visitors could face greater strain than others."
     },
     {
       "chapter": 4,
-      "paragraph": 61,
-      "sentence": "Outside, an airline let children question its pilot."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 61,
+      "paragraph": 60,
       "sentence": "Chen argued that diversity and social stability had financial value; development could double rent."
     },
     {
       "chapter": 4,
-      "paragraph": 61,
+      "paragraph": 60,
       "sentence": "A social worker discussed domestic abuse, divorce, and support for gay teenagers."
     },
     {
       "chapter": 4,
-      "paragraph": 61,
+      "paragraph": 60,
       "sentence": "A financial package could not erase harm; virtually every individual deserved respect."
     },
     {
       "chapter": 4,
-      "paragraph": 62,
+      "paragraph": 61,
       "sentence": "She tossed a coin and explained why a small number of trials could mislead; over a large number of trials, the result usually became more stable."
     },
     {
       "chapter": 4,
-      "paragraph": 63,
+      "paragraph": 62,
       "sentence": "A spring stretched beside a model motor that could convert electricity into motion."
     },
     {
       "chapter": 4,
-      "paragraph": 64,
+      "paragraph": 63,
       "sentence": "The museum’s polished story of progress, Chen said, was not the whole city."
     },
     {
       "chapter": 4,
-      "paragraph": 65,
-      "sentence": "At the design booth, a spring and motor turned electricity into motion."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 65,
+      "paragraph": 64,
       "sentence": "Spare parts protected multiple components."
     },
     {
       "chapter": 4,
-      "paragraph": 65,
+      "paragraph": 64,
       "sentence": "Suddenly, a loud siren tested concentration; a digital screen gave a visual response."
     },
     {
       "chapter": 4,
-      "paragraph": 65,
+      "paragraph": 64,
       "sentence": "A developer linked innovation to function."
     },
     {
       "chapter": 4,
-      "paragraph": 65,
+      "paragraph": 64,
       "sentence": "A teacher drew a curve, angle, and equation: one factor changed the result."
     },
     {
       "chapter": 4,
-      "paragraph": 65,
+      "paragraph": 64,
       "sentence": "Visitors tapped a functional engine’s surface; a tight cable could stretch, a metal strip twist, and tissue strain."
     },
     {
       "chapter": 4,
-      "paragraph": 65,
+      "paragraph": 64,
       "sentence": "A suitable structural frame reduced risk."
     },
     {
       "chapter": 4,
-      "paragraph": 65,
+      "paragraph": 64,
       "sentence": "A sign highlighted a safety instruction; readers scanned it and followed the steps on screen."
     },
     {
       "chapter": 4,
-      "paragraph": 66,
-      "sentence": "She tossed a coin and warned that a few trials could mislead; more trials usually made the estimate stable."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 66,
+      "paragraph": 65,
       "sentence": "A child asked whether mathematics had beauty, then tried to catch a falling ruler."
     },
     {
       "chapter": 4,
-      "paragraph": 66,
+      "paragraph": 65,
       "sentence": "The teacher smiled."
     },
     {
       "chapter": 4,
-      "paragraph": 67,
-      "sentence": "When City Learning Day ended, the principal thanked the volunteers, the teachers collected their pupils, and cleaners began to sweep the floor."
+      "paragraph": 66,
+      "sentence": "When City Learning Day ended, the principal thanked volunteers; teachers gathered pupils and cleaners swept the floor."
+    },
+    {
+      "chapter": 4,
+      "paragraph": 66,
+      "sentence": "Mei returned with permission to photograph the storage box, but no new document appeared."
+    },
+    {
+      "chapter": 4,
+      "paragraph": 66,
+      "sentence": "The useful discovery came later at Tang’s lab."
+    },
+    {
+      "chapter": 4,
+      "paragraph": 66,
+      "sentence": "Outside, rain stopped and the moon showed between clouds."
     },
     {
       "chapter": 4,
       "paragraph": 67,
-      "sentence": "Mei returned with permission to photograph the storage box, but no new document had appeared inside it."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 67,
-      "sentence": "The useful discovery came later, back at Tang’s lab."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 67,
-      "sentence": "Outside, the rain had stopped."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 67,
-      "sentence": "The moon was visible between clouds."
-    },
-    {
-      "chapter": 4,
-      "paragraph": 68,
       "sentence": "Back at Tang’s lab that evening, most files were damaged."
     },
     {
       "chapter": 4,
-      "paragraph": 68,
+      "paragraph": 67,
       "sentence": "A technician managed to recover only fragments: draft reports, personal notes, photographs, and one unsent email addressed to Han Li."
     },
     {
       "chapter": 4,
-      "paragraph": 68,
+      "paragraph": 67,
       "sentence": "Its date was fourteen days before the flood."
     },
     {
       "chapter": 4,
-      "paragraph": 69,
+      "paragraph": 68,
       "sentence": "Yao called her mother and read the date aloud."
     },
     {
       "chapter": 4,
-      "paragraph": 69,
+      "paragraph": 68,
       "sentence": "There was a long silence."
     },
     {
       "chapter": 4,
-      "paragraph": 70,
+      "paragraph": 69,
       "sentence": "“We fought that night,” her mother said."
     },
     {
       "chapter": 4,
-      "paragraph": 70,
+      "paragraph": 69,
       "sentence": "“You were still recovering."
     },
     {
       "chapter": 4,
-      "paragraph": 70,
+      "paragraph": 69,
       "sentence": "I was afraid that if he sent it, the loan from Han would make every warning look corrupt.”"
     },
     {
       "chapter": 4,
-      "paragraph": 71,
+      "paragraph": 70,
       "sentence": "“So he waited because of us?”"
     },
     {
       "chapter": 4,
-      "paragraph": 72,
+      "paragraph": 71,
       "sentence": "“He waited because he was afraid too."
     },
     {
       "chapter": 4,
-      "paragraph": 72,
+      "paragraph": 71,
       "sentence": "I only gave the fear a voice.”"
     },
     {
       "chapter": 4,
-      "paragraph": 73,
+      "paragraph": 72,
       "sentence": "Yao looked at the unsent message on the screen."
     },
     {
       "chapter": 4,
-      "paragraph": 73,
+      "paragraph": 72,
       "sentence": "“Every version makes someone guilty.”"
     },
     {
       "chapter": 4,
-      "paragraph": 74,
+      "paragraph": 73,
       "sentence": "“Maybe guilt isn’t the useful question,” her mother said."
     },
     {
       "chapter": 4,
-      "paragraph": 74,
+      "paragraph": 73,
       "sentence": "“Maybe responsibility is.”"
     },
     {
