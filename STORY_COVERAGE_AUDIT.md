@@ -30,7 +30,6 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 - Target phrases in source inventory: **150**
 - Found in story: **150 / 150**
 - Missing: **0**
-- Duplicate target items: **0**
 
 ### Missing phrases
 
@@ -38,7 +37,7 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 
 ## 4. Collocation contexts
 
-- Context records across collocations-1.js through collocations-10.js: **284**
+- Context records across ten collocation files: **284**
 - Unique phrase patterns: **276**
 - Exact normalized contexts found in story body: **284 / 284**
 - Missing contexts: **0**
@@ -52,14 +51,14 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 - Base words: actual chapter-body tokens, including bundled inflected forms.
 - Polysemy: each curated common-meaning context must appear in the chapter body after quote and whitespace normalization.
 - PHaVE: common verb inflections and separable-object constructions are checked within the same sentence; hyphenated compounds do not count as phrasal verbs.
-- Collocations: each of the 284 context records must match the actual story body after quote and whitespace normalization.
+- Collocations: every context record must appear in the chapter body after quote and whitespace normalization.
 
 ## Reproducibility details
 
-- Local dictionary entries: **2803**
-- Curated dictionary supplements: **6**
-- Inflected-form mappings: **7930**
-- Chapter files audited: **9**
-- Polysemy files audited: **4**
-- PHaVE target list duplicates: **0**
-- Collocation files audited: **10**
+- Local dictionary entries: 2803
+- Curated dictionary supplements: 6
+- Inflected-form mappings: 7930
+- Chapter files audited: 9
+- Polysemy files audited: 4
+- PHaVE target list duplicates: 0
+- Collocation files audited: 10
