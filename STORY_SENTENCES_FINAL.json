@@ -2,8 +2,8 @@
   "generated_for": "repair/coverage-and-readability-2026-11-02",
   "source_commit": "6b2fca41f399b3df54880cd301c71069af849543",
   "chapter_count": 9,
-  "sentence_count": 1261,
-  "word_count": 16079,
+  "sentence_count": 1273,
+  "word_count": 16349,
   "chapter_word_counts": [
     {
       "chapter": 1,
@@ -27,7 +27,7 @@
     },
     {
       "chapter": 6,
-      "word_count": 1337
+      "word_count": 1607
     },
     {
       "chapter": 7,
@@ -3796,421 +3796,481 @@
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "Yao brought up the issue at the hearing."
+      "sentence": "Before the witnesses spoke, the council held a public hearing on the emergency plan."
     },
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "A prosecutor said a criminal charge belonged in court; a fine or penalty needed legal authority."
+      "sentence": "According to the latest review, the warning system was supposed to protect the western district: it was designed to detect a failing pump early and intended to prevent one fault from shutting down the whole network."
     },
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "The city brought in an inspector, laid down new rules, and moved up the review."
+      "sentence": "Residents in favor of the changes took part in the discussion and asked officials to take action; parents, in particular, wanted clear instructions."
     },
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "Residents stood up to speak; Yao handed over the records."
+      "sentence": "The committee focused on the evidence, responded to each question, and divided the budget into phases so that no repair would go wrong."
     },
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "The new report brought down the old risk estimate, but the board did not give in until officials went over each claim."
+      "sentence": "People had to pay attention to river alerts and distinguish a structural crack from a harmless surface mark."
     },
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "The lawyer asked whether the act was illegal and who could impose the penalty."
+      "sentence": "The rescue team had no choice but to evacuate the low streets, and the city provided each shelter with water, blankets, and medical supplies."
     },
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "The secretary recorded each answer."
+      "sentence": "The faster warning could save lives, reduce costs in the long run, and create jobs, while ignoring it could increase risk under certain conditions."
     },
     {
       "chapter": 6,
       "paragraph": 8,
-      "sentence": "The hearing’s emphasis was evidence, not status; the council gave priority to sensitive sites and considered whether a restriction could significantly reduce risk."
+      "sentence": "The council set a limit on spending; residents could either attend in person or send a written statement, whether or not they agreed."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 8,
+      "sentence": "The map enabled volunteers to choose safer routes, and older families could benefit from improved housing and recover from the flood."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 8,
+      "sentence": "Yao used to believe one model could answer every question, but this extra test was worth doing."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 8,
+      "sentence": "The city could not afford to wait; the committee avoided making promises, considered adding a second test, kept checking the readings, and stopped arguing when an engineer came up with a safer plan."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 8,
+      "sentence": "Each team had to make a choice, make progress, and keep every family safe."
     },
     {
       "chapter": 6,
       "paragraph": 9,
-      "sentence": "A prosecutor explained that, at this stage, a criminal charge would have to be brought in a court, not invented at a hearing, and that a court could impose a fine or another penalty only under law."
+      "sentence": "Yao brought up the issue at the hearing."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 9,
+      "sentence": "A prosecutor said a criminal charge belonged in court; a fine or penalty needed legal authority."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 9,
+      "sentence": "The city brought in an inspector, laid down new rules, and moved up the review."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 9,
+      "sentence": "Residents stood up to speak; Yao handed over the records."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 9,
+      "sentence": "The new report brought down the old risk estimate, but the board did not give in until officials went over each claim."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 9,
+      "sentence": "The lawyer asked whether the act was illegal and who could impose the penalty."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 9,
+      "sentence": "The secretary recorded each answer."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 9,
+      "sentence": "The hearing’s emphasis was evidence, not status; the council gave priority to sensitive sites and considered whether a restriction could significantly reduce risk."
     },
     {
       "chapter": 6,
       "paragraph": 10,
-      "sentence": "The governing party supported the bill, while an opposition party wanted stronger protection for tenants."
+      "sentence": "A prosecutor explained that, at this stage, a criminal charge would have to be brought in a court, not invented at a hearing, and that a court could impose a fine or another penalty only under law."
     },
     {
       "chapter": 6,
       "paragraph": 11,
-      "sentence": "A council member proposed a new safety bill; if passed, it would require an independent review whenever fresh evidence raised risk above a stated level."
+      "sentence": "The governing party supported the bill, while an opposition party wanted stronger protection for tenants."
     },
     {
       "chapter": 6,
       "paragraph": 12,
-      "sentence": "One asked whether Han had made the “right” decision fifteen years earlier."
+      "sentence": "A council member proposed a new safety bill; if passed, it would require an independent review whenever fresh evidence raised risk above a stated level."
     },
     {
       "chapter": 6,
       "paragraph": 13,
+      "sentence": "One asked whether Han had made the “right” decision fifteen years earlier."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 14,
       "sentence": "Reporters from the press filled the rear seats."
     },
     {
       "chapter": 6,
-      "paragraph": 14,
+      "paragraph": 15,
       "sentence": "Luo testified first."
     },
     {
       "chapter": 6,
-      "paragraph": 14,
+      "paragraph": 15,
       "sentence": "The chairman said, “Go ahead.”"
     },
     {
       "chapter": 6,
-      "paragraph": 14,
+      "paragraph": 15,
       "sentence": "A lawyer for Haiyue asked whether the test proved that the connector would fail in actual use."
     },
     {
       "chapter": 6,
-      "paragraph": 14,
+      "paragraph": 15,
       "sentence": "“Did it prove that failure was likely?”"
     },
     {
       "chapter": 6,
-      "paragraph": 15,
+      "paragraph": 16,
       "sentence": "“No."
     },
     {
       "chapter": 6,
-      "paragraph": 15,
+      "paragraph": 16,
       "sentence": "Part of the warning was theoretical, based on a model rather than an observed collapse.”"
     },
     {
       "chapter": 6,
-      "paragraph": 16,
+      "paragraph": 17,
       "sentence": "“But the test itself was experimental?”"
     },
     {
       "chapter": 6,
-      "paragraph": 17,
+      "paragraph": 18,
       "sentence": "“Yes.”"
     },
     {
       "chapter": 6,
-      "paragraph": 18,
+      "paragraph": 19,
       "sentence": "“Was the risk calculation exact?”"
     },
     {
       "chapter": 6,
-      "paragraph": 19,
+      "paragraph": 20,
       "sentence": "“No,” Luo said."
     },
     {
       "chapter": 6,
-      "paragraph": 19,
+      "paragraph": 20,
       "sentence": "“Uncertainty does not mean absence of information."
     },
     {
       "chapter": 6,
-      "paragraph": 19,
+      "paragraph": 20,
       "sentence": "The test provided an indication that risk had increased."
     },
     {
       "chapter": 6,
-      "paragraph": 19,
+      "paragraph": 20,
       "sentence": "The proper response was to assess that new information.”"
     },
     {
       "chapter": 6,
-      "paragraph": 20,
+      "paragraph": 21,
       "sentence": "Xu testified next."
     },
     {
       "chapter": 6,
-      "paragraph": 20,
+      "paragraph": 21,
       "sentence": "She said she had to take responsibility for the words she had changed."
     },
     {
       "chapter": 6,
-      "paragraph": 21,
+      "paragraph": 22,
       "sentence": "“I changed two phrases in the summary,” she said."
     },
     {
       "chapter": 6,
-      "paragraph": 21,
+      "paragraph": 22,
       "sentence": "“I was instructed to do it."
     },
     {
       "chapter": 6,
-      "paragraph": 21,
+      "paragraph": 22,
       "sentence": "I believed the full report remained available to senior staff, so the adjustment seemed minor."
     },
     {
       "chapter": 6,
-      "paragraph": 21,
+      "paragraph": 22,
       "sentence": "I was wrong.”"
     },
     {
       "chapter": 6,
-      "paragraph": 22,
+      "paragraph": 23,
       "sentence": "A council lawyer asked, “Were you threatened?”"
     },
     {
       "chapter": 6,
-      "paragraph": 23,
+      "paragraph": 24,
       "sentence": "“No.”"
     },
     {
       "chapter": 6,
-      "paragraph": 23,
+      "paragraph": 24,
       "sentence": "Xu took a breath."
     },
     {
       "chapter": 6,
-      "paragraph": 23,
+      "paragraph": 24,
       "sentence": "“I lacked confidence."
     },
     {
       "chapter": 6,
-      "paragraph": 23,
+      "paragraph": 24,
       "sentence": "Those reasons explain my behavior; they do not remove my responsibility.”"
     },
     {
       "chapter": 6,
-      "paragraph": 24,
+      "paragraph": 25,
       "sentence": "Han’s testimony lasted longer."
     },
     {
       "chapter": 6,
-      "paragraph": 24,
+      "paragraph": 25,
       "sentence": "He described shipping delays, weather, contract terms, and the danger of leaving the wall incomplete."
     },
     {
       "chapter": 6,
-      "paragraph": 24,
+      "paragraph": 25,
       "sentence": "He acknowledged receiving the supplemental report and choosing not to replace the connectors immediately."
     },
     {
       "chapter": 6,
-      "paragraph": 24,
+      "paragraph": 25,
       "sentence": "A second witness showed up with receipts from a shop that never reopened."
     },
     {
       "chapter": 6,
-      "paragraph": 25,
+      "paragraph": 26,
       "sentence": "“I ran a business."
     },
     {
       "chapter": 6,
-      "paragraph": 25,
+      "paragraph": 26,
       "sentence": "If I claim they had no influence, I lie.”"
     },
     {
       "chapter": 6,
-      "paragraph": 26,
+      "paragraph": 27,
       "sentence": "He described shipping delay, weather uncertainty, construction constraints, contract terms, cost, and the danger of leaving the wall incomplete."
     },
     {
       "chapter": 6,
-      "paragraph": 27,
+      "paragraph": 28,
       "sentence": "Han did not appear ashamed of having once cared about his company, and that honesty made him difficult to hate."
     },
     {
       "chapter": 6,
-      "paragraph": 28,
+      "paragraph": 29,
       "sentence": "A labor representative spoke after him."
     },
     {
       "chapter": 6,
-      "paragraph": 28,
+      "paragraph": 29,
       "sentence": "“If Haiyue had collapsed, thousands of employees and dependent businesses might have suffered."
     },
     {
       "chapter": 6,
-      "paragraph": 28,
+      "paragraph": 29,
       "sentence": "Workers should not be asked to take on the risk alone."
     },
     {
       "chapter": 6,
-      "paragraph": 28,
+      "paragraph": 29,
       "sentence": "‘People may lose work’ cannot justify every unsafe choice.”"
     },
     {
       "chapter": 6,
-      "paragraph": 29,
+      "paragraph": 30,
       "sentence": "Historians, scientists, lawyers, and public officials followed."
     },
     {
       "chapter": 6,
-      "paragraph": 29,
+      "paragraph": 30,
       "sentence": "A psychologist discussed organizational behavior: people tend to conform to authority, divide responsibility, and underestimate rare events."
     },
     {
       "chapter": 6,
-      "paragraph": 29,
+      "paragraph": 30,
       "sentence": "An economist described cost-benefit analysis and its limitation when different groups bear different costs."
     },
     {
       "chapter": 6,
-      "paragraph": 29,
+      "paragraph": 30,
       "sentence": "An economist described inflation, poverty, and the unequal distribution of wealth."
     },
     {
       "chapter": 6,
-      "paragraph": 29,
+      "paragraph": 30,
       "sentence": "A politician asked whether the same policy would work in every region; the panel said the extent of the effect had to be measured."
     },
     {
       "chapter": 6,
-      "paragraph": 30,
+      "paragraph": 31,
       "sentence": "The discussion became complex, but Yao noticed how complexity could become a hiding place."
     },
     {
       "chapter": 6,
-      "paragraph": 30,
+      "paragraph": 31,
       "sentence": "Yao held back tears, put down her pen, and set aside six pages."
     },
     {
       "chapter": 6,
-      "paragraph": 31,
+      "paragraph": 32,
       "sentence": "Yao looked at the audience."
     },
     {
       "chapter": 6,
-      "paragraph": 31,
+      "paragraph": 32,
       "sentence": "Zhao was there."
     },
     {
       "chapter": 6,
-      "paragraph": 31,
+      "paragraph": 32,
       "sentence": "Her mother sat beside him."
     },
     {
       "chapter": 6,
-      "paragraph": 31,
+      "paragraph": 32,
       "sentence": "Xu looked down at the papers in front of her."
     },
     {
       "chapter": 6,
-      "paragraph": 31,
+      "paragraph": 32,
       "sentence": "Han was three rows ahead."
     },
     {
       "chapter": 6,
-      "paragraph": 31,
+      "paragraph": 32,
       "sentence": "“The hearing should honor the people who came here,” she said."
     },
     {
       "chapter": 6,
-      "paragraph": 32,
+      "paragraph": 33,
       "sentence": "“No one planned for the wall to fail."
     },
     {
       "chapter": 6,
-      "paragraph": 32,
+      "paragraph": 33,
       "sentence": "Each decision looked small enough to defend."
     },
     {
       "chapter": 6,
-      "paragraph": 32,
+      "paragraph": 33,
       "sentence": "The river added them together.”"
     },
     {
       "chapter": 6,
-      "paragraph": 33,
+      "paragraph": 34,
       "sentence": "At the brief press conference afterward, a reporter asked, “Should Han Li resign?”"
     },
     {
       "chapter": 6,
-      "paragraph": 33,
+      "paragraph": 34,
       "sentence": "Yao laughed despite herself."
     },
     {
       "chapter": 6,
-      "paragraph": 33,
+      "paragraph": 34,
       "sentence": "“Ask his board.”"
     },
     {
       "chapter": 6,
-      "paragraph": 33,
+      "paragraph": 34,
       "sentence": "She declined three television interviews that afternoon; she had no interest in turning the hearing into a family drama."
     },
     {
       "chapter": 6,
-      "paragraph": 33,
+      "paragraph": 34,
       "sentence": "The board line was the only quote that made her laugh again when it appeared online."
     },
     {
       "chapter": 6,
-      "paragraph": 34,
+      "paragraph": 35,
       "sentence": "The amendment let residents appeal and receive a prompt reply."
     },
     {
       "chapter": 6,
-      "paragraph": 34,
+      "paragraph": 35,
       "sentence": "The company could fund repairs or phase them in."
     },
     {
       "chapter": 6,
-      "paragraph": 34,
+      "paragraph": 35,
       "sentence": "It was a deal, not a victory: the compromise was a settlement, not a perfect resolution."
     },
     {
       "chapter": 6,
-      "paragraph": 34,
+      "paragraph": 35,
       "sentence": "Either side could reject it, but both had to refer to the same evidence and resolve the claim."
     },
     {
       "chapter": 6,
-      "paragraph": 35,
+      "paragraph": 36,
       "sentence": "The chairman asked Yao to sum up the central point: decisions must change when new evidence appears."
     },
     {
       "chapter": 6,
-      "paragraph": 35,
+      "paragraph": 36,
       "sentence": "The city would also assess damaged property by published criteria and identify the agency responsible for each requirement."
     },
     {
       "chapter": 6,
-      "paragraph": 35,
+      "paragraph": 36,
       "sentence": "At most, each witness would have ten minutes to speak."
     },
     {
       "chapter": 6,
-      "paragraph": 35,
+      "paragraph": 36,
       "sentence": "The new rule would require each agency to publish its evidence."
     },
     {
       "chapter": 6,
-      "paragraph": 35,
+      "paragraph": 36,
       "sentence": "She said the reduction in risk was important, but not permanent."
     },
     {
       "chapter": 6,
-      "paragraph": 35,
+      "paragraph": 36,
       "sentence": "The council should regularly review the plan, particularly since new evidence could appear upon implementation."
     },
     {
       "chapter": 6,
-      "paragraph": 36,
+      "paragraph": 37,
       "sentence": "The architecture of the reform was modest but concrete: it also required an independent assessor to value damaged property by published criteria."
     },
     {
       "chapter": 6,
-      "paragraph": 37,
+      "paragraph": 38,
       "sentence": "Each project would publish its criteria, estimate, expected benefit, potential loss, and the uncertainty around those figures, so decisions could be judged on the basis of stated evidence rather than status."
     },
     {
       "chapter": 6,
-      "paragraph": 38,
+      "paragraph": 39,
       "sentence": "The city would fund only projects that could explain both their public benefit and their financial risk."
     },
     {
       "chapter": 6,
-      "paragraph": 39,
+      "paragraph": 40,
       "sentence": "Two positions could oppose each other without either side being entirely foolish."
     },
     {
