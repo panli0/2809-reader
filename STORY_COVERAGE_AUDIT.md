@@ -48,12 +48,16 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 
 - None
 
+### Contexts that do not demonstrate their listed phrase
+
+- None
+
 ## Matching rules
 
 - Base words: actual chapter-body tokens, including bundled inflected forms.
 - Polysemy: each curated common-meaning context must appear in the chapter body after quote and whitespace normalization.
 - PHaVE: common verb inflections and separable-object constructions are checked within the same sentence; hyphenated compounds do not count as phrasal verbs.
-- Collocations: every context record must appear in the chapter body after quote and whitespace normalization, and its own text must demonstrate the listed phrase.
+- Collocations: every context record must appear in the chapter body after quote and whitespace normalization, and its own text must demonstrate the listed phrase (including common inflections, separable particles, and the documented A/B or gerund templates).
 
 ## Reproducibility details
 
