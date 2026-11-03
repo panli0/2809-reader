@@ -18,12 +18,12 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 
 - Polysemous headwords: **122**
 - Required sense-context records: **248**
-- Exact normalized contexts found in story body: **247 / 248**
-- Missing sense contexts: **1**
+- Exact normalized contexts found in story body: **248 / 248**
+- Missing sense contexts: **0**
 
 ### Missing sense contexts
 
-- work — 运作
+- None
 
 ## 3. PHaVE 150 phrasal verbs
 
