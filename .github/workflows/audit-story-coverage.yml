@@ -6,9 +6,11 @@ on:
       - 'scripts/audit_story_coverage.py'
       - 'chapter-*.js'
       - 'poly-*.js'
+      - 'collocations-*.js'
       - 'dictionary-ngsl.js'
       - 'dictionary-supplement.js'
       - 'PHAVE_COVERAGE.md'
+      - 'STORY_SENTENCES_FINAL.json'
       - '.github/workflows/audit-story-coverage.yml'
   workflow_dispatch:
 
