@@ -2,20 +2,20 @@
   "generated_for": "repair/coverage-and-readability-2026-11-02",
   "source_commit": "6b2fca41f399b3df54880cd301c71069af849543",
   "chapter_count": 9,
-  "sentence_count": 1275,
-  "word_count": 16374,
+  "sentence_count": 1268,
+  "word_count": 16279,
   "chapter_word_counts": [
     {
       "chapter": 1,
-      "word_count": 1771
+      "word_count": 1752
     },
     {
       "chapter": 2,
-      "word_count": 2034
+      "word_count": 1995
     },
     {
       "chapter": 3,
-      "word_count": 1903
+      "word_count": 1878
     },
     {
       "chapter": 4,
@@ -39,7 +39,7 @@
     },
     {
       "chapter": 9,
-      "word_count": 1712
+      "word_count": 1700
     }
   ],
   "sentences": [
@@ -481,226 +481,216 @@
     {
       "chapter": 1,
       "paragraph": 24,
-      "sentence": "Average income can rise while a particular family still gets poorer.”"
-    },
-    {
-      "chapter": 1,
-      "paragraph": 24,
-      "sentence": "At noon the train crossed a wide channel."
-    },
-    {
-      "chapter": 1,
-      "paragraph": 25,
       "sentence": "At Riverport Central, three parties campaigned beneath election posters."
     },
     {
       "chapter": 1,
-      "paragraph": 25,
+      "paragraph": 24,
       "sentence": "Volunteers handed out leaflets beside a national bank; the branch head argued with a delivery driver."
     },
     {
       "chapter": 1,
-      "paragraph": 25,
+      "paragraph": 24,
       "sentence": "A popular post asked the city to address rising rent."
     },
     {
       "chapter": 1,
-      "paragraph": 25,
+      "paragraph": 24,
       "sentence": "Yao did not agree with every answer, but preferred open disagreement to false agreement."
     },
     {
       "chapter": 1,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "One candidate was an advocate for tenants; another had a business ally who wanted lower taxes."
     },
     {
       "chapter": 1,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "Their campaign posters used the same brand of optimism, but the arguments were sharply different."
     },
     {
       "chapter": 1,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "A boundary dispute over a public lot had arisen, and residents asked the council to examine it closely."
     },
     {
       "chapter": 1,
-      "paragraph": 26,
+      "paragraph": 25,
       "sentence": "Yao thought the disagreement was useful: although the candidates wanted to win, they could not altogether avoid the facts."
     },
     {
       "chapter": 1,
-      "paragraph": 27,
+      "paragraph": 26,
       "sentence": "Across the road, a digital civic platform invited residents to post questions about housing, transport, and jobs."
     },
     {
       "chapter": 1,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "One popular post asked the city to address rising rent rather than simply celebrate new construction."
     },
     {
       "chapter": 1,
-      "paragraph": 29,
+      "paragraph": 28,
       "sentence": "At Riverport Central, a line had formed beneath a row of election posters."
     },
     {
       "chapter": 1,
-      "paragraph": 30,
+      "paragraph": 29,
       "sentence": "The branch head was arguing with a delivery driver who had parked too close to the river bank."
     },
     {
       "chapter": 1,
-      "paragraph": 31,
+      "paragraph": 30,
       "sentence": "Three political parties were campaigning for the mayoralty, and volunteers were handing out leaflets beside the local branch of a national bank."
     },
     {
       "chapter": 1,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "She thought the point of the platform was useful: public conversation could make disagreement visible before it became a crisis."
     },
     {
       "chapter": 1,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "Anyway, she had not come to Riverport to judge its website."
     },
     {
       "chapter": 1,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "She had come to find out what had happened to her father."
     },
     {
       "chapter": 1,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "Besides the housing debate, users could report a broken light or a dangerous crossing."
     },
     {
       "chapter": 1,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "The site was not perfect, but it made the boundary between public information and private rumor easier to see."
     },
     {
       "chapter": 1,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "She checked into a cheap hotel near the station."
     },
     {
       "chapter": 1,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "She had her mother’s mouth and, people always said, her father’s eyes."
     },
     {
       "chapter": 1,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "At three thirty she walked toward the river."
     },
     {
       "chapter": 1,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "A charity had set up tables beside the stage to raise money for children with cancer."
     },
     {
       "chapter": 1,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "Across the square, an art gallery advertised an exhibition on “Riverport: Industry, Migration, Memory.”"
     },
     {
       "chapter": 1,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "Yao noticed the variety of faces because Riverport’s public image, like every city’s, was being carefully composed."
     },
     {
       "chapter": 1,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "The charity hoped to raise funds to address a problem the city had not yet solved."
     },
     {
       "chapter": 1,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "Images like these played a role in how a city presented itself to visitors, residents, and investors."
     },
     {
       "chapter": 1,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "A photo from the exhibition later became a feature in a local publication."
     },
     {
       "chapter": 1,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "Its author described the show in a short chapter about the city, while a publisher asked whether the story could become part of a series."
     },
     {
       "chapter": 1,
-      "paragraph": 36,
+      "paragraph": 35,
       "sentence": "At 4:05 a woman in a gray coat approached."
     },
     {
       "chapter": 1,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "Xu led her to a café two streets away and chose a corner table."
     },
     {
       "chapter": 1,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "She ordered nothing but water."
     },
     {
       "chapter": 1,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "From a large bag she removed an old folder containing photographs, maps, meeting notes, and a laboratory report."
     },
     {
       "chapter": 1,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "One picture showed Lin Shan in a yellow safety coat beside an unfinished concrete wall."
     },
     {
       "chapter": 1,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "Another showed five people: Lin, Xu, a government officer, a younger Han Li—now the famous chairman of Haiyue Construction—and a man Yao did not recognize."
     },
     {
       "chapter": 1,
-      "paragraph": 38,
+      "paragraph": 37,
       "sentence": "Xu pointed to the report."
     },
     {
       "chapter": 1,
-      "paragraph": 38,
+      "paragraph": 37,
       "sentence": "“The original project used one type of imported metal connector."
     },
     {
       "chapter": 1,
-      "paragraph": 38,
+      "paragraph": 37,
       "sentence": "When delivery was delayed, Haiyue proposed a domestic substitute."
     },
     {
       "chapter": 1,
-      "paragraph": 38,
+      "paragraph": 37,
       "sentence": "It passed the basic test."
     },
     {
       "chapter": 1,
-      "paragraph": 38,
+      "paragraph": 37,
       "sentence": "Later, a more demanding experiment found a problem.”"
     },
     {
       "chapter": 1,
-      "paragraph": 38,
+      "paragraph": 37,
       "sentence": "Yao took down the dates and document numbers."
     },
     {
       "chapter": 1,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "The story Yao had begun to construct—the brave engineer, corrupt company, hidden truth—was not properly formed."
     },
     {
       "chapter": 1,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "However, she kept looking."
     },
     {
       "chapter": 1,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "Back at the hotel, the photographs brought back memories; she called her mother, then hung up before they argued over fragments."
     },
     {
@@ -977,16 +967,6 @@
       "chapter": 2,
       "paragraph": 20,
       "sentence": "Those pressures could bring about a bad decision without anyone intending harm."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 21,
-      "sentence": "Yao spent the afternoon at the public archive, a former government building with high ceilings, stone stairs, dusty shelves, and a guard who checked her ID."
-    },
-    {
-      "chapter": 2,
-      "paragraph": 21,
-      "sentence": "She registered, filled out an application, and started out with flood-control files."
     },
     {
       "chapter": 2,
@@ -1941,191 +1921,181 @@
     {
       "chapter": 3,
       "paragraph": 38,
-      "sentence": "Tell me what your twenty-four-year-old self would have done.”"
-    },
-    {
-      "chapter": 3,
-      "paragraph": 38,
-      "sentence": "Luo said, “That is how institutions work when nobody feels like a criminal."
-    },
-    {
-      "chapter": 3,
-      "paragraph": 39,
       "sentence": "Tang also found a problem in Lin’s later calculations."
     },
     {
       "chapter": 3,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "After the flood, Lin had used the most dangerous end of several uncertainty ranges, producing a higher estimate of failure."
     },
     {
       "chapter": 3,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "“So he changed the numbers?”"
     },
     {
       "chapter": 3,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "Yao asked."
     },
     {
       "chapter": 3,
-      "paragraph": 41,
+      "paragraph": 40,
       "sentence": "“Not necessarily in a dishonest sense,” Tang replied."
     },
     {
       "chapter": 3,
-      "paragraph": 41,
+      "paragraph": 40,
       "sentence": "“A conservative safety model can be reasonable."
     },
     {
       "chapter": 3,
-      "paragraph": 41,
+      "paragraph": 40,
       "sentence": "But if he later presented this calculation as the only model everyone had accepted before the flood, that would be misleading.”"
     },
     {
       "chapter": 3,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "Chen Min, the journalist who had interviewed Lin after the disaster, sent them an old recording."
     },
     {
       "chapter": 3,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "Her younger voice asked, “Did you modify the parameters after the disaster?”"
     },
     {
       "chapter": 3,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "After a long pause, Lin answered, “I recalculated.”"
     },
     {
       "chapter": 3,
-      "paragraph": 43,
+      "paragraph": 42,
       "sentence": "Yao tore the line Safety is not an average from the front of her notebook and put it in her pocket."
     },
     {
       "chapter": 3,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "While Tang continued checking the technical record, Yao attended a public planning session in the same civic center."
     },
     {
       "chapter": 3,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "The atmosphere in the room changed when residents began to speak."
     },
     {
       "chapter": 3,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "A shopkeeper said a new commercial center might boost business but also increase rent."
     },
     {
       "chapter": 3,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "A young man wanted the council to award empty land to a community garden."
     },
     {
       "chapter": 3,
-      "paragraph": 45,
+      "paragraph": 44,
       "sentence": "Another resident was aware that such a gift could create a new privilege and asked for clear rules."
     },
     {
       "chapter": 3,
-      "paragraph": 45,
+      "paragraph": 44,
       "sentence": "“A belief can be genuine and still be wrong,” she said."
     },
     {
       "chapter": 3,
-      "paragraph": 45,
+      "paragraph": 44,
       "sentence": "“Awareness is not proof.”"
     },
     {
       "chapter": 3,
-      "paragraph": 45,
+      "paragraph": 44,
       "sentence": "The task was to find the bottom line each side could accept."
     },
     {
       "chapter": 3,
-      "paragraph": 45,
+      "paragraph": 44,
       "sentence": "Yao watched people chat over coffee afterward and thought that formal democracy was built from thousands of such ordinary moments, not only from elections."
     },
     {
       "chapter": 3,
-      "paragraph": 46,
+      "paragraph": 45,
       "sentence": "A buyer could compare a product label, check a price in dollars and cents, read a warranty, calculate a discount, and decide whether to purchase with cash, credit, or a loan."
     },
     {
       "chapter": 3,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "A small civic-services fair was running in the hall outside the meeting."
     },
     {
       "chapter": 3,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "A candidate could apply online, attach a résumé, cite a qualification, and ask a former employer for a reference."
     },
     {
       "chapter": 3,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "A good interview, the manager said, should assess ability rather than appearance, gender, race, religion, disability, or family background; every question should be related to the job."
     },
     {
       "chapter": 3,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "“It is also a relationship."
     },
     {
       "chapter": 3,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "A boss has power, but not absolute power.”"
     },
     {
       "chapter": 3,
-      "paragraph": 48,
+      "paragraph": 47,
       "sentence": "Personnel from a hospital, university, charity, business association, and club formed a partnership to maintain emergency supplies."
     },
     {
       "chapter": 3,
-      "paragraph": 48,
+      "paragraph": 47,
       "sentence": "The arrangement let each organization contribute medicine, transport, or money; a constant communication network helped assist residents."
     },
     {
       "chapter": 3,
-      "paragraph": 48,
+      "paragraph": 47,
       "sentence": "Cooperation mattered more than convention."
     },
     {
       "chapter": 3,
-      "paragraph": 48,
+      "paragraph": 47,
       "sentence": "Workers could negotiate, complain, or seek legal counsel."
     },
     {
       "chapter": 3,
-      "paragraph": 48,
+      "paragraph": 47,
       "sentence": "Each establishment committed staff, distributed the load, fulfilled obligations, and integrated each resource."
     },
     {
       "chapter": 3,
-      "paragraph": 48,
+      "paragraph": 47,
       "sentence": "The company lent equipment; the city gave recognition to workers nearing retirement."
     },
     {
       "chapter": 3,
-      "paragraph": 48,
+      "paragraph": 47,
       "sentence": "The connection had to hold firmly; a brief intervention could protect jobs at stake."
     },
     {
       "chapter": 3,
-      "paragraph": 49,
+      "paragraph": 48,
       "sentence": "The chief’s manner was calm, but his examples were blunt."
     },
     {
       "chapter": 3,
-      "paragraph": 49,
+      "paragraph": 48,
       "sentence": "A cyberattack could disturb a database."
     },
     {
       "chapter": 3,
-      "paragraph": 50,
+      "paragraph": 49,
       "sentence": "The hospital would keep a constant reserve of essential drugs; the university would maintain a communication network; the charity would assist vulnerable households; businesses would supply vehicles and food."
     },
     {
@@ -6146,276 +6116,271 @@
     {
       "chapter": 9,
       "paragraph": 27,
-      "sentence": "When Yao and Zhou finally separated, he said, “Take care of yourself.”"
-    },
-    {
-      "chapter": 9,
-      "paragraph": 28,
       "sentence": "The newsletter described reform."
     },
     {
       "chapter": 9,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "Residents could submit a photo, location, and description online; each user could track the report."
     },
     {
       "chapter": 9,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "Young people were keen to join the activity and search for hazards."
     },
     {
       "chapter": 9,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "Some tourists wandered past a tree where twins played."
     },
     {
       "chapter": 9,
-      "paragraph": 28,
+      "paragraph": 27,
       "sentence": "The web portal showed a new statistic; a wise clerk reminded them to check it whenever reports arrived."
     },
     {
       "chapter": 9,
-      "paragraph": 29,
+      "paragraph": 28,
       "sentence": "Other pages announced a traditional dance, a pop concert, a film night, a museum game, and a debate about old customs."
     },
     {
       "chapter": 9,
-      "paragraph": 30,
+      "paragraph": 29,
       "sentence": "Each entry could include a photograph, location, and short description, and the system could track the report until an officer closed the case."
     },
     {
       "chapter": 9,
-      "paragraph": 31,
+      "paragraph": 30,
       "sentence": "Nearby, a market sold fresh produce from rural farms, and a small restaurant advertised meals made from local fruit, vegetables, meat, and grain."
     },
     {
       "chapter": 9,
-      "paragraph": 32,
+      "paragraph": 31,
       "sentence": "Officials admitted that they still did not know the full extent of hidden problems and encouraged residents to report hazards, explore their own streets, and not assume an expert had seen everything."
     },
     {
       "chapter": 9,
-      "paragraph": 33,
+      "paragraph": 32,
       "sentence": "The newsletter’s business section described a new venture fund for small firms."
     },
     {
       "chapter": 9,
-      "paragraph": 34,
+      "paragraph": 33,
       "sentence": "Hotels agreed to reserve a small number of rooms for families displaced by an emergency."
     },
     {
       "chapter": 9,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "Young people wanted to create traditions as well as inherit them."
     },
     {
       "chapter": 9,
-      "paragraph": 35,
+      "paragraph": 34,
       "sentence": "A rumor went around that the old clock might stop again, but Yao knew the repair had been checked."
     },
     {
       "chapter": 9,
-      "paragraph": 36,
+      "paragraph": 35,
       "sentence": "At the old plant, peak output had fallen."
     },
     {
       "chapter": 9,
-      "paragraph": 36,
+      "paragraph": 35,
       "sentence": "For instance, a venture fund offered trade training and a mobile repair team."
     },
     {
       "chapter": 9,
-      "paragraph": 36,
+      "paragraph": 35,
       "sentence": "A recent review showed that the site had closed recently; former workers rarely found jobs nearby."
     },
     {
       "chapter": 9,
-      "paragraph": 37,
+      "paragraph": 36,
       "sentence": "A technology company was preparing to issue stock while a family firm still ran a repair shop below; nearby, café staff prepared for an event they would hold that evening; each employed a different number of workers per floor."
     },
     {
       "chapter": 9,
-      "paragraph": 38,
+      "paragraph": 37,
       "sentence": "Across town, an old manufacturing plant was becoming offices."
     },
     {
       "chapter": 9,
-      "paragraph": 39,
+      "paragraph": 38,
       "sentence": "A local venture fund offered money to businesses with a credible prospect of useful jobs; an investor could buy a share, but founders had to explain what it was worth."
     },
     {
       "chapter": 9,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "After the plant closed down its last production line, the city set about converting the site."
     },
     {
       "chapter": 9,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "Residents could put in a request for a small-business grant or fill in an online form to ask about training."
     },
     {
       "chapter": 9,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "The first proposal did not come off, but a second investor came around after seeing the plans."
     },
     {
       "chapter": 9,
-      "paragraph": 40,
+      "paragraph": 39,
       "sentence": "Yao thought the change had come about because people kept asking questions."
     },
     {
       "chapter": 9,
-      "paragraph": 41,
+      "paragraph": 40,
       "sentence": "Cycling had risen by a quarter and injuries had fallen, but the editor warned that a trend did not prove cause: better reporting could increase recorded incidents."
     },
     {
       "chapter": 9,
-      "paragraph": 41,
+      "paragraph": 40,
       "sentence": "Yao forwarded the issue to her mother and asked about dinner."
     },
     {
       "chapter": 9,
-      "paragraph": 41,
+      "paragraph": 40,
       "sentence": "The portal let residents file a complaint, report a hazard, and track the case."
     },
     {
       "chapter": 9,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "Spring arrived."
     },
     {
       "chapter": 9,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "The river rose and fell without incident; the clock’s mechanism worked."
     },
     {
       "chapter": 9,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "Yao met her mother; her aunt chased a child."
     },
     {
       "chapter": 9,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "Her father made one exception to his dislike of weddings."
     },
     {
       "chapter": 9,
-      "paragraph": 42,
+      "paragraph": 41,
       "sentence": "A symbol on the sign would preserve the view throughout the year."
     },
     {
       "chapter": 9,
-      "paragraph": 43,
+      "paragraph": 42,
       "sentence": "A grandfather sat in the shade reading a newspaper."
     },
     {
       "chapter": 9,
-      "paragraph": 43,
+      "paragraph": 42,
       "sentence": "A man kissed his wife before getting into a taxi."
     },
     {
       "chapter": 9,
-      "paragraph": 43,
+      "paragraph": 42,
       "sentence": "Someone else had left a paper boat."
     },
     {
       "chapter": 9,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "The city plaque seemed abstract."
     },
     {
       "chapter": 9,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "Yao got into university; her mother embraced her and celebrated."
     },
     {
       "chapter": 9,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "The acceptance was an extraordinary surprise."
     },
     {
       "chapter": 9,
-      "paragraph": 44,
+      "paragraph": 43,
       "sentence": "Tonight the city was not perfect, but Yao could move forward."
     },
     {
       "chapter": 9,
-      "paragraph": 45,
+      "paragraph": 44,
       "sentence": "Her mother released her and wiped her eyes."
     },
     {
       "chapter": 9,
-      "paragraph": 45,
+      "paragraph": 44,
       "sentence": "“Call Tang."
     },
     {
       "chapter": 9,
-      "paragraph": 46,
+      "paragraph": 45,
       "sentence": "Call Xu."
     },
     {
       "chapter": 9,
-      "paragraph": 46,
+      "paragraph": 45,
       "sentence": "Call everybody.”"
     },
     {
       "chapter": 9,
-      "paragraph": 46,
+      "paragraph": 45,
       "sentence": "“In a minute.”"
     },
     {
       "chapter": 9,
-      "paragraph": 46,
+      "paragraph": 45,
       "sentence": "At 4:17, the Clock Tower rang."
     },
     {
       "chapter": 9,
-      "paragraph": 46,
+      "paragraph": 45,
       "sentence": "Before they left, her mother gave her a small present: a plain key ring with a tiny clock."
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "Walking home, Yao called Tang and promised to stay in touch while he checked the final laboratory dates."
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "The past was worth remembering precisely because the living still had somewhere else to go."
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "Wherever she went next, Yao wanted to carry the question without carrying the whole river."
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "Residents could move back once repairs were complete."
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "She took her mother’s hand."
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "“Ready?”"
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "Yao stopped to take in the view, then looked once more at the river and toward the station."
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "“Yeah.”"
     },
     {
       "chapter": 9,
-      "paragraph": 47,
+      "paragraph": 46,
       "sentence": "They walked on."
     }
   ]
