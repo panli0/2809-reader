@@ -10,8 +10,9 @@ Source list: [PHaVE List — Phrasal Verbs](https://www.norbertschmitt.co.uk/_fi
 - Collocation/context records across `collocations-1.js` through `collocations-10.js`: **284**
 - Unique phrase patterns in the context bank: **276**
 - Exact context matches in story body: **284 / 284 (100%)**
+- Each context demonstrates its own listed phrase: **284 / 284 (100%)**
 
-The matching check accounts for common inflected verb forms and separable-object constructions (for example, a verb followed by an object and then its particle). It checks the story text, not merely the phrase-bank labels.
+The matching check accounts for common inflected verb forms, separable-object constructions, and the documented A/B, object, and gerund templates. It checks each context against the story text and its own phrase label, not merely the phrase-bank labels.
 
 ## Target inventory
 
