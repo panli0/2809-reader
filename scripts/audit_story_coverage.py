@@ -8,7 +8,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TOKEN_RE = re.compile(r"[A-Za-z]+(?:[’'][A-Za-z]+)*")
+PHAVE_TOKEN_RE = re.compile(
+    r"[A-Za-z]+(?:[’'][A-Za-z]+)*(?:-[A-Za-z]+(?:[’'][A-Za-z]+)*)?"
+)
 CHAPTER_RE = re.compile(r"chapter-(\d+)\.js$")
+COLLOCATION_RE = re.compile(r"collocations-(\d+)\.js$")
 SENTENCE_SPLIT_RE = re.compile(r'(?<=[.!?])["”’]?\s+')
 MAX_SEPARABLE_GAP = 8
 
@@ -143,31 +147,53 @@ def main() -> int:
     phrase_hits = set()
     for paragraph in story_paragraphs:
         for sentence in SENTENCE_SPLIT_RE.split(paragraph):
-            tokens = [
-                phrase_token(token, forms)
-                for token in TOKEN_RE.findall(sentence)
-            ]
-            for phrase in phrases:
-                parts = phrase.lower().split()
-                if len(parts) != 2:
-                    continue
-                verb, particle = parts
-                for index, token in enumerate(tokens):
-                    if token != verb:
+            for clause in re.split(r"[;:]", sentence):
+                tokens = [
+                    phrase_token(token, forms)
+                    for token in PHAVE_TOKEN_RE.findall(clause)
+                ]
+                for phrase in phrases:
+                    parts = phrase.lower().split()
+                    if len(parts) != 2:
                         continue
-                    stop = min(len(tokens), index + MAX_SEPARABLE_GAP + 2)
-                    if particle in tokens[index + 1:stop]:
-                        phrase_hits.add(phrase)
-                        break
+                    verb, particle = parts
+                    for index, token in enumerate(tokens):
+                        if token != verb:
+                            continue
+                        stop = min(len(tokens), index + MAX_SEPARABLE_GAP + 2)
+                        if particle in tokens[index + 1:stop]:
+                            phrase_hits.add(phrase)
+                            break
 
     missing_phrases = sorted(set(phrases) - phrase_hits)
     duplicate_phrases = len(phrases) - len(set(phrases))
 
+    # All 284 collocation context records must occur in the actual story body.
+    collocation_files = sorted(
+        (p for p in ROOT.glob("collocations-*.js") if COLLOCATION_RE.search(p.name)),
+        key=lambda p: int(COLLOCATION_RE.search(p.name).group(1)),
+    )
+    if len(collocation_files) != 10:
+        raise SystemExit(f"Expected 10 collocation files, found {len(collocation_files)}")
+    collocation_records = []
+    collocation_patterns = set()
+    missing_collocations = []
+    for path in collocation_files:
+        source = path.read_text(encoding="utf-8")
+        entries, _ = extract_js_json(source, "COLLOCATIONS.push(...")
+        for entry in entries:
+            pattern = str(entry.get("pattern") or "")
+            context = str(entry.get("context") or "")
+            collocation_patterns.add(pattern)
+            record = f"{pattern} — {context}"
+            collocation_records.append(record)
+            if not context or normalize_text(context) not in normalized_body:
+                missing_collocations.append(record)
+
     lines = [
         "# Complete story coverage audit",
         "",
-        "This report checks the actual text in all nine chapter files.",
-        "Dictionary entries, vocabulary notes, and audit files do not count as story-body coverage.",
+        "This report checks the actual text in all nine chapter files. Dictionary entries, vocabulary notes, and audit files do not count as story-body coverage.",
         "",
         "## 1. Base vocabulary",
         "",
@@ -220,12 +246,28 @@ def main() -> int:
 
     lines.extend([
         "",
+        "## 4. Collocation contexts",
+        "",
+        f"- Context records across ten collocation files: **{len(collocation_records)}**",
+        f"- Unique phrase patterns: **{len(collocation_patterns)}**",
+        f"- Exact normalized contexts found in story body: **{len(collocation_records) - len(missing_collocations)} / {len(collocation_records)}**",
+        f"- Missing contexts: **{len(missing_collocations)}**",
+        "",
+        "### Missing collocation contexts",
+        "",
+    ])
+    lines.extend(f"- {item}" for item in missing_collocations)
+    if not missing_collocations:
+        lines.append("- None")
+
+    lines.extend([
+        "",
         "## Matching rules",
         "",
         "- Base words: actual chapter-body tokens, including bundled inflected forms.",
-        "- Polysemy: each curated context must appear in the chapter body after quote and whitespace normalization.",
-        "- PHaVE: common verb inflections and separable-object constructions are accepted only within the same sentence; up to eight intervening tokens are allowed.",
-        "- The irregular form laid is normalized to lay for the PHaVE targets lay out and lay down.",
+        "- Polysemy: each curated common-meaning context must appear in the chapter body after quote and whitespace normalization.",
+        "- PHaVE: common verb inflections and separable-object constructions are checked within the same sentence; hyphenated compounds do not count as phrasal verbs.",
+        "- Collocations: every context record must appear in the chapter body after quote and whitespace normalization.",
         "",
         "## Reproducibility details",
         "",
@@ -235,6 +277,7 @@ def main() -> int:
         f"- Chapter files audited: {len(chapter_files)}",
         f"- Polysemy files audited: {len(poly_files)}",
         f"- PHaVE target list duplicates: {duplicate_phrases}",
+        f"- Collocation files audited: {len(collocation_files)}",
         "",
     ])
 
@@ -243,18 +286,22 @@ def main() -> int:
     print(report)
 
     failed = bool(
-        missing_words or missing_poly or missing_phrases
+        missing_words or missing_poly or missing_phrases or missing_collocations
         or len(targets) != 2809
         or len(poly_heads) != 122
         or len(poly_records) != 248
         or len(phrases) != 150
         or duplicate_phrases
+        or len(collocation_files) != 10
+        or len(collocation_records) != 284
+        or len(collocation_patterns) != 276
     )
     print(
         "::notice title=Complete story coverage::"
         f"words {len(targets) - len(missing_words)}/{len(targets)}; "
         f"senses {len(poly_records) - len(missing_poly)}/{len(poly_records)}; "
-        f"PHaVE {len(phrase_hits)}/{len(phrases)}"
+        f"PHaVE {len(phrase_hits)}/{len(phrases)}; "
+        f"collocations {len(collocation_records) - len(missing_collocations)}/{len(collocation_records)}"
     )
     return 1 if failed else 0
 
