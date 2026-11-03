@@ -1,7 +1,6 @@
 # Complete story coverage audit
 
-This report checks the actual text in all nine chapter files.
-Dictionary entries, vocabulary notes, and audit files do not count as story-body coverage.
+This report checks the actual text in all nine chapter files. Dictionary entries, vocabulary notes, and audit files do not count as story-body coverage.
 
 ## 1. Base vocabulary
 
@@ -31,23 +30,36 @@ Dictionary entries, vocabulary notes, and audit files do not count as story-body
 - Target phrases in source inventory: **150**
 - Found in story: **150 / 150**
 - Missing: **0**
+- Duplicate target items: **0**
 
 ### Missing phrases
+
+- None
+
+## 4. Collocation contexts
+
+- Context records across collocations-1.js through collocations-10.js: **284**
+- Unique phrase patterns: **276**
+- Exact normalized contexts found in story body: **284 / 284**
+- Missing contexts: **0**
+
+### Missing collocation contexts
 
 - None
 
 ## Matching rules
 
 - Base words: actual chapter-body tokens, including bundled inflected forms.
-- Polysemy: each curated context must appear in the chapter body after quote and whitespace normalization.
-- PHaVE: common verb inflections and separable-object constructions are accepted only within the same sentence; up to eight intervening tokens are allowed.
-- The irregular form laid is normalized to lay for the PHaVE targets lay out and lay down.
+- Polysemy: each curated common-meaning context must appear in the chapter body after quote and whitespace normalization.
+- PHaVE: common verb inflections and separable-object constructions are checked within the same sentence; hyphenated compounds do not count as phrasal verbs.
+- Collocations: each of the 284 context records must match the actual story body after quote and whitespace normalization.
 
 ## Reproducibility details
 
-- Local dictionary entries: 2803
-- Curated dictionary supplements: 6
-- Inflected-form mappings: 7930
-- Chapter files audited: 9
-- Polysemy files audited: 4
-- PHaVE target list duplicates: 0
+- Local dictionary entries: **2803**
+- Curated dictionary supplements: **6**
+- Inflected-form mappings: **7930**
+- Chapter files audited: **9**
+- Polysemy files audited: **4**
+- PHaVE target list duplicates: **0**
+- Collocation files audited: **10**
