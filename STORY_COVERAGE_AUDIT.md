@@ -7,8 +7,8 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 - NGSL + curated supplement targets: **2809**
 - Found in story body: **2809 / 2809**
 - Missing: **0**
-- Story word tokens: **16,374**
-- Chapter word counts: Ch. 1: 1,771; Ch. 2: 2,034; Ch. 3: 1,903; Ch. 4: 2,590; Ch. 5: 1,347; Ch. 6: 1,621; Ch. 7: 1,409; Ch. 8: 1,987; Ch. 9: 1,712
+- Story word tokens: **16,279**
+- Chapter word counts: Ch. 1: 1,752; Ch. 2: 1,995; Ch. 3: 1,878; Ch. 4: 2,590; Ch. 5: 1,347; Ch. 6: 1,621; Ch. 7: 1,409; Ch. 8: 1,987; Ch. 9: 1,700
 
 ### Missing base words
 
@@ -18,12 +18,12 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 
 - Polysemous headwords: **122**
 - Required sense-context records: **248**
-- Exact normalized contexts found in story body: **248 / 248**
-- Missing sense contexts: **0**
+- Exact normalized contexts found in story body: **247 / 248**
+- Missing sense contexts: **1**
 
 ### Missing sense contexts
 
-- None
+- work — 运作
 
 ## 3. PHaVE 150 phrasal verbs
 
