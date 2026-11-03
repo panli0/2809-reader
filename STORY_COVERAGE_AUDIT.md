@@ -8,8 +8,8 @@ Dictionary entries, vocabulary notes, and audit files do not count as story-body
 - NGSL + curated supplement targets: **2809**
 - Found in story body: **2809 / 2809**
 - Missing: **0**
-- Story word tokens: **16,354**
-- Chapter word counts: Ch. 1: 1,771; Ch. 2: 2,034; Ch. 3: 1,903; Ch. 4: 2,590; Ch. 5: 1,336; Ch. 6: 1,612; Ch. 7: 1,409; Ch. 8: 1,987; Ch. 9: 1,712
+- Story word tokens: **16,374**
+- Chapter word counts: Ch. 1: 1,771; Ch. 2: 2,034; Ch. 3: 1,903; Ch. 4: 2,590; Ch. 5: 1,347; Ch. 6: 1,621; Ch. 7: 1,409; Ch. 8: 1,987; Ch. 9: 1,712
 
 ### Missing base words
 
