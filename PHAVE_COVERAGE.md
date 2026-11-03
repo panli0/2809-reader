@@ -9,7 +9,7 @@ Source list: [PHaVE List — Phrasal Verbs](https://www.norbertschmitt.co.uk/_fi
 - Unique collocation phrase patterns: **276 / 276 represented** after the compression audit
 - Collocation/context records across `collocations-1.js` through `collocations-10.js`: **284**
 - Unique phrase patterns in the context bank: **276**
-- Context records currently matched to story sentences: **152 / 284**; **132** need context re-alignment after earlier wording changes
+- Exact context matches in story body: **284 / 284 (100%)**
 
 The matching check accounts for common inflected verb forms and separable-object constructions (for example, a verb followed by an object and then its particle). It checks the story text, not merely the phrase-bank labels.
 
