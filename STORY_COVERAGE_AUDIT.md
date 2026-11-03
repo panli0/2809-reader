@@ -40,7 +40,9 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 - Context records across ten collocation files: **284**
 - Unique phrase patterns: **276**
 - Exact normalized contexts found in story body: **284 / 284**
+- Listed phrase demonstrated in its own context: **284 / 284**
 - Missing contexts: **0**
+- Context/pattern mismatches: **0**
 
 ### Missing collocation contexts
 
@@ -51,7 +53,7 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 - Base words: actual chapter-body tokens, including bundled inflected forms.
 - Polysemy: each curated common-meaning context must appear in the chapter body after quote and whitespace normalization.
 - PHaVE: common verb inflections and separable-object constructions are checked within the same sentence; hyphenated compounds do not count as phrasal verbs.
-- Collocations: every context record must appear in the chapter body after quote and whitespace normalization.
+- Collocations: every context record must appear in the chapter body after quote and whitespace normalization, and its own text must demonstrate the listed phrase.
 
 ## Reproducibility details
 
