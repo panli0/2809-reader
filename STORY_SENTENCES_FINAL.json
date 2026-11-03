@@ -1,6 +1,6 @@
 {
   "generated_for": "repair/coverage-and-readability-2026-11-02",
-  "source_commit": "9e94ee5d80de9563790a02e52e6ecb2b37a59f13",
+  "source_commit": "fdae70a6e1f95b3bd3958690dcf297a89c5e9228",
   "chapter_count": 9,
   "sentence_count": 1247,
   "word_count": 15980,
@@ -246,7 +246,7 @@
     {
       "chapter": 1,
       "paragraph": 12,
-      "sentence": "Attendance at the annual show was high, and the city used the event to attract visitors."
+      "sentence": "Attendance was high; the city used to hold the annual show each spring to attract visitors."
     },
     {
       "chapter": 1,

@@ -7,8 +7,8 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 - NGSL + curated supplement targets: **2809**
 - Found in story body: **2809 / 2809**
 - Missing: **0**
-- Story word tokens: **16,279**
-- Chapter word counts: Ch. 1: 1,752; Ch. 2: 1,995; Ch. 3: 1,878; Ch. 4: 2,590; Ch. 5: 1,347; Ch. 6: 1,621; Ch. 7: 1,409; Ch. 8: 1,987; Ch. 9: 1,700
+- Story word tokens: **15,980**
+- Chapter word counts: Ch. 1: 1,752; Ch. 2: 1,995; Ch. 3: 1,878; Ch. 4: 2,291; Ch. 5: 1,347; Ch. 6: 1,621; Ch. 7: 1,409; Ch. 8: 1,987; Ch. 9: 1,700
 
 ### Missing base words
 
@@ -58,6 +58,9 @@ This report checks the actual text in all nine chapter files. Dictionary entries
 - Polysemy: each curated common-meaning context must appear in the chapter body after quote and whitespace normalization.
 - PHaVE: common verb inflections and separable-object constructions are checked within the same sentence; hyphenated compounds do not count as phrasal verbs.
 - Collocations: every context record must appear in the chapter body after quote and whitespace normalization, and its own text must demonstrate the listed phrase (including common inflections, separable particles, and the documented A/B or gerund templates).
+
+- Audited story commit: `fdae70a6e1f95b3bd3958690dcf297a89c5e9228`
+- GitHub Actions verification: [run 41624921837](https://github.com/panli0/2809-reader/actions/runs/41624921837) — **success**.
 
 ## Reproducibility details
 
