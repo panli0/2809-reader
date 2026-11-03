@@ -2,8 +2,8 @@
   "generated_for": "repair/coverage-and-readability-2026-11-02",
   "source_commit": "6b2fca41f399b3df54880cd301c71069af849543",
   "chapter_count": 9,
-  "sentence_count": 1273,
-  "word_count": 16354,
+  "sentence_count": 1275,
+  "word_count": 16374,
   "chapter_word_counts": [
     {
       "chapter": 1,
@@ -23,11 +23,11 @@
     },
     {
       "chapter": 5,
-      "word_count": 1336
+      "word_count": 1347
     },
     {
       "chapter": 6,
-      "word_count": 1612
+      "word_count": 1621
     },
     {
       "chapter": 7,
@@ -3486,7 +3486,12 @@
     {
       "chapter": 5,
       "paragraph": 30,
-      "sentence": "A guy got in the bus; the driver checked the rear door and located an empty seat."
+      "sentence": "A guy got on the bus; volunteers helped the last residents get in before the doors closed."
+    },
+    {
+      "chapter": 5,
+      "paragraph": 30,
+      "sentence": "The driver checked the rear door and located an empty seat."
     },
     {
       "chapter": 5,
@@ -3852,6 +3857,11 @@
       "chapter": 6,
       "paragraph": 8,
       "sentence": "Each team had to make a choice, make progress, and keep every family safe."
+    },
+    {
+      "chapter": 6,
+      "paragraph": 8,
+      "sentence": "The clerk promised to follow up on each appeal."
     },
     {
       "chapter": 6,
