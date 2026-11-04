@@ -1,80 +1,72 @@
 # Complete story coverage audit
 
-This report checks the actual text in all nine chapter files. Dictionary entries, vocabulary notes, and audit files do not count as story-body coverage.
+Rechecked against the current compact branch on **2026-11-04**. This report counts the actual nine chapter files, not dictionary entries or coverage notes.
 
 ## 1. Base vocabulary
 
-- NGSL + curated supplement targets: **2,809**
-- Found in story body: **2,809 / 2,809**
-- Missing: **0**
-- Story word tokens: **10,404**
-- Chapter word counts: Ch. 1: 1,132; Ch. 2: 1,312; Ch. 3: 1,040; Ch. 4: 1,551; Ch. 5: 877; Ch. 6: 1,074; Ch. 7: 1,008; Ch. 8: 1,283; Ch. 9: 1,127
+- NGSL 1.2 headwords: **2,809**
+- Local Chinese dictionary entries: **2,803 Open Dictionary + 6 curated supplements**
+- Base headwords found in story body: **2,809 / 2,809**
+- Missing base headwords: **0**
+- Inflected-form mappings used for matching: **7,930**
+- Actual story word tokens: **11,385**
 
-### Missing base words
+### Chapter word counts
 
-- None
+| Chapter | Words |
+|---|---:|
+| 1 | 1,127 |
+| 2 | 1,322 |
+| 3 | 1,078 |
+| 4 | 1,621 |
+| 5 | 899 |
+| 6 | 1,162 |
+| 7 | 1,145 |
+| 8 | 1,627 |
+| 9 | 1,404 |
+| **Total** | **11,385** |
 
 ## 2. Polysemy: every common meaning
 
 - Polysemous headwords: **122**
-- Required sense-context records: **248**
+- Required common-sense context records: **248**
 - Exact normalized contexts found in story body: **248 / 248**
 - Missing sense contexts: **0**
-
-### Missing sense contexts
-
-- None
 
 ## 3. PHaVE 150 phrasal verbs
 
 - Target phrases in source inventory: **150**
 - Found in story: **150 / 150**
-- Missing: **0**
-
-### Missing phrases
-
-- None
+- Missing phrases: **0**
+- Matching includes common verb forms and separable-object constructions within the same sentence.
 
 ## 4. Collocation contexts
 
-- Context records across ten collocation files: **284**
+- Context records across ten files: **284**
 - Unique phrase patterns: **276**
 - Exact normalized contexts found in story body: **284 / 284**
-- Listed phrase demonstrated in its own context: **284 / 284**
+- Contexts demonstrating their own listed phrase: **284 / 284**
 - Missing contexts: **0**
 - Context/pattern mismatches: **0**
-
-### Missing collocation contexts
-
-- None
-
-### Contexts that do not demonstrate their listed phrase
-
-- None
 
 ## 5. Compression
 
 - Previous verified story length: **15,980 words**
-- Compressed story length: **10,404 words**
-- Reduction: **5,576 words (34.9%)**
-- All 2,809 dictionary headwords, 248 common-sense contexts, 150 PHaVE phrases, and 284 collocation contexts remain in the actual chapter text.
+- Current story length: **11,385 words**
+- Reduction: **4,595 words (28.8%)**
+- All 2,809 base headwords, 248 common-meaning contexts, 150 PHaVE phrases, and 284 collocation contexts remain in the actual chapter text.
 
 ## Matching rules
 
-- Base words: actual chapter-body tokens, including bundled inflected forms.
-- Polysemy: each curated common-meaning context must appear in the chapter body after quote and whitespace normalization.
-- PHaVE: common verb inflections and separable-object constructions are checked within the same sentence; hyphenated compounds do not count as phrasal verbs.
-- Collocations: every context record must appear in the chapter body after quote and whitespace normalization, and its own text must demonstrate the listed phrase (including common inflections, separable particles, and the documented A/B or gerund templates).
-
-- Audited story commit: `985f2c0f5a7bf4fd3f2a0d979fd603743752149b`
-- GitHub Actions verification: [run 41634495890](https://github.com/panli0/2809-reader/actions/runs/41634495890) — **success**.
+- Base words: actual chapter-body tokens, including the 7,930 bundled inflected-form mappings.
+- Polysemy: each curated common-meaning context must occur in the chapter body after quote and whitespace normalization.
+- PHaVE: common verb inflections and separable-object constructions are checked within the same sentence.
+- Collocations: every context record must occur in the chapter body and demonstrate its own listed phrase.
 
 ## Reproducibility details
 
-- Local dictionary entries: 2,803
-- Curated dictionary supplements: 6
-- Inflected-form mappings: 7,930
-- Chapter files audited: 9
-- Polysemy files audited: 4
-- PHaVE target list duplicates: 0
-- Collocation files audited: 10
+- Chapter files audited: **9**
+- Polysemy files audited: **4**
+- PHaVE source inventory duplicates: **0**
+- Collocation files audited: **10**
+- Last full programmatic audit source: `scripts/audit_story_coverage.py`
